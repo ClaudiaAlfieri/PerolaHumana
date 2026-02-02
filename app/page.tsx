@@ -22,8 +22,7 @@ export default function Home() {
       <Header />
       <Hero />
       <About />
-      <MissionSection />
-      <Events />
+      <MissionSection />      
       {/* <VoiceSection /> */}
       {/* <SelfKnowledge /> */}
       {/* <Benefits /> */}
@@ -32,6 +31,7 @@ export default function Home() {
       <Timeline />
       <BookShowcase />
       {/* <Testimonials /> */}
+      <Events />
       <CTA />
       <Contact />
       <Marquee />
