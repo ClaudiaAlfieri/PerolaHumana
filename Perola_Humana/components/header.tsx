@@ -1,0 +1,191 @@
+"use client"
+
+import { Button } from "@/components/ui/button"
+import { motion, useScroll, useMotionValueEvent, AnimatePresence } from "framer-motion"
+import { useState, useEffect } from "react"
+import { Moon, Sun, Menu, X } from "lucide-react"
+
+export function Header() {
+  const [hidden, setHidden] = useState(false)
+  const [darkMode, setDarkMode] = useState(false)
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+  const { scrollY } = useScroll()
+
+  useMotionValueEvent(scrollY, "change", (latest) => {
+    const previous = scrollY.getPrevious() ?? 0
+    if (latest > previous && latest > 150) {
+      setHidden(true)
+    } else {
+      setHidden(false)
+    }
+  })
+
+  useEffect(() => {
+    const savedMode = localStorage.getItem("darkMode")
+    const isDark = savedMode === "true"
+    setDarkMode(isDark)
+    if (isDark) {
+      document.documentElement.classList.add("dark")
+    }
+  }, [])
+
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth >= 768) {
+        setMobileMenuOpen(false)
+      }
+    }
+    window.addEventListener("resize", handleResize)
+    return () => window.removeEventListener("resize", handleResize)
+  }, [])
+
+  const toggleDarkMode = () => {
+    const newMode = !darkMode
+    setDarkMode(newMode)
+    localStorage.setItem("darkMode", String(newMode))
+    if (newMode) {
+      document.documentElement.classList.add("dark")
+    } else {
+      document.documentElement.classList.remove("dark")
+    }
+  }
+
+  const handleNavClick = () => {
+    setMobileMenuOpen(false)
+  }
+
+  // Reusable class for underline hover animation
+  const navLink =
+    "relative text-sm font-medium text-muted-foreground hover:text-foreground transition-colors duration-300 " +
+    "after:absolute after:left-0 after:bottom-[-3px] after:h-[2px] after:w-0 after:bg-gradient-to-r " +
+    "after:from-emerald-500 after:to-teal-400 after:rounded-full after:transition-all after:duration-300 hover:after:w-full"
+
+  const mobileNavLink =
+    "block py-3 text-lg font-medium text-muted-foreground hover:text-foreground transition-colors duration-300"
+
+  return (
+    <motion.header
+      variants={{
+        visible: { y: 0 },
+        hidden: { y: "-100%" },
+      }}
+      animate={hidden ? "hidden" : "visible"}
+      transition={{ duration: 0.35, ease: "easeInOut" }}
+      className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border shadow"
+    >
+      <div className="container mx-auto px-4 sm:px-6 lg:px-0">
+        <div className="flex items-center justify-between h-16 lg:h-20">
+          {/* Logo */}
+          <div className="flex items-center sm:gap-3.5 px-2.5">
+            <div className="w-8 h-8 rounded-full bg-primary flex items-center justify-center">
+              <span className="text-primary-foreground font-bold text-lg">V</span>
+            </div>
+            <span className="font-semibold text-foreground text-left text-base sm:text-lg lg:text-xl ml-0 pl-1.5">
+              Pérola Humana
+            </span>
+          </div>
+
+          {/* Desktop Navigation */}
+          <nav className="hidden md:flex items-center gap-5 px-1">
+            <a href="#about" className={navLink}>
+              About
+            </a>
+            <a href="#mission" className={navLink}>
+              Mission
+            </a>
+            <a href="#events" className={navLink}>
+              Events
+            </a>
+            <a href="#diseases" className={navLink}>
+              Health
+            </a>
+            <a href="#health-videos" className={navLink}>
+              Videos
+            </a>
+            <a href="#timeline" className={navLink}>
+              Timeline
+            </a>
+            <a href="#book" className={navLink}>
+              Book
+            </a>
+            <a href="#contact" className={navLink}>
+              Contact
+            </a>
+          </nav>
+
+          {/* Actions */}
+          <div className="flex items-center px-5 sm:gap-3">
+            <Button variant="ghost" className="hidden sm:inline-flex border text-sm">
+              Sign In
+            </Button>
+            
+
+            <Button
+              variant="ghost"
+              size="icon"
+              onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+              className="md:hidden transition-transform duration-300 hover:scale-110"
+            >
+              {mobileMenuOpen ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
+            </Button>
+                        <Button
+              variant="ghost"
+              size="icon"
+              onClick={toggleDarkMode}
+              className="transition-transform duration-300 hover:scale-110"
+            >
+              <motion.div initial={false} animate={{ rotate: darkMode ? 180 : 0 }} transition={{ duration: 0.3 }}>
+                {darkMode ? <Sun className="h-5 w-5" /> : <Moon className="h-5 w-5" />}
+              </motion.div>
+            </Button>
+          </div>
+        </div>
+      </div>
+
+      <AnimatePresence>
+        {mobileMenuOpen && (
+          <motion.div
+            initial={{ opacity: 0, height: 0 }}
+            animate={{ opacity: 1, height: "auto" }}
+            exit={{ opacity: 0, height: 0 }}
+            transition={{ duration: 0.3, ease: "easeInOut" }}
+            className="md:hidden border-t border-border bg-background/95 backdrop-blur-md overflow-hidden"
+          >
+            <nav className="container mx-auto px-4 sm:px-6 py-4">
+              <a href="#about" onClick={handleNavClick} className={mobileNavLink}>
+                About
+              </a>
+              <a href="#mission" onClick={handleNavClick} className={mobileNavLink}>
+                Mission
+              </a>
+              <a href="#events" onClick={handleNavClick} className={mobileNavLink}>
+                Events
+              </a>
+              <a href="#diseases" onClick={handleNavClick} className={mobileNavLink}>
+                Health
+              </a>
+              <a href="#health-videos" onClick={handleNavClick} className={mobileNavLink}>
+                Videos
+              </a>
+              <a href="#timeline" onClick={handleNavClick} className={mobileNavLink}>
+                Timeline
+              </a>
+              <a href="#book" onClick={handleNavClick} className={mobileNavLink}>
+                Book
+              </a>
+              <a href="#contact" onClick={handleNavClick} className={mobileNavLink}>
+                Contact
+              </a>
+              <div className="flex gap-2 mt-4 pt-4 border-t border-border">
+                <Button variant="ghost" className="flex-1 border text-sm">
+                  Sign In
+                </Button>
+                <Button className="flex-1 text-sm">Get Started</Button>
+              </div>
+            </nav>
+          </motion.div>
+        )}
+      </AnimatePresence>
+    </motion.header>
+  )
+}
