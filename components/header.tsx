@@ -11,14 +11,14 @@ export function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
   const { scrollY } = useScroll()
 
-  useMotionValueEvent(scrollY, "change", (latest) => {
-    const previous = scrollY.getPrevious() ?? 0
-    if (latest > previous && latest > 150) {
-      setHidden(true)
-    } else {
-      setHidden(false)
-    }
-  })
+  // useMotionValueEvent(scrollY, "change", (latest) => {
+  //   const previous = scrollY.getPrevious() ?? 0
+  //   if (latest > previous && latest > 150) {
+  //     setHidden(true)
+  //   } else {
+  //     setHidden(false)
+  //   }
+  // })
 
   useEffect(() => {
     const savedMode = localStorage.getItem("darkMode")
@@ -87,37 +87,40 @@ export function Header() {
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center gap-5 px-1">
+            <a href="#hero" className={navLink}>
+              Início
+            </a>
             <a href="#about" className={navLink}>
-              About
+              Sobre Nós
             </a>
             <a href="#mission" className={navLink}>
-              Mission
-            </a>
-            <a href="#events" className={navLink}>
-              Events
-            </a>
+              O que fazemos
+            </a>                        
             <a href="#diseases" className={navLink}>
-              Health
+              Doenças
             </a>
             <a href="#health-videos" className={navLink}>
-              Videos
+              Saúde
             </a>
             <a href="#timeline" className={navLink}>
-              Timeline
+              Autoconhecimento
             </a>
             <a href="#book" className={navLink}>
-              Book
+              Livro
+            </a>
+            <a href="#events" className={navLink}>
+              Eventos
             </a>
             <a href="#contact" className={navLink}>
-              Contact
+              Contacto
             </a>
           </nav>
 
           {/* Actions */}
           <div className="flex items-center px-5 sm:gap-3">
-            <Button variant="ghost" className="hidden sm:inline-flex border text-sm">
+            {/* <Button variant="ghost" className="hidden sm:inline-flex border text-sm">
               Sign In
-            </Button>
+            </Button> */}
             
 
             <Button
@@ -176,12 +179,12 @@ export function Header() {
               <a href="#contact" onClick={handleNavClick} className={mobileNavLink}>
                 Contact
               </a>
-              <div className="flex gap-2 mt-4 pt-4 border-t border-border">
+              {/* <div className="flex gap-2 mt-4 pt-4 border-t border-border">
                 <Button variant="ghost" className="flex-1 border text-sm">
                   Sign In
                 </Button>
                 <Button className="flex-1 text-sm">Get Started</Button>
-              </div>
+              </div> */}
             </nav>
           </motion.div>
         )}
