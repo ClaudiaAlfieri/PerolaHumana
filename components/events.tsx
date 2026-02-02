@@ -8,28 +8,29 @@ import { useState, useEffect } from "react"
 const upcomingEvents = [
   {
     date: "Mar 15, 2025",
-    title: "Heart Health Workshop",
-    description: "Learn about cardiovascular wellness and preventive care strategies for a healthier heart.",
-    gradient: "from-primary to-secondary",
+    title: "Em breve",
+    description: "Em breve",
+    gradient: "Mais informações em breve",
   },
   {
-    date: "Mar 22, 2025",
-    title: "Mental Wellness Seminar",
-    description: "Explore mindfulness techniques and stress management tools for better mental health.",
-    gradient: "from-primary to-secondary",
+    date: "Mar 15, 2025",
+    title: "Em breve",
+    description: "Em breve",
+    gradient: "Mais informações em breve",
   },
   {
-    date: "Apr 5, 2025",
-    title: "Nutrition & Lifestyle Fair",
-    description: "Discover healthy eating habits and lifestyle changes to boost your overall well-being.",
-    gradient: "from-primary to-secondary",
+    date: "Mar 15, 2025",
+    title: "Em breve",
+    description: "Em breve",
+    gradient: "Mais informações em breve",
   },
   {
-    date: "Apr 18, 2025",
-    title: "Community Health Screening",
-    description: "Free health screenings including blood pressure, cholesterol, and diabetes checks.",
-    gradient: "from-primary to-secondary",
+    date: "Mar 15, 2025",
+    title: "Em breve",
+    description: "Em breve",
+    gradient: "Mais informações em breve",
   },
+ 
 ]
 
 export default function Events() {
@@ -110,9 +111,9 @@ export default function Events() {
           className="text-center mb-12 sm:mb-16"
         >
           
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4 text-balance">Upcoming Events</h2>
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4 text-balance">Eventos da Pérola Humana</h2>
           <p className="text-base sm:text-lg text-muted-foreground max-w-2xl mx-auto">
-            Join us for educational workshops and community health events
+            Próximos eventos
           </p>
         </motion.div>
 
