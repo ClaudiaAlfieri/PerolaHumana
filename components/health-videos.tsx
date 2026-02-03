@@ -5,7 +5,7 @@ import { Play } from "lucide-react"
 
 export default function HealthVideos() {
   return (
-    <section className="py-24 bg-slate-950 text-white">
+    <section id="health-videos" className="py-24 bg-slate-950 text-white">
       <div className="container mx-auto px-4">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -14,9 +14,9 @@ export default function HealthVideos() {
           className="text-center mb-16"
         >
           <h2 className="text-3xl md:text-4xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-emerald-400 to-cyan-400">
-            Health Videos
+            Saúde
           </h2>
-          <p className="text-slate-400">Exclusive content coming soon</p>
+          <p className="text-slate-400">Conteúdo exclusivo em breve</p>
         </motion.div>
 
         <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
@@ -33,7 +33,7 @@ export default function HealthVideos() {
               <div className="w-20 h-20 rounded-full bg-slate-800 flex items-center justify-center mb-4 relative z-10 shadow-xl border border-slate-700 group-hover:scale-110 transition-transform duration-300">
                 <Play className="w-8 h-8 text-emerald-500 ml-1" />
               </div>
-              <p className="text-slate-500 font-medium z-10">Video {item} Coming Soon</p>
+              <p className="text-slate-500 font-medium z-10">Video {item} Em breve</p>
             </motion.div>
           ))}
         </div>
