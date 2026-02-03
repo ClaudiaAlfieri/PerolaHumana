@@ -43,7 +43,7 @@ export default function Contact() {
     },
     {
       icon: Phone,
-      label: "Phone",
+      label: "Telefone",
       value: "+351 221 117 865",
       link: "tel:+351221117865",
       color: "text-purple-500",
@@ -110,9 +110,9 @@ export default function Contact() {
           viewport={{ once: true }}
           className="text-center mb-12 sm:mb-16"
         >
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4 text-balance">Get In Touch</h2>
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4 text-balance">Fale Connosco</h2>
           <p className="text-base sm:text-lg text-muted-foreground max-w-2xl mx-auto">
-            Have questions? We'd love to hear from you. Send us a message and we'll respond as soon as possible.
+            Tem alguma dúvida? Envie-nos uma mensagem e responderemos o mais breve possível.
           </p>
         </motion.div>
 
@@ -124,7 +124,7 @@ export default function Contact() {
             transition={{ duration: 0.2 }}
             viewport={{ once: true }}
           >
-            <h3 className="text-2xl font-bold mb-8">Contact Methods</h3>
+            <h3 className="text-2xl font-bold mb-8">Métodos de contacto</h3>
             <div className="space-y-6">
               {contactMethods.map((method, index) => (
                 <motion.a
@@ -159,13 +159,13 @@ export default function Contact() {
             viewport={{ once: true }}
             className="flex flex-col"
           >
-            <h3 className="text-2xl font-bold mb-8">Send Us A Message</h3>
+            <h3 className="text-2xl font-bold mb-8">Envie-nos uma mensagem</h3>
             <form onSubmit={handleSubmit} className="space-y-4 flex flex-col flex-1">
               <div>
                 <Input
                   type="text"
                   name="name"
-                  placeholder="Your Name"
+                  placeholder="O seu nome"
                   value={formData.name}
                   onChange={handleChange}
                   className={`transition-all duration-300 shadow-sm py-0 ${errors.name ? "border-destructive" : ""}`}
@@ -185,7 +185,7 @@ export default function Contact() {
                 <Input
                   type="email"
                   name="email"
-                  placeholder="Your Email"
+                  placeholder="O seu Email"
                   value={formData.email}
                   onChange={handleChange}
                   className={`transition-all duration-300 shadow-sm ${errors.email ? "border-destructive" : ""}`}
@@ -205,7 +205,7 @@ export default function Contact() {
                 <Input
                   type="text"
                   name="subject"
-                  placeholder="Subject"
+                  placeholder="Assunto"
                   value={formData.subject}
                   onChange={handleChange}
                   className={`transition-all duration-300 shadow-sm ${errors.subject ? "border-destructive" : ""}`}
@@ -224,7 +224,7 @@ export default function Contact() {
               <div className="flex-1 flex flex-col min-h-0">
                 <Textarea
                   name="message"
-                  placeholder="Your Message"
+                  placeholder="A sua mensagem"
                   value={formData.message}
                   onChange={handleChange}
                   className={`transition-all duration-300 resize-none shadow-sm h-full rounded-3xl ${errors.message ? "border-destructive" : ""}`}
@@ -248,12 +248,12 @@ export default function Contact() {
                 {isSubmitted ? (
                   <motion.div initial={{ scale: 0 }} animate={{ scale: 1 }} className="flex items-center gap-2">
                     <CheckCircle className="h-5 w-5" />
-                    Message Sent!
+                    Mensagem Enviada!
                   </motion.div>
                 ) : (
                   <div className="flex items-center gap-2">
                     <Send className="h-5 w-5" />
-                    Send Message
+                    Enviar Mensagem
                   </div>
                 )}
               </Button>
@@ -264,7 +264,7 @@ export default function Contact() {
                   animate={{ opacity: 1, y: 0 }}
                   className="text-center text-sm text-muted-foreground"
                 >
-                  Thank you for your message. We'll get back to you soon!
+                  Obrigado pela sua mensagem. Entraremos em contacto em breve!
                 </motion.p>
               )}
             </form>
