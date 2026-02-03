@@ -18,31 +18,31 @@ export function Footer() {
               <span className="font-semibold text-xl text-foreground">Pérola Humana</span>
             </div>
             <p className="text-sm text-muted-foreground leading-relaxed">
-              Empowering your journey to optimal health and wellness.
+              A sua jornada rumo à saúde e bem-estar ideais.
             </p>
           </div>
 
           <div>
-            <h4 className="font-semibold text-foreground mb-4">Navigate</h4>
+            <h4 className="font-semibold text-foreground mb-4">Navegue</h4>
             <ul className="space-y-2 text-sm text-muted-foreground">
               <li>
                 <a href="#about" className={linkWithUnderline}>
-                  About
+                  Sobre Nós
                 </a>
               </li>
               <li>
                 <a href="#mission" className={linkWithUnderline}>
-                  Mission
+                  O que fazemos
                 </a>
               </li>
               <li>
                 <a href="#diseases" className={linkWithUnderline}>
-                  Health
+                  Doenças
                 </a>
               </li>
               <li>
                 <a href="#book" className={linkWithUnderline}>
-                  Book
+                  Livro
                 </a>
               </li>
             </ul>
@@ -53,29 +53,29 @@ export function Footer() {
             <ul className="space-y-2 text-sm text-muted-foreground">
               <li>
                 <a href="#events" className={linkWithUnderline}>
-                  Events
+                  Eventos
                 </a>
               </li>
               <li>
                 <a href="#timeline" className={linkWithUnderline}>
-                  Timeline
+                  Autoconhecimento
                 </a>
               </li>
               <li>
                 <a href="#health-videos" className={linkWithUnderline}>
-                  Videos
+                  Saúde
                 </a>
               </li>
               <li>
                 <a href="#contact" className={linkWithUnderline}>
-                  Contact
+                  Contacto
                 </a>
               </li>
             </ul>
           </div>
 
           <div>
-            <h4 className="font-semibold text-foreground mb-4">Contact</h4>
+            <h4 className="font-semibold text-foreground mb-4">Contacto</h4>
             <ul className="space-y-3 text-sm text-muted-foreground">
               <li className="flex items-start gap-2">
                 <Phone className="h-4 w-4 mt-0.5 text-primary flex-shrink-0" />
@@ -100,15 +100,15 @@ export function Footer() {
         </div>
 
         <div className="pt-8 border-t border-border flex flex-col sm:flex-row justify-between items-center gap-4">
-          <p className="text-sm text-muted-foreground">© 2025 Pérola Humana. All rights reserved.</p>
-          <div className="flex gap-6 text-sm text-muted-foreground">
+          <p className="text-sm text-muted-foreground">© 2026 Pérola Humana. Todos os direitos reservados.</p>
+          {/* <div className="flex gap-6 text-sm text-muted-foreground">
             <a href="#" className={linkWithUnderline}>
               Privacy Policy
             </a>
             <a href="#" className={linkWithUnderline}>
               Terms of Service
             </a>
-          </div>
+          </div> */}
         </div>
       </div>
     </footer>
