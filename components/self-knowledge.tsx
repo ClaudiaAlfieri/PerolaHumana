@@ -6,7 +6,7 @@ import { Quote, Sparkles, Brain, Zap, Sun } from "lucide-react"
 
 const quotes = [
   {
-    text: "The universe only gives you what you think, feel, and say you are worthy of receiving.",
+    text: "O UNIVERSO SÓ TE DÁ AQUILO QUE PENSAS, SENTES E DIZES SER DIGNO DE RECEBER",
     author: "Helena da Fonseca",
   },
   {
@@ -37,7 +37,7 @@ export default function SelfKnowledge() {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Self-Knowledge</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Autoconhecimento</h2>
           <p className="text-emerald-400 font-medium max-w-2xl mx-auto">Journey into the depths of who you truly are</p>
         </motion.div>
 
