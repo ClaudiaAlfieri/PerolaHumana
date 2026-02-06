@@ -106,7 +106,7 @@ export default function BookShowcase() {
   const currentBook = books[currentIndex]
 
   return (
-    <section id="book" className="py-20 sm:py-24 lg:py-32 px-4 sm:px-6 lg:px-8 bg-muted/20">
+    <section id="book" className="py-20 sm:py-24 lg:py-32 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-secondary/10 to-background">
       <div className="max-w-7xl mx-auto">
         <div className="relative my-0">
           <div ref={containerRef} className="overflow">
