@@ -71,14 +71,15 @@ export function Header() {
       }}
       animate={hidden ? "hidden" : "visible"}
       transition={{ duration: 0.35, ease: "easeInOut" }}
-      className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border shadow"
+      className="fixed top-0 left-0 right-0 z-50 backdrop-blur-md border-b border-border shadow"
+      style={{ backgroundColor: 'rgba(250, 247, 242, 0.95)' }}
     >
-      <div className="container mx-auto px-4 sm:px-6 lg:px-0">
+      <div className="container mx-auto px-4 sm:px-5 lg:px-0">
         <div className="flex items-center justify-between h-16 lg:h-20">
           {/* Logo */}
           <div className="flex items-center gap-3 px-2.5">
             <img 
-              src="/logo1.png" 
+              src="/logo_nav.png" 
               alt="Pérola Humana" 
               className="h-14 sm:h-16 w-auto object-contain"
             />
@@ -154,7 +155,8 @@ export function Header() {
             animate={{ opacity: 1, height: "auto" }}
             exit={{ opacity: 0, height: 0 }}
             transition={{ duration: 0.3, ease: "easeInOut" }}
-            className="md:hidden border-t border-border bg-background/95 backdrop-blur-md overflow-hidden"
+            className="md:hidden border-t border-border backdrop-blur-md overflow-hidden"
+            style={{ backgroundColor: 'rgba(250, 247, 242, 0.95)' }}
           >
             <nav className="container mx-auto px-4 sm:px-6 py-4">
               <a href="#about" onClick={handleNavClick} className={mobileNavLink}>
