@@ -44,11 +44,11 @@ export default function About() {
           >
             {/* Título com decoração */}
             <div className="relative">
-              <div className="absolute -left-4 top-0 w-1 h-full bg-gradient-to-b from-emerald-500 to-teal-500 rounded-full" />
-              <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-2 bg-gradient-to-r from-emerald-600 to-teal-600 dark:from-emerald-400 dark:to-teal-400 bg-clip-text text-transparent">
+              <div className="absolute -left-4 top-0 w-1 h-full bg-gradient-to-b from-[#C8935F] to-[#E0A878] rounded-full" />
+              <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-2 bg-gradient-to-r from-[#C8935F] to-[#E0A878] bg-clip-text text-transparent">
                 A NOSSA HISTÓRIA
               </h2>
-              <div className="w-24 h-1 bg-gradient-to-r from-emerald-500 to-teal-500 rounded-full" />
+              <div className="w-24 h-1 bg-gradient-to-r from-[#C8935F] to-[#E0A878] rounded-full" />
             </div>
 
             {/* Conteúdo */}
@@ -63,15 +63,15 @@ export default function About() {
               
               <ul className="ml-6 space-y-2 text-foreground/80">
                 <li className="flex items-start gap-2">
-                  <span className="text-emerald-500 font-bold mt-1">•</span>
+                  <span className="text-[#C8935F] font-bold mt-1">•</span>
                   <span>Portugal: Lisboa e Porto</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-emerald-500 font-bold mt-1">•</span>
+                  <span className="text-[#C8935F] font-bold mt-1">•</span>
                   <span>Brasil: Rio de Janeiro, São Paulo, Rio Grande do Sul e Santa Catarina</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-emerald-500 font-bold mt-1">•</span>
+                  <span className="text-[#C8935F] font-bold mt-1">•</span>
                   <span>Japão: Tóquio</span>
                 </li>
               </ul>
@@ -80,7 +80,7 @@ export default function About() {
                 Ao longo deste percurso, algumas experiências marcaram profundamente a sua consciência e orientação futura. Uma das mais impactantes ocorreu numa visita a uma escola em Campo Bom, no Rio Grande do Sul, onde se confrontou com realidades de extrema vulnerabilidade social:
               </p>
               
-              <blockquote className="border-l-4 border-emerald-500 pl-4 py-3 bg-emerald-50/50 dark:bg-emerald-950/20 rounded-r-lg">
+              <blockquote className="border-l-4 border-[#C8935F] pl-4 py-3 bg-[#C8935F]/10 rounded-r-lg">
                 <p className="italic text-foreground/90">
                   "Crianças a viver em contextos de profunda fragilidade: mães envolvidas em prostituição dentro do próprio lar, pais dependentes de substâncias ou privados de liberdade por crimes graves, e adolescentes grávidas com apenas 13 anos."
                 </p>
@@ -110,11 +110,11 @@ export default function About() {
           >
             {/* Título com decoração */}
             <div className="relative">
-              <div className="absolute -left-4 top-0 w-1 h-full bg-gradient-to-b from-emerald-500 to-teal-500 rounded-full" />
-              <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-2 bg-gradient-to-r from-emerald-600 to-teal-600 dark:from-emerald-400 dark:to-teal-400 bg-clip-text text-transparent">
+              <div className="absolute -left-4 top-0 w-1 h-full bg-gradient-to-b from-[#C8935F] to-[#E0A878] rounded-full" />
+              <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-2 bg-gradient-to-r from-[#C8935F] to-[#E0A878] bg-clip-text text-transparent">
                 PÉROLA HUMANA, PORQUÊ?
               </h2>
-              <div className="w-24 h-1 bg-gradient-to-r from-emerald-500 to-teal-500 rounded-full" />
+              <div className="w-24 h-1 bg-gradient-to-r from-[#C8935F] to-[#E0A878] rounded-full" />
             </div>
 
             {/* Introdução */}
@@ -132,14 +132,14 @@ export default function About() {
                   transition={{ duration: 0.5, delay: index * 0.1 }}
                   viewport={{ once: true }}
                   whileHover={{ scale: 1.02, x: 4 }}
-                  className="group p-5 bg-card/80 backdrop-blur-sm border-l-4 border-emerald-500/30 hover:border-emerald-500 border-t border-r border-b border-border/50 hover:shadow-xl transition-all duration-300 rounded-r-xl"
+                  className="group p-5 bg-card/80 backdrop-blur-sm border-l-4 border-[#C8935F]/30 hover:border-[#C8935F] border-t border-r border-b border-border/50 hover:shadow-xl transition-all duration-300 rounded-r-xl"
                 >
                   <div className="flex items-start gap-4">
-                    <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-emerald-500/20 to-teal-500/20 group-hover:from-emerald-500/30 group-hover:to-teal-500/30 flex items-center justify-center shrink-0 transition-all duration-300">
-                      <area.icon className="w-6 h-6 text-emerald-600 dark:text-emerald-400" />
+                    <div className="w-12 h-12 rounded-xl bg-[#C8935F]/20 group-hover:bg-[#C8935F]/30 flex items-center justify-center shrink-0 transition-all duration-300">
+                      <area.icon className="w-6 h-6 text-[#C8935F]" />
                     </div>
                     <div className="flex-1">
-                      <h3 className="font-bold text-lg mb-2 text-foreground group-hover:text-emerald-600 dark:group-hover:text-emerald-400 transition-colors">
+                      <h3 className="font-bold text-lg mb-2 text-foreground group-hover:text-[#C8935F] transition-colors">
                         {area.title}
                       </h3>
                       <p className="text-sm leading-relaxed text-muted-foreground">
