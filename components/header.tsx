@@ -76,11 +76,13 @@ export function Header() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-0">
         <div className="flex items-center justify-between h-16 lg:h-20">
           {/* Logo */}
-          <div className="flex items-center sm:gap-3.5 px-2.5">
-            <div className="w-8 h-8 rounded-full bg-primary flex items-center justify-center">
-              <span className="text-primary-foreground font-bold text-lg">V</span>
-            </div>
-            <span className="font-semibold text-foreground text-left text-base sm:text-lg lg:text-xl ml-0 pl-1.5">
+          <div className="flex items-center gap-3 px-2.5">
+            <img 
+              src="/logo1.png" 
+              alt="Pérola Humana" 
+              className="h-14 sm:h-16 w-auto object-contain"
+            />
+            <span className="font-semibold text-xl sm:text-2xl" style={{ color: '#C8935F' }}>
               Pérola Humana
             </span>
           </div>
