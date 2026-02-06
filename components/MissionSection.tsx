@@ -54,10 +54,10 @@ export default function MissionSection() {
           {/* Título principal */}
           <div className="text-center mb-12">
             <div className="inline-block">
-              <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-3 bg-gradient-to-r from-emerald-600 to-teal-600 dark:from-emerald-400 dark:to-teal-400 bg-clip-text text-transparent">
+              <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-3 bg-gradient-to-r from-[#C8935F] to-[#E0A878] bg-clip-text text-transparent">
                 O Que Fazemos
               </h2>
-              <div className="w-32 h-1 bg-gradient-to-r from-emerald-500 to-teal-500 rounded-full mx-auto" />
+              <div className="w-32 h-1 bg-gradient-to-r from-[#C8935F] to-[#E0A878] rounded-full mx-auto" />
             </div>
           </div>
 
@@ -67,21 +67,21 @@ export default function MissionSection() {
               O nosso propósito é despertar consciências e promover o equilíbrio do ser humano nas suas dimensões emocional, mental, espiritual e social, reconhecendo que cada pessoa é um sistema vivo em constante interação com o meio.
             </p>
 
-            <div className="h-px bg-gradient-to-r from-transparent via-emerald-500/30 to-transparent my-8" />
+            <div className="h-px bg-gradient-to-r from-transparent via-[#C8935F]/30 to-transparent my-8" />
 
             <p>
               Acreditamos que tudo está interligado. Tal como a ciência moderna demonstra que nenhum sistema existe isolado, também o ser humano é influenciado pelas relações, pelo ambiente e pela qualidade da presença que recebe. A atenção, o cuidado e o afeto não são abstrações: produzem efeitos reais no corpo, na mente e na forma como cada pessoa se relaciona com o mundo.
             </p>
 
             <p>
-              Atuamos junto de crianças, idosos e mulheres vítimas de violência doméstica em situação de vulnerabilidade, oferecendo aquilo que muitas vezes falta: <span className="font-semibold text-emerald-600 dark:text-emerald-400">presença consciente, escuta ativa, segurança emocional e dignidade humana</span>. Pequenos gestos — um olhar atento, uma palavra sincera, um toque respeitoso — podem desencadear mudanças profundas, porque alteram estados internos e restauram a sensação de pertença.
+              Atuamos junto de crianças, idosos e mulheres vítimas de violência doméstica em situação de vulnerabilidade, oferecendo aquilo que muitas vezes falta: <span className="font-semibold text-[#C8935F]">presença consciente, escuta ativa, segurança emocional e dignidade humana</span>. Pequenos gestos — um olhar atento, uma palavra sincera, um toque respeitoso — podem desencadear mudanças profundas, porque alteram estados internos e restauram a sensação de pertença.
             </p>
 
             <p>
               A espiritualidade que defendemos não é dogma, mas consciência: a capacidade de reconhecer valor na vida, em si e no outro. Quando alguém se sente visto e reconhecido, ocorre uma transformação concreta — emocional, psicológica e até fisiológica. O corpo responde à segurança, à empatia e ao amor com maior equilíbrio e resiliência.
             </p>
 
-            <blockquote className="border-l-4 border-emerald-500 pl-6 py-4 bg-emerald-50/50 dark:bg-emerald-950/20 rounded-r-lg my-6">
+            <blockquote className="border-l-4 border-[#C8935F] pl-6 py-4 bg-[#C8935F]/10 rounded-r-lg my-6">
               <p className="italic text-foreground/90">
                 Apadrinhar crianças ao longo de todo o ano, oferecer tempo, realizar visitas e expressar afeto com um simples "gosto de ti" ou "amo-te" são atos simples, mas com impacto real. Para quem vive no esquecimento ou no isolamento, esta atenção pode alterar trajetórias de vida inteiras.
               </p>
@@ -89,7 +89,7 @@ export default function MissionSection() {
             <p>
               Queremos contribuir para a mudança de pensamentos e estados internos, unir mãos e corações e criar condições para um Portugal e uma humanidade mais consciente, solidário e humano. 
             </p>
-            <p className="text-center font-medium text-lg"><span className="text-emerald-600 dark:text-emerald-400">Porque quando um ser humano muda, o sistema à sua volta também muda.</span>
+            <p className="text-center font-medium text-lg"><span className="text-[#C8935F]">Porque quando um ser humano muda, o sistema à sua volta também muda.</span>
             </p>
           </div>
         </motion.div>
@@ -121,22 +121,22 @@ export default function MissionSection() {
                 viewport={{ once: true }}
                 onHoverStart={() => setExpandedSection(item.id)}
                 onHoverEnd={() => setExpandedSection(null)}
-                className="relative group p-6 rounded-2xl cursor-pointer overflow-hidden border-2 border-border bg-card hover:bg-gradient-to-br hover:from-card hover:to-emerald-50/30 dark:hover:to-emerald-950/20 hover:border-emerald-500/50 hover:shadow-xl transition-all duration-500"
+                className="relative group p-6 rounded-2xl cursor-pointer overflow-hidden border-2 border-border bg-card hover:bg-gradient-to-br hover:from-card hover:to-[#C8935F]/10 hover:border-[#C8935F]/50 hover:shadow-xl transition-all duration-500"
               >
                 <div className="flex flex-col h-full relative z-10">
                   {/* Card Header */}
                   <div className="flex items-start justify-between mb-4">
-                    <div className="p-3 bg-gradient-to-br from-emerald-500/20 to-teal-500/20 rounded-xl text-emerald-600 dark:text-emerald-400 group-hover:scale-110 group-hover:rotate-3 transition-all duration-300">
+                    <div className="p-3 bg-[#C8935F]/20 rounded-xl text-[#C8935F] group-hover:scale-110 group-hover:rotate-3 transition-all duration-300">
                       <item.icon className="w-7 h-7" />
                     </div>
                     <ChevronDown
                       className={`w-5 h-5 text-muted-foreground transition-transform duration-300 ${
-                        expandedSection === item.id ? "rotate-180 text-emerald-600 dark:text-emerald-400" : ""
+                        expandedSection === item.id ? "rotate-180 text-[#C8935F]" : ""
                       }`}
                     />
                   </div>
 
-                  <h3 className="text-lg font-bold text-foreground mb-3 group-hover:text-emerald-600 dark:group-hover:text-emerald-400 transition-colors">
+                  <h3 className="text-lg font-bold text-foreground mb-3 group-hover:text-[#C8935F] transition-colors">
                     {item.title}
                   </h3>
 
@@ -157,14 +157,14 @@ export default function MissionSection() {
                         transition={{ duration: 0.3 }}
                         className="overflow-hidden"
                       >
-                        <div className="pt-3 border-t border-emerald-500/20 mt-3">
+                        <div className="pt-3 border-t border-[#C8935F]/20 mt-3">
                           {item.description ? (
                             <p className="text-sm text-muted-foreground leading-relaxed">
                               {item.description}
                             </p>
                           ) : (
-                            <p className="text-sm italic text-emerald-600/80 dark:text-emerald-400/80 flex items-center gap-2">
-                              <span className="w-2 h-2 bg-emerald-500 rounded-full animate-pulse" />
+                            <p className="text-sm italic text-[#C8935F]/80 flex items-center gap-2">
+                              <span className="w-2 h-2 bg-[#C8935F] rounded-full animate-pulse" />
                               {item.status}
                             </p>
                           )}
@@ -175,7 +175,7 @@ export default function MissionSection() {
                 </div>
 
                 {/* Decorative gradient overlay */}
-                <div className="absolute inset-0 bg-gradient-to-br from-emerald-500/0 to-teal-500/0 group-hover:from-emerald-500/5 group-hover:to-teal-500/5 transition-all duration-500 pointer-events-none" />
+                <div className="absolute inset-0 bg-gradient-to-br from-[#C8935F]/0 to-[#E0A878]/0 group-hover:from-[#C8935F]/5 group-hover:to-[#E0A878]/5 transition-all duration-500 pointer-events-none" />
               </motion.div>
             ))}
           </div>
