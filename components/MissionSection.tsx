@@ -54,8 +54,8 @@ export default function MissionSection() {
           {/* Título principal */}
           <div className="text-center mb-12">
             <div className="inline-block">
-              <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-3 bg-gradient-to-r from-[#C8935F] to-[#E0A878] bg-clip-text text-transparent">
-                O Que Fazemos
+              <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-2 bg-gradient-to-r from-[#C8935F] to-[#E0A878] bg-clip-text text-transparent">
+                O QUE FAZEMOS
               </h2>
               <div className="w-32 h-1 bg-gradient-to-r from-[#C8935F] to-[#E0A878] rounded-full mx-auto" />
             </div>
@@ -103,10 +103,11 @@ export default function MissionSection() {
           className="mt-20"
         >
           <div className="text-center mb-10">
-            <h3 className="text-2xl sm:text-3xl font-bold text-foreground mb-2">
-              Os Nossos Projetos
+            <h3 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-2 bg-gradient-to-r from-[#C8935F] to-[#E0A878] bg-clip-text text-transparent">
+              OS NOSSOS PROJETOS
             </h3>
-            <p className="text-muted-foreground">
+            <div className="w-32 h-1 bg-gradient-to-r from-[#C8935F] to-[#E0A878] rounded-full mx-auto" />
+            <p className="mt-5 text-muted-foreground">
               Iniciativas concretas para transformar vidas
             </p>
           </div>
