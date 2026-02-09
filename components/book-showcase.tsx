@@ -20,34 +20,6 @@ const books = [
     description2:
       "Drawing from years of experience in integrative medicine and helping thousands achieve optimal wellness, Dr. Pérola Humana delivers a powerful manifesto rooted in evidence-based practices while honoring ancient wisdom and natural healing traditions.",
   },
-  {
-    title: "Mindful Living",
-    subtitle: "A Guide to Inner Peace and Balance",
-    author: "Helena da Fonseca",
-    published: "2024",
-    pages: "256",
-    rating: 4.8,
-    reviews: "6,234",
-    categories: ["Mindfulness", "Mental Health", "Self-Help"],
-    description1:
-      "Discover the transformative power of mindfulness in daily life. This comprehensive guide takes you on a journey to inner peace, teaching practical techniques for stress reduction, emotional balance, and present-moment awareness.",
-    description2:
-      "Through evidence-based practices and ancient meditation traditions, learn how to cultivate a mindful lifestyle that enhances well-being, improves relationships, and brings clarity to every aspect of your life.",
-  },
-  {
-    title: "Nutrition Essentials",
-    subtitle: "Fueling Your Body for Optimal Health",
-    author: "Helena da Fonseca",
-    published: "2024",
-    pages: "298",
-    rating: 4.7,
-    reviews: "5,892",
-    categories: ["Nutrition", "Health", "Lifestyle"],
-    description1:
-      "Unlock the secrets of proper nutrition and discover how food becomes medicine. This essential guide demystifies nutritional science and provides practical strategies for building a diet that supports your body's natural healing abilities.",
-    description2:
-      "From understanding macronutrients to creating personalized meal plans, learn how to make informed food choices that boost energy, strengthen immunity, and promote longevity through sustainable eating habits.",
-  },
 ]
 
 export default function BookShowcase() {
@@ -190,10 +162,11 @@ export default function BookShowcase() {
 
                   {/* Title */}
                   <div>
-                    <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4 leading-tight text-foreground">
+                    <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-2 bg-gradient-to-r from-[#C8935F] to-[#E0A878] bg-clip-text text-transparent">
                       {currentBook.title}
                     </h2>
-                    <p className="text-xl sm:text-2xl mb-4 text-muted-foreground">{currentBook.subtitle}</p>
+                     <div className="w-24 h-1 bg-gradient-to-r from-[#C8935F] to-[#E0A878] rounded-full" />
+                    <p className="text-xl sm:text-2xl mb-4 text-muted-foreground mt-5">{currentBook.subtitle}</p>
                     <div className="flex flex-wrap gap-4 text-sm text-slate-400">
                       <span>by {currentBook.author}</span>
                       <span>•</span>
