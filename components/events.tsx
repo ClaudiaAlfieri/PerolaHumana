@@ -111,7 +111,8 @@ export default function Events() {
           className="text-center mb-12 sm:mb-16"
         >
           
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4 text-balance">Eventos da Pérola Humana</h2>
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-2 bg-gradient-to-r from-[#C8935F] to-[#E0A878] bg-clip-text text-transparent">EVENTOS DA PÉROLA HUMANA</h2>
+            <div className="w-24 h-1 bg-gradient-to-r from-[#C8935F] to-[#E0A878] rounded-full mx-auto mb-4" />
           <p className="text-base sm:text-lg text-muted-foreground max-w-2xl mx-auto">
             Próximos eventos
           </p>
