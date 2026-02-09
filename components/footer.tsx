@@ -23,7 +23,7 @@ export function Footer() {
           </div>
 
           <div>
-            <h4 className="font-semibold text-foreground mb-4">Navegue</h4>
+            <h4 className="text-2xl font-semibold mb-2 bg-gradient-to-r from-[#C8935F] to-[#E0A878] bg-clip-text text-transparent mb-4">Navegue</h4>
             <ul className="space-y-2 text-sm text-muted-foreground">
               <li>
                 <a href="#about" className={linkWithUnderline}>
@@ -49,7 +49,7 @@ export function Footer() {
           </div>
 
           <div>
-            <h4 className="font-semibold text-foreground mb-4">Explore</h4>
+            <h4 className="text-2xl font-semibold mb-2 bg-gradient-to-r from-[#C8935F] to-[#E0A878] bg-clip-text text-transparent mb-4">Explore</h4>
             <ul className="space-y-2 text-sm text-muted-foreground">
               <li>
                 <a href="#events" className={linkWithUnderline}>
@@ -75,7 +75,7 @@ export function Footer() {
           </div>
 
           <div>
-            <h4 className="font-semibold text-foreground mb-4">Contacto</h4>
+            <h4 className="text-2xl font-semibold mb-2 bg-gradient-to-r from-[#C8935F] to-[#E0A878] bg-clip-text text-transparent mb-4">Contacto</h4>
             <ul className="space-y-3 text-sm text-muted-foreground">
               <li className="flex items-start gap-2">
                 <Phone className="h-4 w-4 mt-0.5 text-primary flex-shrink-0" />
