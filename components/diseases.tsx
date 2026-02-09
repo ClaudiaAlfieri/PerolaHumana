@@ -13,7 +13,7 @@ const diseases = [
     description: "Understanding heart health, prevention strategies, and early warning signs.",
     extendedDescription: "Cardiovascular diseases affect the heart and blood vessels. Prevention focuses on maintaining a healthy diet, regular exercise, stress management, and regular health screenings.",
     imageTag: "[Image of heart cardiovascular system]",
-    color: "from-emerald-500 to-teal-500",
+    color: "from-[#C8935F] to-[#E0A878]",
   },
   {
     icon: Brain,
@@ -247,14 +247,15 @@ export default function Diseases() {
   }
 
   return (
-    <section id="diseases" className="py-20 sm:py-24 lg:py-32 bg-background overflow-hidden">
+    <section id="diseases" className="py-20 sm:py-24 lg:py-32  bg-gradient-to-b from-secondary/10 to-background overflow-hidden">
       <div className="container mx-auto px-4 sm:px-6">
         {/* Header Section */}
         <div className="text-center mb-12 max-w-4xl mx-auto">
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6 text-balance">
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-2 bg-gradient-to-r from-[#C8935F] to-[#E0A878] bg-clip-text text-transparent">
             Philosophy of Health & Disease
           </h2>
-          <div className="text-muted-foreground leading-relaxed space-y-4 mb-12">
+            <div className="w-32 h-1 bg-gradient-to-r from-[#C8935F] to-[#E0A878] rounded-full mx-auto" />
+          <div className="text-muted-foreground leading-relaxed space-y-4 mb-12 mt-5">
             <p>
               Access to the unconscious requires understanding and insight. My goal is to simplify, allowing everyone to rescue forgotten knowledge.
             </p>
@@ -280,16 +281,16 @@ export default function Diseases() {
                 className="w-full text-left p-6 sm:p-8 flex items-center justify-between hover:bg-card/90 transition-colors"
               >
                 <div className="flex items-center gap-3 flex-1">
-                  <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-emerald-500 to-teal-500 flex items-center justify-center flex-shrink-0">
+                  <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-[#C8935F] to-[#E0A878] flex items-center justify-center flex-shrink-0">
                     <Heart className="w-5 h-5 text-white" />
                   </div>
                   <h4 className="text-xl sm:text-2xl font-bold">Health</h4>
                 </div>
                 <div className="flex-shrink-0 ml-4">
                   {expandedCard === "philosophy" ? (
-                    <ChevronUp className="w-5 h-5 text-emerald-600 dark:text-emerald-400" />
+                    <ChevronUp className="w-5 h-5 text-[#C8935F] dark:text-[#C8935F]" />
                   ) : (
-                    <ChevronDown className="w-5 h-5 text-emerald-600 dark:text-emerald-400" />
+                    <ChevronDown className="w-5 h-5 text-[#C8935F] dark:text-[#C8935F]" />
                   )}
                 </div>
               </button>
@@ -309,7 +310,7 @@ export default function Diseases() {
                                               <strong className="block font-semibold text-foreground mb-2">
                         Philosophy of Health
                       </strong>
-                        Access to the unconscious requires understanding and insight. My goal is not to complicate or revolutionize, but to simplify allowing everyone to rescue forgotten knowledge. The human body, due to constant transformations and contradictions that not even medicine can fully explain, has been studied for millennia. Meanwhile, the human mind expands the power of technology finding truths or fragments of it beyond our planet. What seems like fiction today will become our reality tomorrow. Disease has always been a mystery before which great dreams lose strength and the world seems darker than it really is. Researchers seek to prove forces that act in our organism. They know that in blood vessels, properties similar to electricity flow (magnetic energy and vibration), which medicine calls the “Electric Nervous System” and increasingly admit that we are governed by this energy. Today, scientists already prove the Creative Force and other energies in laboratories. Limited by the lived density, human beings defined three visible dimensions, length, width and height, ignoring the mental dimension. NLP (Neuro-Linguistic Programming) teaches that we are victims of our own mental creation and that the brain can be reprogrammed to make the unconscious believe in this new program, because since childhood, we are influenced by the environment in which we live and reflect others' beliefs. I intend to show how to overcome these limiting beliefs and explore hidden dimensions (unconscious planes) to achieve emotional control. Regardless of your belief and culture, know that everything can be transformed with new choices, because healing does not come from intellectual capacity, but from the perception of one's own inner system. For our body to be free from these psychosomatizations, it is essential to practice sincere self-reflection and readjust our inner harmony. This requires understanding the origin of the conflicts we had with others and reconciling with ourselves.
+                        Access to the unconscious requires understanding and insight. My goal is not to complicate or revolutionize, but to simplify allowing everyone to rescue forgotten knowledge. The human body, due to constant transformations and contradictions that not even medicine can fully explain, has been studied for millennia. Meanwhile, the human mind expands the power of technology finding truths or fragments of it beyond our planet. What seems like fiction today will become our reality tomorrow. Disease has always been a mystery before which great dreams lose strength and the world seems darker than it really is. Researchers seek to prove forces that act in our organism. They know that in blood vessels, properties similar to electricity flow (magnetic energy and vibration), which medicine calls the "Electric Nervous System" and increasingly admit that we are governed by this energy. Today, scientists already prove the Creative Force and other energies in laboratories. Limited by the lived density, human beings defined three visible dimensions, length, width and height, ignoring the mental dimension. NLP (Neuro-Linguistic Programming) teaches that we are victims of our own mental creation and that the brain can be reprogrammed to make the unconscious believe in this new program, because since childhood, we are influenced by the environment in which we live and reflect others' beliefs. I intend to show how to overcome these limiting beliefs and explore hidden dimensions (unconscious planes) to achieve emotional control. Regardless of your belief and culture, know that everything can be transformed with new choices, because healing does not come from intellectual capacity, but from the perception of one's own inner system. For our body to be free from these psychosomatizations, it is essential to practice sincere self-reflection and readjust our inner harmony. This requires understanding the origin of the conflicts we had with others and reconciling with ourselves.
                       </div>
                       <strong className="block font-semibold text-foreground mb-2 mt-4">
                         FORGIVENESS WHAT IS IT?
@@ -335,7 +336,7 @@ export default function Diseases() {
                   placeholder="Search diseases..."
                   value={searchQuery}
                   onChange={(e) => setSearchQuery(e.target.value)}
-                  className="w-full pl-10 pr-4 py-3 rounded-full border border-border bg-card shadow-sm focus:ring-2 focus:ring-emerald-500/20 focus:border-emerald-500 outline-none transition-all pb-3 h-14"
+                  className="w-full pl-10 pr-4 py-3 rounded-full border border-border bg-card shadow-sm focus:ring-2 focus:ring-[#C8935F]/20 focus:border-[#C8935F] outline-none transition-all pb-3 h-14"
                 />
                 {searchQuery && (
                   <button
@@ -353,7 +354,7 @@ export default function Diseases() {
               <div className="rounded-full bg-card/80 backdrop-blur-md border border-border/60 shadow-lg p-2 flex items-center justify-between pr-3 gap-4">
                 {/* Left Side: Remedy Ticker */}
                 <div className="flex items-center gap-4 pl-4 overflow-hidden flex-1">
-                  <div className="flex items-center gap-2 text-emerald-600 dark:text-emerald-400 font-medium whitespace-nowrap">
+                  <div className="flex items-center gap-2 text-[#C8935F] dark:text-[#C8935F] font-medium whitespace-nowrap">
                     <Sparkles className="w-4 h-4" />
                     <span className="hidden sm:inline text-base">Prescription:</span>
                   </div>
@@ -381,7 +382,7 @@ export default function Diseases() {
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   className={`relative w-8 h-8 sm:w-10 sm:h-10 rounded-full bg-background border border-border shadow-sm flex items-center justify-center overflow-hidden group transition-all duration-300 flex-shrink-0 ${
-                    isPlaying ? "ring-2 ring-emerald-500/50" : "hover:border-emerald-500/50"
+                    isPlaying ? "ring-2 ring-[#C8935F]/50" : "hover:border-[#C8935F]/50"
                   }`}
                 >
                   {/* Spinning Disk Effect */}
@@ -413,11 +414,11 @@ export default function Diseases() {
                     initial={{ opacity: 0, y: -10 }}
                     animate={{ opacity: 1, y: 0 }}
                     exit={{ opacity: 0, y: -10 }}
-                    className="absolute -bottom-8 left-1/2 -translate-x-1/2 text-xs font-medium text-emerald-600 dark:text-emerald-400 flex items-center gap-1.5 whitespace-nowrap italic"
+                    className="absolute -bottom-8 left-1/2 -translate-x-1/2 text-xs font-medium text-[#C8935F] dark:text-[#C8935F] flex items-center gap-1.5 whitespace-nowrap italic"
                   >
                     <span className="relative flex h-2 w-2">
-                      <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
-                      <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
+                      <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#C8935F] opacity-75"></span>
+                      <span className="relative inline-flex rounded-full h-2 w-2 bg-[#C8935F]"></span>
                     </span>
                     Guided Meditation Active
                   </motion.div>
@@ -577,7 +578,7 @@ const DiseaseCard = React.forwardRef<
       layout
       transition={{ layout: { duration: 0.3 } }}
       className={`h-full bg-card rounded-2xl border p-6 sm:p-8 flex flex-col transition-all duration-300 ${
-        isExpanded ? "border-emerald-500/50 shadow-emerald-500/10 shadow-xl scale-[1.02]" : "border-border hover:border-emerald-500/30 hover:shadow-lg"
+        isExpanded ? "border-[#C8935F]/50 shadow-[#C8935F]/10 shadow-xl scale-[1.02]" : "border-border hover:border-[#C8935F]/30 hover:shadow-lg"
       }`}
     >
       <div className={`w-12 h-12 rounded-xl bg-gradient-to-br ${disease.color} flex items-center justify-center mb-4 shadow-md shrink-0`}>
@@ -614,7 +615,7 @@ const DiseaseCard = React.forwardRef<
             e.stopPropagation()
             onToggle()
           }}
-          className="flex items-center gap-2 text-sm font-medium text-emerald-600 dark:text-emerald-400 hover:text-emerald-700 dark:hover:text-emerald-300 transition-colors group"
+          className="flex items-center gap-2 text-sm font-medium text-[#C8935F] dark:text-[#C8935F] hover:text-[#B8844E] dark:hover:text-[#F0B888] transition-colors group"
         >
           <span>{isExpanded ? "Read Less" : "Read More"}</span>
           {isExpanded ? (
