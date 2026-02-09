@@ -38,8 +38,7 @@ export default function SelfKnowledge() {
           className="text-center mb-16"
         >
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Autoconhecimento</h2>
-          <p className="text-emerald-400 font-medium max-w-2xl mx-auto">Journey into the depths of who you truly are</p>
-        </motion.div>
+          </motion.div>
 
         {/* Quotes Carousel */}
         <div className="mb-20 max-w-4xl mx-auto">
