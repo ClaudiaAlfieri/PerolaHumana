@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 
 import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
+import { ThemeProvider } from '@/components/theme-provider'
 
 import { Geist_Mono, Rubik as V0_Font_Rubik, Geist_Mono as V0_Font_Geist_Mono } from 'next/font/google'
 
@@ -21,9 +22,16 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html className="mx-0" lang="en">
+    <html className="mx-0" lang="en" suppressHydrationWarning>
       <body className={`font-sans antialiased`}>
-        {children}
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="system"
+          enableSystem
+          disableTransitionOnChange
+        >
+          {children}
+        </ThemeProvider>
         <Analytics />
       </body>
     </html>
