@@ -110,7 +110,8 @@ export default function Contact() {
           viewport={{ once: true }}
           className="text-center mb-12 sm:mb-16"
         >
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4 text-balance">Fale Connosco</h2>
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-2 bg-gradient-to-r from-[#C8935F] to-[#E0A878] bg-clip-text text-transparent">FALE CONOSCO</h2>
+          <div className="w-24 h-1 bg-gradient-to-r from-[#C8935F] to-[#E0A878] rounded-full mx-auto mb-4" />
           <p className="text-base sm:text-lg text-muted-foreground max-w-2xl mx-auto">
             Tem alguma dúvida? Envie-nos uma mensagem e responderemos o mais breve possível.
           </p>
@@ -124,7 +125,7 @@ export default function Contact() {
             transition={{ duration: 0.2 }}
             viewport={{ once: true }}
           >
-            <h3 className="text-2xl font-bold mb-8">Métodos de contacto</h3>
+            <h3 className="text-2xl font-bold mb-2 bg-gradient-to-r from-[#C8935F] to-[#E0A878] bg-clip-text text-transparent">Métodos de contacto</h3>
             <div className="space-y-6">
               {contactMethods.map((method, index) => (
                 <motion.a
@@ -159,7 +160,7 @@ export default function Contact() {
             viewport={{ once: true }}
             className="flex flex-col"
           >
-            <h3 className="text-2xl font-bold mb-8">Envie-nos uma mensagem</h3>
+            <h3 className="text-2xl font-bold mb-2 bg-gradient-to-r from-[#C8935F] to-[#E0A878] bg-clip-text text-transparent">Envie-nos uma mensagem</h3>
             <form onSubmit={handleSubmit} className="space-y-4 flex flex-col flex-1">
               <div>
                 <Input
@@ -274,3 +275,4 @@ export default function Contact() {
     </section>
   )
 }
+
