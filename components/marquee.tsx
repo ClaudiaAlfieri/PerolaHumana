@@ -112,7 +112,7 @@ export default function Marquee() {
             className="flex items-center mx-4 shrink-0"
           >
             <span
-              className="text-7xl sm:text-8xl md:text-9xl font-bold text-transparent px-4"
+              className="text-7xl sm:text-8xl md:text-9xl font-bold  text-[#C8935F] text-transparent px-4"
               style={{
                 WebkitTextStroke: "1px rgb(156 163 175)",
               }}
