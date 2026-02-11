@@ -251,13 +251,36 @@ export default function Diseases() {
       <div className="container mx-auto px-4 sm:px-6">
         {/* Header Section */}
         <div className="text-center mb-12 max-w-4xl mx-auto">
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-2 bg-gradient-to-r from-[#C8935F] to-[#E0A878] bg-clip-text text-transparent">
-            Philosophy of Health & Disease
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-2 pb-1 bg-gradient-to-r from-[#C8935F] to-[#E0A878] bg-clip-text text-transparent">
+            DOENÇAS
           </h2>
             <div className="w-32 h-1 bg-gradient-to-r from-[#C8935F] to-[#E0A878] rounded-full mx-auto" />
+          <h3 className="text-1xl sm:text-1xl lg:text-2xl mb-2 mt-4 pb-1 bg-clip-text text-black">ACONSELHO REMÉDIOS QUE NÃO ENCONTRA NA FARMÁCIA</h3>
+          <h5 className="text-1xl sm:text-1xl lg:text-2xl mb-2 mt-4 pb-1 bg-clip-text text-black">CONSUMIR COM FREQUÊNCIA!</h5>
+          
           <div className="text-muted-foreground leading-relaxed space-y-4 mb-12 mt-5">
             <p>
-              Access to the unconscious requires understanding and insight. My goal is to simplify, allowing everyone to rescue forgotten knowledge.
+              O acesso ao inconsciente exige clareza, observação e consciência. O meu objetivo não é
+              complicar nem prometer soluções milagrosas, mas simplificar — ajudar cada pessoa a
+              reconhecer e reorganizar padrões internos que influenciam emoções, comportamentos e estados
+              físicos.
+              O corpo humano é um sistema complexo, regulado por sinais elétricos, químicos e
+              neurológicos. Apesar dos avanços da medicina, a interação entre mente, emoções e corpo ainda
+              não é totalmente compreendida. A ciência moderna, incluindo a física quântica, mostrou que a
+              realidade não é fixa nem isolada: tudo funciona através de interação, informação e relação.
+              A física quântica não afirma que pensamentos curam doenças, mas demonstra que o observador
+              influencia os sistemas e que nenhum processo ocorre de forma independente. Em termos
+              humanos, isso traduz-se no impacto real da perceção, da atenção e dos estados emocionais sobre
+              o funcionamento interno.
+              Grande parte dos nossos comportamentos resulta de condicionamentos inconscientes adquiridos
+              desde a infância. Abordagens como a Programação Neurolinguística mostram que esses padrões
+              podem ser identificados e reorganizados, promovendo maior autorregulação emocional.
+
+              O meu trabalho consiste em ajudar a ultrapassar crenças limitantes, explorar planos
+              inconscientes de forma consciente e restaurar coerência interna entre mente, emoções e corpo. A
+              transformação não depende apenas do intelecto, mas da perceção do próprio sistema interior.
+              Quando existe autorreflexão honesta e reconciliação interna, o organismo responde com
+              mais equilíbrio, resiliência e clareza emocional
             </p>
           </div>
         </div>
@@ -284,7 +307,7 @@ export default function Diseases() {
                   <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-[#C8935F] to-[#E0A878] flex items-center justify-center flex-shrink-0">
                     <Heart className="w-5 h-5 text-white" />
                   </div>
-                  <h4 className="text-xl sm:text-2xl font-bold">Health</h4>
+                  <h4 className="text-xl sm:text-2xl font-bold">PERDÃO O QUE É?</h4>
                 </div>
                 <div className="flex-shrink-0 ml-4">
                   {expandedCard === "philosophy" ? (
@@ -307,17 +330,17 @@ export default function Diseases() {
                   >
                     <div className="p-6 sm:p-8 space-y-4 text-muted-foreground">
                       <div className="leading-relaxed">
-                                              <strong className="block font-semibold text-foreground mb-2">
-                        Philosophy of Health
-                      </strong>
-                        Access to the unconscious requires understanding and insight. My goal is not to complicate or revolutionize, but to simplify allowing everyone to rescue forgotten knowledge. The human body, due to constant transformations and contradictions that not even medicine can fully explain, has been studied for millennia. Meanwhile, the human mind expands the power of technology finding truths or fragments of it beyond our planet. What seems like fiction today will become our reality tomorrow. Disease has always been a mystery before which great dreams lose strength and the world seems darker than it really is. Researchers seek to prove forces that act in our organism. They know that in blood vessels, properties similar to electricity flow (magnetic energy and vibration), which medicine calls the "Electric Nervous System" and increasingly admit that we are governed by this energy. Today, scientists already prove the Creative Force and other energies in laboratories. Limited by the lived density, human beings defined three visible dimensions, length, width and height, ignoring the mental dimension. NLP (Neuro-Linguistic Programming) teaches that we are victims of our own mental creation and that the brain can be reprogrammed to make the unconscious believe in this new program, because since childhood, we are influenced by the environment in which we live and reflect others' beliefs. I intend to show how to overcome these limiting beliefs and explore hidden dimensions (unconscious planes) to achieve emotional control. Regardless of your belief and culture, know that everything can be transformed with new choices, because healing does not come from intellectual capacity, but from the perception of one's own inner system. For our body to be free from these psychosomatizations, it is essential to practice sincere self-reflection and readjust our inner harmony. This requires understanding the origin of the conflicts we had with others and reconciling with ourselves.
-                      </div>
-                      <strong className="block font-semibold text-foreground mb-2 mt-4">
-                        FORGIVENESS WHAT IS IT?
-                      </strong>
-                      <p className="leading-relaxed">
-                        Truly forgiving is a matter of intelligence! It is an internal process that dissolves resentments, hurts and pains that bind the mind and heart to past situations, it is the way to prove to yourself that your negative emotions are under your control and that you know your own potential to conquer new paths and realities. Forgiving is an act of self-love. It is a conscious choice to leave the past in the past and live fully in the present. So, forgive, not for the other, but for yourself, free yourself from burdens! Forgive! Forgiving is an act of self-love. It is a conscious choice to leave the past in the past and live fully in the present. So, forgive. Not for the other, but for you.
-                      </p>
+                                             
+                       Perdoar verdadeiramente é uma questão de inteligência! É um processo interno que dissolve
+                      ressentimentos, mágoas e dores que prendem a mente e o coração a situações do passado, é a
+                      forma de provar a si mesmo que as suas emoções negativas estão sob o seu controle e que
+                      conhece o seu próprio potencial para conquistar novos caminhos e realidades. Perdoar é um
+                      ato de amor-próprio. É uma escolha consciente de deixar o passado no passado e viver
+                      plenamente o presente. Então, perdoe, não pelo outro, mas por si, liberte-se de fardos! Perdoe!                     
+                      </div>  
+                       <strong className="block font-semibold text-foreground mb-2">
+                         Quem não perdoa abandona a si mesmo.
+                      </strong>                                       
                     </div>
                   </motion.div>
                 )}
