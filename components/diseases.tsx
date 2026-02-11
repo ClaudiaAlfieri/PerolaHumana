@@ -255,10 +255,43 @@ export default function Diseases() {
             DOENÇAS
           </h2>
             <div className="w-32 h-1 bg-gradient-to-r from-[#C8935F] to-[#E0A878] rounded-full mx-auto" />
-          <h3 className="text-1xl sm:text-1xl lg:text-2xl mb-2 mt-4 pb-1 bg-clip-text text-black">ACONSELHO REMÉDIOS QUE NÃO ENCONTRA NA FARMÁCIA</h3>
+          <h4 className="text-1xl sm:text-1xl lg:text-2xl mb-2 mt-4 pb-1 bg-clip-text text-black">ACONSELHO REMÉDIOS QUE NÃO ENCONTRA NA FARMÁCIA</h4>
           <h5 className="text-1xl sm:text-1xl lg:text-2xl mb-2 mt-4 pb-1 bg-clip-text text-black">CONSUMIR COM FREQUÊNCIA!</h5>
           
+          {/* Tabela de Remédios */}
+        <div className="my-8 overflow-x-auto">
+          <table className="w-full border-collapse border border-gray-300 mx-auto max-w-3xl">
+            <tbody>
+              <tr>
+                <td className="border border-gray-300 p-3 text-left">JEJUM, É UM REMÉDIO</td>
+                <td className="border border-gray-300 p-3 text-left">AMAR, É UM REMÉDIO</td>
+              </tr>
+              <tr>
+                <td className="border border-gray-300 p-3 text-left">GRATIDÃO, É UM REMÉDIO</td>
+                <td className="border border-gray-300 p-3 text-left">PERDOAR, É UM REMÉDIO</td>
+              </tr>
+              <tr>
+                <td className="border border-gray-300 p-3 text-left">COMIDA DE VERDADE, É UM REMÉDIO</td>
+                <td className="border border-gray-300 p-3 text-left">COMER NA HORA CERTA, É UM REMÉDIO</td>
+              </tr>
+              <tr>
+                <td className="border border-gray-300 p-3 text-left">RIR, É UM REMÉDIO</td>
+                <td className="border border-gray-300 p-3 text-left">DANÇAR É UM REMÉDIO</td>
+              </tr>
+              <tr>
+                <td className="border border-gray-300 p-3 text-left">PENSAMENTO POSITIVO, É UM REMÉDIO</td>
+                <td className="border border-gray-300 p-3 text-left">MEDITAÇÃO, É UM REMÉDIO</td>
+              </tr>
+              <tr>
+                <td className="border border-gray-300 p-3 text-left">APANHAR SOL (com consciência), É UM REMÉDIO</td>
+                <td className="border border-gray-300 p-3 text-left">EXERCÍCIO FÍSICO, É UM REMÉDIO</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
           <div className="text-muted-foreground leading-relaxed space-y-4 mb-12 mt-5">
+             <h4 className="text-base sm:text-lg text-muted-foreground max-w-4xl mx-auto">INTRODUÇÃO À SAÚDE</h4>
             <p>
               O acesso ao inconsciente exige clareza, observação e consciência. O meu objetivo não é
               complicar nem prometer soluções milagrosas, mas simplificar — ajudar cada pessoa a
