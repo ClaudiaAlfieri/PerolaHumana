@@ -111,7 +111,46 @@ const diseasesData: LetterGroup[] = [
         ` },
     ]
   },
- 
+  {
+    letter: 'B',
+    count: 5,
+    diseases: [
+      {
+        name: 'Bactérias — Vermes — Vírus',
+        description: `Quando há harmonia com a energia da vida, a vitalidade flui naturalmente pelo corpo e pelo ambiente. Quando o equilíbrio interno é rompido, organismos como bactérias, vírus e fungos encontram condições para se desenvolver.
+
+        Pesquisas de Alexander Gurvich mostram que todas as células vivas emitem radiações — os raios mitogenéticos — que influenciam outras células ao redor. No corpo humano, doenças podem alterar essa emissão. A mente também influencia o comportamento desses organismos, podendo acelerar ou desacelerar seu desenvolvimento conforme o estado emocional e a convicção mental.
+
+        Os chamados “inimigos invisíveis” só encontram espaço quando há desarmonia interna. A energia do pensamento atua como um íman: vibrações geradas por crenças negativas ou autodestrutivas atraem desequilíbrios, enquanto pensamentos claros e tranquilos fortalecem a saúde e protegem o corpo.
+        `},
+      {
+        name: 'Baço',
+        description: `O baço regula células importantes do sistema imunológico, como leucócitos e hemácias. Ele reflete o equilíbrio entre diferentes tipos de energia interna, emocional e racional.
+
+        Quando há conflitos emocionais ou obsessão por eventos passados, a função do baço pode ser afetada, alterando a produção de células de defesa. Problemas de relacionamento ou carência afetiva na infância podem impactar simbolicamente esse órgão.
+
+        Para restaurar equilíbrio, é necessário autoconhecimento, perdão e atenção consciente ao próprio estado emocional. Exercícios de relaxamento, observação interna e mudança de atitude permitem maior harmonia física e mental, reforçando a proteção natural do corpo.
+        `},
+       {
+        name: 'Bexiga',
+        description: `A bexiga está ligada à capacidade de suportar tensões e emoções acumuladas. Guardar problemas e ressentimentos prolongados pode gerar alterações em seu funcionamento, refletindo sobrecarga emocional.
+
+        Reconhecer os limites pessoais, desapegar de eventos ou pessoas que provocam ansiedade e cultivar autocompaixão ajuda a restaurar a função adequada da bexiga. O equilíbrio emocional influencia diretamente a saúde física, e atitudes conscientes fortalecem a capacidade de lidar com situações difíceis sem sobrecarga.
+        `},
+       {
+        name: 'Boca',
+        description: `A boca expressa pensamentos e emoções. Palavras duras, críticas ou comentários negativos repercutem tanto na comunicação quanto no próprio corpo, manifestando-se como aftas, feridas ou herpes.
+
+        Observar sinceramente os próprios comportamentos e adotar uma comunicação mais gentil e consciente reduz tensões internas e externas. Pensamentos e palavras funcionam como energia que retorna ao emissor; disciplina e cuidado com a forma de falar ajudam a manter saúde física e emocional.
+        `},
+       {
+        name: 'Bronquite asmática nas crianças',
+        description: `Doenças em crianças frequentemente refletem tensões emocionais e padrões de comportamento de quem cuida delas. Conflitos internos de pais ou responsáveis podem se manifestar na saúde infantil através de somatização.
+
+        O equilíbrio emocional e a harmonia familiar são essenciais. Atitudes de cooperação, compreensão e gratidão contribuem para a saúde de todos. Pensamentos positivos e comportamentos equilibrados ajudam a reduzir manifestações físicas de tensão, enquanto disciplina emocional e oração ou meditação fortalecem o bem-estar coletivo.
+        `},      
+    ]
+  },
   {
     letter: 'E',
     count: 12,
