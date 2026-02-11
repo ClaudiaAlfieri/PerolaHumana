@@ -255,8 +255,8 @@ export default function Diseases() {
             DOENÇAS
           </h2>
             <div className="w-32 h-1 bg-gradient-to-r from-[#C8935F] to-[#E0A878] rounded-full mx-auto" />
-          <h4 className="text-1xl sm:text-1xl lg:text-2xl mb-2 mt-4 pb-1 bg-clip-text text-black">ACONSELHO REMÉDIOS QUE NÃO ENCONTRA NA FARMÁCIA</h4>
-          <h5 className="text-1xl sm:text-1xl lg:text-2xl mb-2 mt-4 pb-1 bg-clip-text text-black">CONSUMIR COM FREQUÊNCIA!</h5>
+          <h4 className="text-base sm:text-lg text-muted-foreground mt-4 mb-4 max-w-4xl mx-auto">ACONSELHO REMÉDIOS QUE NÃO ENCONTRA NA FARMÁCIA</h4>
+          <h5 className="text-base sm:text-lg text-muted-foreground max-w-4xl mx-auto">CONSUMIR COM FREQUÊNCIA!</h5>
           
           {/* Tabela de Remédios */}
         <div className="my-8 overflow-x-auto">
@@ -290,6 +290,70 @@ export default function Diseases() {
           </table>
         </div>
 
+        {/* Reprodutor de Meditação - Abaixo da Tabela */}
+        <div className="my-8 max-w-3xl mx-auto">
+          <div className="rounded-2xl bg-card/80 backdrop-blur-md border border-border/60 shadow-lg p-6">
+            <div className="flex items-center justify-between gap-4">
+              {/* Título da Meditação */}
+              <div className="flex items-center gap-3 flex-1">
+                <Sparkles className="w-5 h-5 text-[#C8935F]" />
+                <span className="text-[#C8935F] font-medium text-base sm:text-lg">
+                  Meditação: Cure as células doentes
+                </span>
+              </div>
+
+              {/* Botão de Play/Pause */}
+              <motion.button
+                onClick={toggleAudio}
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
+                className={`relative w-12 h-12 sm:w-14 sm:h-14 rounded-full bg-background border border-border shadow-sm flex items-center justify-center overflow-hidden group transition-all duration-300 flex-shrink-0 ${
+                  isPlaying ? "ring-2 ring-[#C8935F]/50" : "hover:border-[#C8935F]/50"
+                }`}
+              >
+                {/* Spinning Disk Effect */}
+                <div className="absolute inset-0 flex items-center justify-center">
+                  <span
+                    className={`text-3xl transition-transform duration-[3000ms] ease-linear ${
+                      isPlaying ? "animate-spin" : ""
+                    }`}
+                  >
+                    💿
+                  </span>
+                </div>
+
+                {/* Overlay Icon */}
+                <div className="absolute inset-0 flex items-center justify-center bg-black/10 hover:bg-black/20 transition-colors rounded-full">
+                  {isPlaying ? (
+                    <Pause className="w-5 h-5 text-white drop-shadow-md" fill="currentColor" />
+                  ) : (
+                    <Play className="w-5 h-5 text-white drop-shadow-md ml-0.5" fill="currentColor" />
+                  )}
+                </div>
+              </motion.button>
+            </div>
+
+            {/* Status de Reprodução */}
+            <AnimatePresence>
+              {isPlaying && (
+                <motion.div
+                  initial={{ opacity: 0, height: 0 }}
+                  animate={{ opacity: 1, height: "auto" }}
+                  exit={{ opacity: 0, height: 0 }}
+                  className="mt-4 text-sm font-medium text-[#C8935F] flex items-center gap-2 justify-center italic"
+                >
+                  <span className="relative flex h-2 w-2">
+                    <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#C8935F] opacity-75"></span>
+                    <span className="relative inline-flex rounded-full h-2 w-2 bg-[#C8935F]"></span>
+                  </span>
+                  Meditação Guiada Ativa
+                </motion.div>
+              )}
+            </AnimatePresence>
+          </div>
+        </div>
+
+      
           <div className="text-muted-foreground leading-relaxed space-y-4 mb-12 mt-5">
              <h4 className="text-base sm:text-lg text-muted-foreground max-w-4xl mx-auto">INTRODUÇÃO À SAÚDE</h4>
             <p>
@@ -414,7 +478,7 @@ export default function Diseases() {
                 <div className="flex items-center gap-4 pl-4 overflow-hidden flex-1">
                   <div className="flex items-center gap-2 text-[#C8935F] dark:text-[#C8935F] font-medium whitespace-nowrap">
                     <Sparkles className="w-4 h-4" />
-                    <span className="hidden sm:inline text-base">Prescription:</span>
+                    <span className="hidden sm:inline text-base">Meditação: Cure as células doentes</span>
                   </div>
                   <div className="h-8 relative overflow-hidden flex-1">
                     <AnimatePresence mode="wait">
