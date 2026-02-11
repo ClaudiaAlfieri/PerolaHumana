@@ -3,6 +3,7 @@
 import { motion, useMotionValue, useAnimationFrame, AnimatePresence, type PanInfo } from "framer-motion"
 import { Heart, Brain, Bone, Eye, Stethoscope, ChevronUp, ChevronDown, Droplet, Search, X, Play, Pause, Sparkles, Activity, Shield, Zap, Apple, Activity as HypertensionIcon, Brain as AlzheimerIcon, Bone as ArthritisIcon, Scale as ObesityIcon, Syringe, } from "lucide-react"
 import { useState, useEffect, useRef } from "react"
+import DiseasesAlphabetGrid from './ui/DiseasesAlphabetGrid'
 import React from "react"
 
 // --- Data ---
