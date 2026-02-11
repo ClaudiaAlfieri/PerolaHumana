@@ -279,9 +279,11 @@ export default function Diseases() {
               O meu trabalho consiste em ajudar a ultrapassar crenças limitantes, explorar planos
               inconscientes de forma consciente e restaurar coerência interna entre mente, emoções e corpo. A
               transformação não depende apenas do intelecto, mas da perceção do próprio sistema interior.
-              Quando existe autorreflexão honesta e reconciliação interna, o organismo responde com
-              mais equilíbrio, resiliência e clareza emocional
-            </p>
+              </p>
+              <strong> Quando existe autorreflexão honesta e reconciliação interna, o organismo responde com
+              mais equilíbrio, resiliência e clareza emociona</strong>
+             l
+            
           </div>
         </div>
 
