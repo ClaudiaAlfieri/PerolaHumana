@@ -664,13 +664,61 @@ const diseasesData: LetterGroup[] = [
     count: 6,
     diseases: [
       {
-        name: 'Eczema na cabeça',
-        description: 'Novamente  a sofrer de hipertensão.'
-      },  
+        name: 'Pele',
+        description: `A pele é a fronteira entre o mundo interior e exterior, um manto que protege a nossa individualidade. Alterações na pele — manchas, erupções, sensibilidade excessiva — podem refletir dificuldades em estabelecer limites ou sobrecarga emocional. Aprender a cuidar da pele simbolicamente é também aprender a cuidar da própria energia, definindo onde termina o eu e começa o mundo. A atenção e a gentileza consigo mesmo suavizam a percepção e fortalecem a própria proteção.
+        `},  
       {
-        name: 'Eczema na cabeça',
-        description: 'Novamente  a sofrer de hipertensão.'
-      },       
+        name: 'Pâncreas',
+        description: `O pâncreas desempenha uma função dupla vital: digere e transforma, regula e mantém o equilíbrio interno. Psicossomaticamente, quando a vida parece sem doçura, este órgão revela a dificuldade de metabolizar experiências “ácidas” e manter pensamentos doces. A pancreatite ou a diabetes podem simbolizar frustração acumulada, sensação de impotência ou crença de que os objetivos são inalcançáveis.
+
+        O caminho simbólico para restaurar o equilíbrio passa por: observar o que incomoda, analisar os acontecimentos de forma clara e agir com perseverança, transformando decepções em aprendizagem. A confiança no próprio esforço e a paciência diante das dificuldades ajudam a reconectar a doçura da vida, tanto interna como externamente.
+        `},
+      {
+        name: 'Papeira',
+        description: `A papeira indica sensibilidade extrema às críticas e tendência a sentir-se um estorvo ou vítima. Psicossomaticamente, sugere que a pessoa evita expressar-se plenamente por medo do julgamento alheio. A transformação acontece ao assumir responsabilidade sobre a própria vida: falar com clareza, agir com confiança, manter a postura erguida e os passos firmes.
+
+        A escuta atenta, seguida de resposta ponderada, fortalece a personalidade e permite que a expressão individual se alinhe à própria essência. Quem se coloca assim no mundo aprende a viver coerentemente com a sua natureza, sem se envergonhar de manifestar ideias ou desejos, abrindo caminho para crescimento pessoal e evolução.
+        `}, 
+      {
+        name: 'Pulsos',
+        description: `Os pulsos representam, simbolicamente, a nossa relação com frustração e pressão interna. A dor surge quando, apesar de sentirmos confiança nas nossas capacidades ou experiências, enfrentamos situações em que nos sentimos encurralados ou sem saída. É um reflexo das expectativas não cumpridas e do desejo interior de “acertar sempre”, um peso silencioso sobre a nossa energia.
+
+        Para aliviar estas tensões, é necessário acolher as mudanças que a vida propõe, sem que o ego impeça a adaptação. Os erros deixam de ser falhas quando se tornam lições; tornam-se pontes que fortalecem a nossa resiliência. Observar o percurso, analisar riscos e benefícios, e expressar sentimentos de forma consciente ajuda a restaurar a harmonia.
+
+        Cultivar flexibilidade, gratidão e tranquilidade fortalece os pulsos — e, simbolicamente, a capacidade de lidar com frustrações e desafios, permitindo que a energia flua livremente pelo corpo e pela consciência.
+        `}, 
+      {
+        name: 'Pernas',
+        description: `As pernas são, no plano físico e simbólico, os nossos pilares de movimento e caminho. Problemas nesta área podem refletir bloqueios internos ou conflitos que dificultam avançar na vida.
+
+        •	Coxas (parte superior): Ligadas ao passado, guardam traumas, mágoas e memórias que ainda influenciam decisões presentes. Dores ou lesões nesta região indicam emoções antigas não resolvidas, que pedem atenção e aceitação.
+        •	Pernas (parte inferior): Ligadas ao futuro, representam ação e movimento. Medo do desconhecido, insegurança ou ansiedade sobre o que está por vir podem manifestar-se em dores, entorses ou desequilíbrios.
+        •	Lado direito: Conflitos ou desafios relacionados com mulheres.
+        •	Lado esquerdo: Conflitos ou desafios relacionados com homens.
+
+        Ferimentos ou tensões nas pernas funcionam como alertas do inconsciente: indicam onde a nossa liberdade de ação ou progresso está bloqueada. Para restaurar harmonia e movimento, é essencial:
+
+        1.	Reconhecer e aceitar os próprios sentimentos.
+        2.	Tomar decisões conscientes sobre o caminho a seguir.
+        3.	Enfrentar medos sem depender excessivamente de apoio externo.
+        4.	Agir com coragem, mesmo diante da insegurança sobre o futuro.
+
+        Quando se trabalha estas emoções, o corpo e a mente reencontram ritmo e estabilidade, permitindo avançar com segurança, clareza e determinação, como se cada passo refletisse a integração entre experiência, coragem e presença consciente.
+        `}, 
+      {
+        name: 'Presbiopia e Arteriosclerose',
+        description: `A presbiopia manifesta-se com o avançar do tempo, quando o olhar físico começa a perder a facilidade de focar o que está próximo, como se a lente interior se tornasse menos flexível. É frequentemente associada à idade, mas, num plano mais subtil, pode simbolizar uma consciência que se projecta demasiado para a frente, inquieta com o que ainda não aconteceu, afastando-se do instante presente onde a vida realmente pulsa.
+
+        A dificuldade em ver ao perto pode espelhar uma mente absorvida por antecipações, tal como o viajante que, ao entardecer, em vez de contemplar a paisagem que o envolve, se angustia com a distância que ainda falta percorrer. Quando o pensamento se fixa apenas no que virá, o agora perde nitidez, como um objecto que se afasta do campo de visão.
+
+        Existe também uma dimensão de rigidez interior — não como julgamento, mas como convite à flexibilidade. Tal como o cristalino precisa de elasticidade para ajustar o foco, a mente beneficia de abertura para acolher novas perspectivas, ideias e experiências. A vida, quando observada com curiosidade em vez de resistência, mantém uma juventude silenciosa que não depende apenas dos anos, mas da forma como se sente o tempo a passar.
+
+        Nesta leitura simbólica, o corpo torna-se espelho de estados internos. O endurecimento das estruturas físicas pode ser visto como metáfora de um endurecimento emocional ou mental, enquanto a suavidade e a adaptabilidade recordam a importância de fluir com os ciclos naturais. Não se trata de culpa nem de causa directa, mas de correspondências poéticas entre interior e exterior — como se o organismo fosse um mapa vivo das nossas paisagens invisíveis.
+
+        Viver o presente com atenção é como ajustar o foco da consciência. Cada momento contém detalhes subtis, partículas de experiência que só se revelam quando realmente observadas. Libertar o peso do passado e reduzir o medo do futuro não é ignorar o tempo, mas habitá-lo com mais inteireza.
+
+        Sentir-se parte da natureza é reconhecer que envelhecer não significa perder luz, mas transformar-se. O olhar, quando se volta para o mundo com serenidade, descobre que o futuro é apenas uma extensão das escolhas e crenças cultivadas agora. Pensamentos tornam-se sementes; atitudes, terreno fértil. E a visão — física ou interior — expande-se quando o ser se permite observar a vida com confiança, leveza e presença.
+        `},              
     ]
   },
    {
