@@ -568,17 +568,96 @@ const diseasesData: LetterGroup[] = [
   },
    {
     letter: 'O',
-    count: 5,
+    count: 8,
     diseases: [
        {
-        name: 'Eczema na cabeça',
-        description: 'Novamente  a sofrer de hipertensão.'
-      },  
+        name: 'Obesidade / Gordura',
+        description: `O excesso de gordura corporal funciona, muitas vezes, como um casulo de proteção energética. Pessoas sensíveis ou que acumulam frustração, mágoa ou stress podem manifestar isso fisicamente como gordura localizada.
+
+        Do ponto de vista quântico, pensamentos e emoções repetidos moldam padrões de energia e metabolismo. O corpo materializa a tendência de proteger-se ou criar barreiras diante de ameaças percebidas, mesmo que sejam emocionais.
+
+        Para reverter esse padrão:
+
+        •	Alinha pensamentos, intenções e ações com objetivos de saúde e bem-estar.
+        •	Liberta expectativas irreais sobre os outros.
+        •	Transforme energia emocional negativa em movimento físico: exercício, respiração consciente e ação intencional.
+
+        O excesso de peso é tanto um reflexo de hábitos emocionais quanto físicos. Reprogramar o subconsciente, praticando foco em soluções e não problemas, altera a manifestação corporal.
+        `},  
       {
-        name: 'Eczema na cabeça',
-        description: 'Novamente  a sofrer de hipertensão.'
-      },       
-    ]
+        name: 'Ombros',
+        description: `Os ombros refletem a forma como carregas responsabilidades e tensões externas. Inflamações, bursites ou dor nessa região indicam sobrecarga emocional, conflito com autoridade ou pressões não reconhecidas.
+
+        Quando aceitas responsabilidades que não são tuas ou assumes culpa alheia, o corpo mantém músculos e articulações em estado de contração. Do ponto de vista quântico, isso significa que a energia mental e emocional está bloqueando o fluxo de ação e expressão natural.
+
+        Revisar prioridades, redistribuir responsabilidades e manter limites claros realinha o campo energético, aliviando a tensão muscular e permitindo ação consciente e produtiva. Ombros fortes e alinhados indicam congruência entre intenção, ação e percepção de valor próprio.
+        `},  
+       {
+        name: 'Olhos',
+        description: `A visão reflete diretamente como processamos o mundo e as experiências emocionais. Limitações visuais muitas vezes indicam emoções, traumas ou resistências inconscientes a perceber certas situações. O subconsciente retém informações de forma literal; mesmo após perdoar ou racionalizar, padrões antigos podem persistir e afetar a percepção.
+
+        Pensamentos repetidos e emoções não resolvidas alteram a atividade neural e a forma como o cérebro processa estímulos visuais. Ao criar segurança interna, reconhecer emoções e reduzir julgamentos e orgulho, o fluxo energético se reorganiza, permitindo enxergar com mais clareza.
+        `},
+       {
+        name: 'Olhos Vermelhos',
+        description: `Os olhos avermelhados podem surgir como um sinal físico de cansaço ou irritação, mas, numa leitura simbólica, também podem ser vistos como um reflexo de tensão interior diante daquilo que se observa no mundo à volta. É como se o olhar, sobrecarregado de estímulos e emoções não expressas, pedisse pausa e reconexão.
+
+        Quando a realidade exterior contraria expectativas ou valores pessoais, a percepção pode tornar-se mais sensível, quase inflamada, tal como um campo energético em desequilíbrio. Não se trata de rejeitar o mundo, mas de compreender que cada encontro humano é um espelho parcial — ninguém vê exactamente o mesmo universo, ainda que partilhe o mesmo espaço.
+
+        Aprender a aceitar momentos de recolhimento não é solidão vazia, mas intervalo fértil. O silêncio pode funcionar como um laboratório interior onde pensamentos assentam e emoções encontram forma. Tal como os olhos precisam de repouso para recuperar a nitidez, a consciência também necessita de pausas para reencontrar clareza.
+
+        A irritação, muitas vezes, nasce do desgaste invisível. O cansaço acumula-se como poeira sobre uma lente, alterando as cores do que se vê. Quando se limpa essa lente — através da compreensão, da paciência e do autoconhecimento — o cenário não muda necessariamente, mas a forma de o observar transforma-se.
+
+        Entrar em sintonia com os outros não significa concordar com tudo, mas reconhecer que cada pessoa carrega universos íntimos, crenças silenciosas e expectativas que raramente se revelam por completo. A empatia funciona como um ajuste fino da visão interior: amplia o campo de percepção e suaviza o contraste das diferenças.
+
+        Dentro de cada ser existe uma reserva discreta de serenidade, como uma nascente subterrânea que continua a fluir mesmo quando a superfície parece árida. Ao libertar ressentimentos e reduzir a resistência, o olhar torna-se menos pesado e mais translúcido. O mundo deixa de ser apenas algo que se enfrenta e passa a ser algo que se contempla.
+
+        Confiar no fluxo natural da vida é permitir que o tempo reorganize as experiências, tal como o corpo reorganiza a luz que entra pelos olhos. A felicidade não surge apenas como destino distante, mas como frequência que se sintoniza no presente — um estado que se activa quando o olhar deixa de lutar contra o cenário e começa a dialogar com ele.
+        `},
+       {
+        name: 'Ossos',
+        description: `Os ossos podem ser vistos, numa leitura simbólica, como a arquitectura silenciosa do ser — a estrutura que sustém o corpo tal como as convicções sustentam a personalidade. São a geometria interna que mantém a forma, o eixo invisível onde repousa o movimento. Quando se observa esta relação em linguagem metafórica, os ossos tornam-se imagem de firmeza interior, limites pessoais e capacidade de se manter de pé perante as forças externas.
+
+        Conflitos com figuras de autoridade, responsabilidades não aceites ou tensões prolongadas podem ser entendidos, neste plano poético, como pressões que procuram expressão. Não como causa directa de manifestações físicas, mas como espelhos simbólicos: a “quebra” exterior a representar, em narrativa interior, a sensação de ruptura ou desalinhamento. O corpo não acusa; comunica em silêncio, como um livro escrito em células e sensações.
+
+        Ossos fortes evocam estabilidade de identidade — não rigidez, mas consistência. Tal como uma ponte sólida precisa de flexibilidade para resistir ao vento, também a personalidade encontra força quando sabe adaptar-se sem perder a essência. A verdadeira firmeza não nasce do confronto constante, mas da clareza tranquila de quem conhece o próprio valor e dialoga sem necessidade de imposição.
+
+        A flexibilidade é a alquimia discreta entre ceder e afirmar. Quando a mente aceita que outras perspectivas podem ampliar o horizonte, a estrutura interior deixa de ser muro e transforma-se em coluna: sustém sem aprisionar. O equilíbrio entre humildade e autonomia cria uma ressonância harmoniosa, como se cada decisão fosse um ponto de apoio num campo maior de possibilidades.
+
+        Cuidar do espaço, das palavras e das atitudes é também cuidar da própria estrutura energética. A serenidade actua como um alinhamento invisível, semelhante a um eixo que se ajusta para que o movimento flua com menor atrito. Quando a pessoa se sente em paz com as próprias escolhas, a postura — física e interior — tende a reflectir confiança e estabilidade.
+        `},
+       {
+        name: 'Ossos Deformados',
+        description: `Nesta mesma linguagem simbólica, deformações podem ser vistas como metáforas de pressões acumuladas ou adaptações prolongadas a ambientes pouco flexíveis. Não como destino inevitável, mas como imagem de uma energia que, ao longo do tempo, se moldou em resposta às circunstâncias. Tal como um metal aquece e se curva, a experiência humana também deixa marcas subtis na forma como alguém se percebe e se posiciona no mundo.
+
+        O apego excessivo à segurança pode criar resistência à mudança, enquanto a abertura gradual permite novas configurações de identidade. A transformação não ocorre por negação do passado, mas por integração consciente — como quem redesenha uma rota sem destruir o mapa anterior. A mente, quando se liberta do medo constante, devolve leveza à percepção e espaço ao crescimento.
+
+        A natureza oferece um ritmo próprio de reorganização. Nada se altera de forma instantânea; tudo se ajusta em ciclos, tal como as marés que nunca são iguais e, ainda assim, obedecem a um padrão invisível. Confiar nesse fluxo é permitir que a estrutura interior encontre novas formas de se sustentar sem perder a integridade.
+
+        Pensamentos funcionam como forças subtis de orientação. Não são martelos que moldam a matéria, mas bússolas que influenciam direcções. Quando a consciência observa os próprios hábitos, ambientes e relações, começa a perceber que cada escolha é um pequeno vector num vasto campo de probabilidades. Libertar-se do medo da mudança é, em essência, ajustar o esqueleto invisível das crenças — e quando isso acontece, o corpo simbólico ganha espaço para respirar.
+        `},
+       {
+        name: 'Osteoporose',
+        description: `A osteoporose, no plano físico, está relacionada com a diminuição da densidade óssea e envolve factores biológicos, hormonais e nutricionais bem conhecidos. Numa leitura simbólica — poética, não literal — pode ser entendida como imagem de perda de sustentação interior ou de desgaste prolongado da vitalidade emocional. Não como causa directa, mas como metáfora de um estado em que a pessoa sente que o chão interno se tornou menos firme.
+
+        Quando a mente permanece demasiado tempo sob tensão ou desalento, a percepção da vida pode estreitar-se, como se o horizonte encolhesse. A consciência perde agilidade para se reinventar e o futuro parece pesado antes mesmo de acontecer. Neste enquadramento simbólico, abrir espaço para novas experiências funciona como arejar uma casa antiga: o ar não muda as paredes, mas transforma a atmosfera.
+
+        Práticas de silêncio interior — meditação, respiração consciente, contemplação — actuam como pausas regeneradoras. Não são fórmulas mágicas, mas momentos em que o ruído mental abranda e a atenção regressa ao corpo. A natureza, com o seu ritmo cíclico, recorda que tudo se reorganiza com o tempo: ossos, pensamentos, estações. A transformação não é um salto brusco, é uma sucessão de pequenos realinhamentos quase invisíveis.
+        `},
+       {
+        name: 'Ouvidos',
+        description: `Os ouvidos, mais do que órgãos de audição, podem ser vistos simbolicamente como portais de relação com o mundo. Escutar é permitir que algo entre; é um acto de abertura. Quando alguém se sente constantemente invadido por críticas, ruído emocional ou palavras que ferem, pode surgir a sensação íntima de saturação — como um campo sonoro que perdeu harmonia.
+
+        Nesta leitura metafórica, a dificuldade em “ouvir” representa por vezes o desejo profundo de silêncio, de fronteiras mais claras, de recuperação do espaço pessoal. Não significa que a mente provoque directamente alterações físicas, mas que o corpo e a emoção dialogam de forma subtil, como instrumentos numa mesma orquestra. Quando um toca em excesso, o outro tenta compensar.
+
+        Restabelecer equilíbrio passa muitas vezes por ajustar o volume interior: escolher melhor o que se escuta, criar intervalos de quietude, expressar limites com serenidade. O som não é apenas vibração externa; é também interpretação interna. Ao transformar a forma como se recebe o mundo sonoro — com mais consciência e menos reacção automática — o ouvido simbólico volta a abrir-se, não por obrigação, mas por escolha.
+
+        Escutar, no fundo, é um acto quântico no sentido mais poético da palavra: o observador altera a experiência ao modo como observa. O mesmo som pode ser ruído ou música dependendo do estado de quem o recebe. Quando a atenção se afina, o mundo não fica mais silencioso — torna-se mais compreensível, como se cada frequência encontrasse finalmente o seu lugar no vasto concerto da experiência humana.
+        
+        Observação
+        Antes de mais, aprenda a perdoar. Independentemente de quem o magoou — pai, mãe, companheiro, chefe ou qualquer outra pessoa —, escolha libertar-se. O perdão verdadeiro dissolve o conflito e cria espaço para que o coração e o corpo recuperem harmonia. Partilhar, com serenidade, uma parte da sua razão com quem o magoou não é submissão, mas integração da experiência. Quando o conflito se dissipa do coração, a energia do corpo circula com mais liberdade.
+        `},     
+       ] 
   },
    {
     letter: 'P',
