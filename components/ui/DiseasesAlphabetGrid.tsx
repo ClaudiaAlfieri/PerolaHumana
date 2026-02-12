@@ -726,13 +726,44 @@ const diseasesData: LetterGroup[] = [
     count: 4,
     diseases: [
         {
-        name: 'Eczema na cabeça',
-        description: 'Novamente  a sofrer de hipertensão.'
-      },  
+        name: 'Rejuvenescimento',
+        description: `O rejuvenescimento começa na forma como percebemos o tempo. Quando deixamos de nos preocupar com cada mês ou cada ano, as nossas células continuam a reproduzir-se naturalmente, mantendo a energia vital. Mas, quando vivemos contabilizando o tempo, tudo parece gerar cansaço e fragilidade, projetando para o corpo físico aquilo em que acreditamos.
+
+        A velhice, tal como o tempo, é uma construção da mente. O ser humano criou referências para compreender ciclos naturais — o movimento das estrelas, a alternância da noite e do dia — transformando observação em conceito, e conceito em normas sociais. Tempo e espaço não são realidades materiais absolutas, mas produtos da consciência. Quando nos aprisionamos a eles, a energia interior começa a enfraquecer, e o corpo reflete o peso de crenças limitantes.
+
+        A mente governa as células e influencia o fluxo da vitalidade. Quando a psicologia se cansa da luta ou teme o tempo a passar, as células parecem perder força. Libertar-se dessas ilusões significa perceber que o presente é a única dimensão onde a vida realmente se manifesta.
+        `},  
       {
-        name: 'Eczema na cabeça',
-        description: 'Novamente  a sofrer de hipertensão.'
-      },       
+        name: 'Rins',
+        description: `Os rins funcionam, simbolicamente, como filtros das emoções relacionadas com o futuro. Quem se sente inseguro e teme naufragar nas correntes da vida pode experienciar dores, tensões ou inflamações nesta região. O medo e a ansiedade acumulados retêm água, energia vital, e moldam experiências externas de forma simbólica.
+
+        Se acredita nas “pedras do caminho”, pode criar obstáculos internos que se refletem fisicamente. Quando sentimos que fomos prejudicados ou injustiçados, esquecemos que os outros também se defendem conforme a própria percepção de mundo. A nossa tensão mental e emocional atrai, muitas vezes, exatamente aquilo que mais tememos, mesmo quando parece que tudo está calmo.
+
+        O caminho para restaurar equilíbrio envolve:
+
+        •	Transformar pensamentos tensos em atitudes positivas e construtivas;
+        •	Observar comportamentos diários e reduzir lamentações e queixas;
+        •	Libertar-se de pessoas ou situações que alimentam negatividade, ou ajudá-las a transformar a própria consciência;
+        •	Confiar na vida e aceitar que o futuro se constrói a partir do presente, sem antecipar sofrimento ou dependência de reconhecimento externo.
+
+        Ao cuidar da mente e das emoções, os rins simbolicamente recuperam equilíbrio. A coragem de seguir os sonhos, sem medo do julgamento alheio, permite que a energia flua livre, reforçando vitalidade, confiança e alegria de viver.
+        `},    
+        {
+        name: 'Rosto Inflamado',
+        description: `O rosto é o espelho subtil do que sentimos e pensamos sobre o mundo à nossa volta. Inflamações, manchas ou espinhas podem surgir como reflexo de insatisfação, raiva ou mágoa, especialmente quando sentimos bloqueio ou limitação impostos por pessoas de autoridade. Cada tensão emocional acumulada deixa marcas visíveis, e o rosto traduz o ambiente interior de forma silenciosa.
+
+        Quando cultivamos pensamentos de compreensão, empatia e apreciação pelo comportamento alheio, mesmo diante de dificuldades, o rosto irradia suavidade, juventude e harmonia. As manifestações físicas — inclusive acidentes — tendem a ser moduladas pela energia emocional que nutrimos. O cuidado com a mente e com os sentimentos é, portanto, um cuidado direto com a expressão facial.
+        `},
+        {
+        name: 'Rugas',
+        description: `As rugas são histórias gravadas na pele: cada linha reflete uma crença, uma tensão ou um padrão emocional prolongado. Quanto mais nos fixamos no cansaço da vida ou no envelhecimento do mundo à nossa volta, mais marcas se formam. A beleza, no entanto, nasce da paz interior; a serenidade da alma projeta-se na pele e suaviza traços.
+
+        Emoções pesadas tensam os músculos do rosto sem que percebamos, criando linhas que só desaparecem com intervenção externa. A prática de suavizar sentimentos, cultivar amor profundo por pessoas, animais e natureza, e aprender a não transformar cada problema numa tragédia, fortalece a vitalidade do rosto e prolonga a aparência jovem.
+
+        A forma como vemos o mundo é decisiva: o mesmo acontecimento pode gerar desespero em uns e indiferença ou aprendizado em outros, conforme as imagens internas que criamos. Aprender a olhar com inocência e curiosidade — como uma criança ou como Jesus contemplando a beleza mesmo na decomposição — permite projetar no rosto leveza, alegria e harmonia.
+        
+        Ser adulto não implica endurecer o coração. A capacidade de encarar a vida com novos olhos, de ver beleza nas pequenas coisas e de responder ao mundo com sensibilidade equilibrada é um dom que mantém a expressão jovem, serena e conectada com a energia da vida.
+        `},   
     ]
   },
    {
