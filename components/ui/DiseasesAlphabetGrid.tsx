@@ -172,8 +172,7 @@ const diseasesData: LetterGroup[] = [
         description: `A queda de cabelo está associada a padrões de tensão emocional e defensiva, orgulho excessivo ou dificuldades em lidar com críticas. Também pode refletir sensibilidade extrema a atitudes alheias, gerando ressentimentos acumulados.
 
         Na perspectiva quântica, os padrões de energia emocional influenciam diretamente a vitalidade do corpo, incluindo o crescimento capilar. Posturas defensivas, raiva ou isolamento emocional intensificam esses efeitos. Trabalhar a autoestima, liberar ressentimentos e cultivar gratidão e aceitação ajuda a restaurar o equilíbrio e a saúde do couro cabeludo.
-        `},
-      
+        `},      
     ]
   },
   {
@@ -481,34 +480,77 @@ const diseasesData: LetterGroup[] = [
     },
    {
     letter: 'M',
-    count: 6,
+    count: 7,
     diseases: [
        {
-        name: 'Eczema na cabeça',
-        description: 'Novamente  a sofrer de hipertensão.'
-      },  
+        name: 'Mal-Estares em geral',
+        description: `Todo o sofrimento mental e emocional cria padrões de energia que afetam diretamente o corpo físico. Dores, inflamações, constipações ou fadiga não surgem ao acaso; são manifestações da interação entre o consciente, o inconsciente e o campo energético do corpo
+        `},  
       {
-        name: 'Eczema na cabeça',
-        description: 'Novamente  a sofrer de hipertensão.'
-      },       
+        name: 'Mamas / Seios',
+        description: `Problemas nos seios — como nódulos, mastite ou tumores — podem refletir desequilíbrios energéticos relacionados a figuras de referência masculina ou padrões de expectativa e controlo. Produção insuficiente de leite ou dores podem estar associadas a tensão emocional ou resistência interna a entregar e receber energia de forma fluida.
+
+        O campo quântico do corpo responde diretamente a emoções como ressentimento, frustração ou necessidade de controlo. Quando estas emoções se equilibram — por exemplo, aceitando a liberdade do outro, reconhecendo limites e ajustando expectativas — a energia flui melhor, reduzindo sintomas físicos. A cura é facilitada ao transformar padrões energéticos rígidos em flexibilidade emocional e autonomia.
+        `},       
        {
-        name: 'Eczema na cabeça',
-        description: 'Novamente  a sofrer de hipertensão.'
-      },
+        name: 'Manchas na pele',
+        description: `Manchas refletem desequilíbrios energéticos ligados à sensação de ameaça ou dificuldade de expressão. O corpo manifesta externamente o que o inconsciente não consegue comunicar internamente.
+
+        •	Manchas no rosto indicam bloqueios na comunicação e ansiedade sobre a própria imagem e espaço pessoal.
+        •	Manchas brancas nos braços podem sinalizar conflitos familiares ou sensação de não ser reconhecido.
+
+        Do ponto de vista quântico, a atenção consciente e a mudança de padrão mental — lidar com conflitos internos sem agressão, oferecer carinho verdadeiro e liberar ressentimentos — alteram o campo energético que se manifesta na pele, reduzindo ou eliminando manchas.
+        `},
        {
-        name: 'Eczema na cabeça',
-        description: 'Novamente  a sofrer de hipertensão.'
-      },
+        name: 'Mãos',
+        description: `As mãos refletem o potencial de ação e expressão. Ferimentos, tensões ou dificuldades de movimento indicam bloqueios energéticos ligados a experiências de vida, trabalho e relacionamentos.
+
+        A física quântica aplicada à saúde mostra que intenções repetitivas — pensamentos de frustração, raiva ou insegurança — afetam diretamente a energia dos músculos e articulações das mãos. Abrir as mãos simbolicamente e fisicamente, agir com intenção consciente e harmonizar movimentos, reorganiza o fluxo energético e reduz sintomas físicos. Ombros, braços e mãos respondem à ambição e aos conflitos internos, indicando quando é necessário realinhar prioridades e intenção de ação.
+        `},
        {
-        name: 'Eczema na cabeça',
-        description: 'Novamente  a sofrer de hipertensão.'
-      },
+        name: 'Medo',
+        description: `O medo é um padrão energético que bloqueia decisões e limita ações. Quando vives cheio de dúvidas ou indecisões, mesmo que chames isso de “cautela”, o teu campo energético vibra em baixa frequência, gerando tensão no corpo e dificuldades de ação.
+
+        •	Medo de falhar ou errar.
+        •	Medo de expressar sentimentos ou opiniões.
+        •	Medo do desconhecido, do futuro ou da solidão.
+        •	Medo de perder recursos, trabalho ou estabilidade.
+
+        No plano quântico, pensamentos repetitivos criam potenciais que se manifestam na realidade física como estresse, fadiga ou predisposição a doenças. Reconhecer o medo, em vez de negá-lo, altera imediatamente o padrão energético. Aceitar responsabilidades apenas sobre aquilo que te pertence reduz sobrecarga e libera energia para decisões conscientes.
+
+        Ao enfrentar o medo com intenção clara e ação consciente, o campo energético do corpo se reorganiza, abrindo novas possibilidades e soluções. O corpo e a mente seguem a mesma frequência; ao mudar a tua intenção, mudas também a manifestação física.
+        `},
        {
-        name: 'Eczema na cabeça',
-        description: 'Novamente  a sofrer de hipertensão.'
-      },
-    ]
-    
+        name: 'Miopia',
+        description: `A miopia é uma alteração física do eixo ocular, onde o olho foca melhor perto do que longe. A nível psicológico-energético, pessoas míopes tendem a restringir a percepção da realidade e a focar-se no imediato, evitando ampliar o campo de visão para o futuro ou situações complexas.
+
+        No modelo quântico, a mente cria filtros que limitam a atenção e a percepção de possibilidades externas. Resistir ao que escapa ao teu controle ou crença gera tensão e reforça o padrão físico da visão curta.
+
+        Observar com consciência, aceitar perspectivas diferentes e relaxar o julgamento permite que o sistema visual — físico e cognitivo — se alinhe com novos padrões de informação. Em termos energéticos, a flexibilidade mental pode reduzir a resistência e melhorar a adaptação a situações complexas.
+        `},
+       {
+        name: 'Músculos',
+        description: `Os músculos refletem diretamente o padrão de energia mental e emocional.
+
+        •	Flacidez muscular indica padrões de passividade, falta de motivação ou resistência interna à ação. O corpo reage à baixa energia mental transmitida pelo subconsciente.
+
+        •	Tensão ou rigidez excessiva revela resistência, medo de mudança ou inflexibilidade emocional. Mesmo sem esforço físico, o corpo sinaliza conflito entre intenção consciente e desejos internos.
+
+        Do ponto de vista quântico, cada pensamento repetido envia instruções ao corpo, moldando a expressão muscular e postural. Músculos fortes, flexíveis e equilibrados indicam congruência entre intenção mental, emoção e ação física.
+
+        Praticar consciência corporal, alinhar pensamentos com desejos reais e adotar ação deliberada reprograma o campo energético, permitindo que músculos e corpo físico respondam de forma saudável, ágil e vital.
+
+        MÚSCULOS DO PESCOÇO
+
+        A dor no pescoço reflete rigidez mental e padrões de pensamento fixos. Quando te apegas a ideias imutáveis ou à necessidade de controlar situações externas, os músculos do pescoço tendem a contrair-se, criando tensão física.
+
+        O perfeccionismo e a autocobrança reforçam este padrão: acordar com torcicolos muitas vezes não se deve à posição de dormir ou a um vento, mas à tensão acumulada.
+
+        Do ponto de vista quântico, pensamentos repetidos moldam padrões neurais e enviam sinais de contração ao corpo. Reconhecer essas ideias e libertar a rigidez mental altera imediatamente a frequência energética, permitindo relaxamento muscular.
+
+        Se sentires dor no pescoço, observa teus pensamentos recentes: houve conflitos, tentares controlar alguém ou agarrar-te a situações que já não servem? A dor é uma mensagem do corpo para reavaliar a tua postura mental e emocional.
+        `},       
+    ]    
   },
    {
     letter: 'N',
