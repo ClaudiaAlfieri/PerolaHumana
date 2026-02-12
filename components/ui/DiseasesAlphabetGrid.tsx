@@ -152,143 +152,254 @@ const diseasesData: LetterGroup[] = [
     ]
   },
   {
-    letter: 'E',
-    count: 12,
+    letter: 'C',
+    count: 3,
     diseases: [
       {
-        name: 'Eczema na cabeça',
-        description: 'Novamente, estamos a falar sobre problemas no alto da cabeça. O eczema pode significar desrespeito para com os superiores, que os cônjuges não se estão a entender e, também que, de alguma forma, a desrespeitar a Deus. A pessoa muito orgulhosa além de perder os cabelos ainda fica propensa à arteriosclerose como reflexo da inflexibilidade mental. Teimosa e de ego muito forte na sua personalidade, passa, também, a sofrer de hipertensão.'
-      },
+        name: 'Cabeça',
+        description: `A cabeça está ligada à razão, mas a lógica isolada não resolve tudo. Ignorar as emoções pode gerar desequilíbrios físicos ou acidentes envolvendo a cabeça. Pensamentos rígidos e conflitos familiares profundos podem se manifestar como problemas neurológicos, incluindo tumores.
+
+        Na perspectiva quântica, pensamentos e emoções influenciam diretamente os padrões de energia do corpo. Renovar ideias, perdoar e abrir espaço para perspectivas externas promove flexibilidade mental e harmonia interna, reduzindo tensões físicas e psicológicas. Desconfiança, revolta ou resistência podem criar desequilíbrios que se refletem no cérebro.
+        `},
       {
-        name: 'Eczema em criança',
-        description: 'Este problema numa criança significa que os pais estão a viver uma relação desarmónica na qual a mulher nutre revolta contra o marido. Deixe que as pessoas sejam elas mesmas. Alimente o seu coração apenas de amor, é inútil perder tempo com revoltas. Mentalize um mundo repleto de amor.'
-      },
-      // Adicione mais doenças
+        name: 'Cãibras',
+        description: `Cãibras indicam tensão muscular e medo de se soltar, geralmente relacionadas à sensação de controle externo ou à defesa de direitos pessoais. Elas refletem insegurança em avançar ou usar plenamente a própria experiência.
+
+        Do ponto de vista quântico, o corpo reage aos bloqueios emocionais mesmo que a mente consciente não perceba. Trabalhar essas tensões internamente, liberar medo de mudanças e relaxar a mente permite que o corpo recupere flexibilidade, prevenindo ou aliviando as cãibras.
+        `},
+      {
+        name: 'Calvície',
+        description: `A queda de cabelo está associada a padrões de tensão emocional e defensiva, orgulho excessivo ou dificuldades em lidar com críticas. Também pode refletir sensibilidade extrema a atitudes alheias, gerando ressentimentos acumulados.
+
+        Na perspectiva quântica, os padrões de energia emocional influenciam diretamente a vitalidade do corpo, incluindo o crescimento capilar. Posturas defensivas, raiva ou isolamento emocional intensificam esses efeitos. Trabalhar a autoestima, liberar ressentimentos e cultivar gratidão e aceitação ajuda a restaurar o equilíbrio e a saúde do couro cabeludo.
+        `},
+      
+    ]
+  },
+  {
+    letter: 'D',
+    count: 9,
+    diseases: [
+       {
+        name: '',
+        description: 'Novamente  a sofrer de hipertensão.'
+      },  
+      {
+        name: 'Eczema na cabeça',
+        description: 'Novamente  a sofrer de hipertensão.'
+      }, 
     ]
   },
   {
     letter: 'E',
-    count: 12,
+    count: 7,
     diseases: [
+       {
+        name: 'Eczema na cabeça',
+        description: 'Novamente  a sofrer de hipertensão.'
+      },  
       {
         name: 'Eczema na cabeça',
-        description: 'Novamente, estamos a falar sobre problemas no alto da cabeça. O eczema pode significar desrespeito para com os superiores, que os cônjuges não se estão a entender e, também que, de alguma forma, a desrespeitar a Deus. A pessoa muito orgulhosa além de perder os cabelos ainda fica propensa à arteriosclerose como reflexo da inflexibilidade mental. Teimosa e de ego muito forte na sua personalidade, passa, também, a sofrer de hipertensão.'
-      },
-      {
-        name: 'Eczema em criança',
-        description: 'Este problema numa criança significa que os pais estão a viver uma relação desarmónica na qual a mulher nutre revolta contra o marido. Deixe que as pessoas sejam elas mesmas. Alimente o seu coração apenas de amor, é inútil perder tempo com revoltas. Mentalize um mundo repleto de amor.'
-      },
-      // Adicione mais doenças
+        description: 'Novamente  a sofrer de hipertensão.'
+      }, 
     ]
   },
   {
-    letter: 'E',
-    count: 12,
+    letter: 'F',
+    count: 4,
     diseases: [
       {
         name: 'Eczema na cabeça',
-        description: 'Novamente, estamos a falar sobre problemas no alto da cabeça. O eczema pode significar desrespeito para com os superiores, que os cônjuges não se estão a entender e, também que, de alguma forma, a desrespeitar a Deus. A pessoa muito orgulhosa além de perder os cabelos ainda fica propensa à arteriosclerose como reflexo da inflexibilidade mental. Teimosa e de ego muito forte na sua personalidade, passa, também, a sofrer de hipertensão.'
-      },
+        description: 'Novamente  a sofrer de hipertensão.'
+      },  
       {
-        name: 'Eczema em criança',
-        description: 'Este problema numa criança significa que os pais estão a viver uma relação desarmónica na qual a mulher nutre revolta contra o marido. Deixe que as pessoas sejam elas mesmas. Alimente o seu coração apenas de amor, é inútil perder tempo com revoltas. Mentalize um mundo repleto de amor.'
-      },
-      // Adicione mais doenças
+        name: 'Eczema na cabeça',
+        description: 'Novamente  a sofrer de hipertensão.'
+      }, 
     ]
   },
   {
-    letter: 'E',
-    count: 12,
+    letter: 'G',
+    count: 4,
     diseases: [
+       {
+        name: 'Eczema na cabeça',
+        description: 'Novamente  a sofrer de hipertensão.'
+      },  
       {
         name: 'Eczema na cabeça',
-        description: 'Novamente, estamos a falar sobre problemas no alto da cabeça. O eczema pode significar desrespeito para com os superiores, que os cônjuges não se estão a entender e, também que, de alguma forma, a desrespeitar a Deus. A pessoa muito orgulhosa além de perder os cabelos ainda fica propensa à arteriosclerose como reflexo da inflexibilidade mental. Teimosa e de ego muito forte na sua personalidade, passa, também, a sofrer de hipertensão.'
-      },
-      {
-        name: 'Eczema em criança',
-        description: 'Este problema numa criança significa que os pais estão a viver uma relação desarmónica na qual a mulher nutre revolta contra o marido. Deixe que as pessoas sejam elas mesmas. Alimente o seu coração apenas de amor, é inútil perder tempo com revoltas. Mentalize um mundo repleto de amor.'
-      },
-      // Adicione mais doenças
+        description: 'Novamente  a sofrer de hipertensão.'
+      }, 
     ]
   },
   {
-    letter: 'E',
-    count: 12,
+    letter: 'H',
+    count: 6,
     diseases: [
       {
         name: 'Eczema na cabeça',
-        description: 'Novamente, estamos a falar sobre problemas no alto da cabeça. O eczema pode significar desrespeito para com os superiores, que os cônjuges não se estão a entender e, também que, de alguma forma, a desrespeitar a Deus. A pessoa muito orgulhosa além de perder os cabelos ainda fica propensa à arteriosclerose como reflexo da inflexibilidade mental. Teimosa e de ego muito forte na sua personalidade, passa, também, a sofrer de hipertensão.'
-      },
+        description: 'Novamente  a sofrer de hipertensão.'
+      },  
       {
-        name: 'Eczema em criança',
-        description: 'Este problema numa criança significa que os pais estão a viver uma relação desarmónica na qual a mulher nutre revolta contra o marido. Deixe que as pessoas sejam elas mesmas. Alimente o seu coração apenas de amor, é inútil perder tempo com revoltas. Mentalize um mundo repleto de amor.'
-      },
-      // Adicione mais doenças
+        name: 'Eczema na cabeça',
+        description: 'Novamente  a sofrer de hipertensão.'
+      }, 
     ]
   },
   {
-    letter: 'E',
-    count: 12,
+    letter: 'J',
+    count: 1,
     diseases: [
+        {
+        name: 'Eczema na cabeça',
+        description: 'Novamente  a sofrer de hipertensão.'
+      },  
       {
         name: 'Eczema na cabeça',
-        description: 'Novamente, estamos a falar sobre problemas no alto da cabeça. O eczema pode significar desrespeito para com os superiores, que os cônjuges não se estão a entender e, também que, de alguma forma, a desrespeitar a Deus. A pessoa muito orgulhosa além de perder os cabelos ainda fica propensa à arteriosclerose como reflexo da inflexibilidade mental. Teimosa e de ego muito forte na sua personalidade, passa, também, a sofrer de hipertensão.'
-      },
-      {
-        name: 'Eczema em criança',
-        description: 'Este problema numa criança significa que os pais estão a viver uma relação desarmónica na qual a mulher nutre revolta contra o marido. Deixe que as pessoas sejam elas mesmas. Alimente o seu coração apenas de amor, é inútil perder tempo com revoltas. Mentalize um mundo repleto de amor.'
-      },
-      // Adicione mais doenças
+        description: 'Novamente  a sofrer de hipertensão.'
+      }, 
     ]
   },
   {
-    letter: 'E',
-    count: 12,
+    letter: 'L',
+    count: 2,
     diseases: [
       {
         name: 'Eczema na cabeça',
-        description: 'Novamente, estamos a falar sobre problemas no alto da cabeça. O eczema pode significar desrespeito para com os superiores, que os cônjuges não se estão a entender e, também que, de alguma forma, a desrespeitar a Deus. A pessoa muito orgulhosa além de perder os cabelos ainda fica propensa à arteriosclerose como reflexo da inflexibilidade mental. Teimosa e de ego muito forte na sua personalidade, passa, também, a sofrer de hipertensão.'
-      },
+        description: 'Novamente  a sofrer de hipertensão.'
+      },  
       {
-        name: 'Eczema em criança',
-        description: 'Este problema numa criança significa que os pais estão a viver uma relação desarmónica na qual a mulher nutre revolta contra o marido. Deixe que as pessoas sejam elas mesmas. Alimente o seu coração apenas de amor, é inútil perder tempo com revoltas. Mentalize um mundo repleto de amor.'
-      },
-      // Adicione mais doenças
+        name: 'Eczema na cabeça',
+        description: 'Novamente  a sofrer de hipertensão.'
+      },      
     ]
   },
-  {
-    letter: 'E',
-    count: 12,
+   {
+    letter: 'M',
+    count: 6,
+    diseases: [
+       {
+        name: 'Eczema na cabeça',
+        description: 'Novamente  a sofrer de hipertensão.'
+      },  
+      {
+        name: 'Eczema na cabeça',
+        description: 'Novamente  a sofrer de hipertensão.'
+      },       
+    ]
+  },
+   {
+    letter: 'N',
+    count: 1,
+    diseases: [
+       {
+        name: 'Eczema na cabeça',
+        description: 'Novamente  a sofrer de hipertensão.'
+      },  
+      {
+        name: 'Eczema na cabeça',
+        description: 'Novamente  a sofrer de hipertensão.'
+      },      
+    ]
+  },
+   {
+    letter: 'O',
+    count: 5,
+    diseases: [
+       {
+        name: 'Eczema na cabeça',
+        description: 'Novamente  a sofrer de hipertensão.'
+      },  
+      {
+        name: 'Eczema na cabeça',
+        description: 'Novamente  a sofrer de hipertensão.'
+      },       
+    ]
+  },
+   {
+    letter: 'P',
+    count: 6,
     diseases: [
       {
         name: 'Eczema na cabeça',
-        description: 'Novamente, estamos a falar sobre problemas no alto da cabeça. O eczema pode significar desrespeito para com os superiores, que os cônjuges não se estão a entender e, também que, de alguma forma, a desrespeitar a Deus. A pessoa muito orgulhosa além de perder os cabelos ainda fica propensa à arteriosclerose como reflexo da inflexibilidade mental. Teimosa e de ego muito forte na sua personalidade, passa, também, a sofrer de hipertensão.'
-      },
+        description: 'Novamente  a sofrer de hipertensão.'
+      },  
       {
-        name: 'Eczema em criança',
-        description: 'Este problema numa criança significa que os pais estão a viver uma relação desarmónica na qual a mulher nutre revolta contra o marido. Deixe que as pessoas sejam elas mesmas. Alimente o seu coração apenas de amor, é inútil perder tempo com revoltas. Mentalize um mundo repleto de amor.'
-      },
-      // Adicione mais doenças
+        name: 'Eczema na cabeça',
+        description: 'Novamente  a sofrer de hipertensão.'
+      },       
     ]
   },
-  // Adicione mais letras...
-  { letter: 'B', count: 5, diseases: [] },
-  { letter: 'C', count: 16, diseases: [] },
-  { letter: 'D', count: 12, diseases: [] },
-  { letter: 'F', count: 4, diseases: [] },
-  { letter: 'G', count: 5, diseases: [] },
-  { letter: 'H', count: 5, diseases: [] },
-  { letter: 'I', count: 4, diseases: [] },
-  { letter: 'J', count: 1, diseases: [] },
-  { letter: 'L', count: 1, diseases: [] },
-  { letter: 'M', count: 9, diseases: [] },
-  { letter: 'N', count: 1, diseases: [] },
-  { letter: 'O', count: 8, diseases: [] },
-  { letter: 'P', count: 10, diseases: [] },
-  { letter: 'R', count: 4, diseases: [] },
-  { letter: 'S', count: 3, diseases: [] },
-  { letter: 'T', count: 5, diseases: [] },
-  { letter: 'U', count: 3, diseases: [] },
+   {
+    letter: 'R',
+    count: 4,
+    diseases: [
+        {
+        name: 'Eczema na cabeça',
+        description: 'Novamente  a sofrer de hipertensão.'
+      },  
+      {
+        name: 'Eczema na cabeça',
+        description: 'Novamente  a sofrer de hipertensão.'
+      },       
+    ]
+  },
+   {
+    letter: 'S',
+    count: 6,
+    diseases: [
+        {
+        name: 'Eczema na cabeça',
+        description: 'Novamente  a sofrer de hipertensão.'
+      },  
+      {
+        name: 'Eczema na cabeça',
+        description: 'Novamente  a sofrer de hipertensão.'
+      },      
+    ]
+  },
+   {
+    letter: 'T',
+    count: 5,
+    diseases: [
+    {
+        name: 'Eczema na cabeça',
+        description: 'Novamente  a sofrer de hipertensão.'
+      },  
+      {
+        name: 'Eczema na cabeça',
+        description: 'Novamente  a sofrer de hipertensão.'
+      },       
+    ]
+  },
+   {
+    letter: 'U',
+    count: 3,
+    diseases: [
+      {
+        name: 'Eczema na cabeça',
+        description: 'Novamente  a sofrer de hipertensão.'
+      },  
+      {
+        name: 'Eczema na cabeça',
+        description: 'Novamente  a sofrer de hipertensão.'
+      },       
+    ]
+  },
+   {
+    letter: 'V',
+    count: 6,
+    diseases: [
+      {
+        name: 'Eczema na cabeça',
+        description: 'Novamente  a sofrer de hipertensão.'
+      },  
+      {
+        name: 'Eczema na cabeça',
+        description: 'Novamente  a sofrer de hipertensão.'
+      },          
+    ]
+  },
 ];
 
 export default function DiseasesAlphabetGrid() {
