@@ -723,7 +723,7 @@ const diseasesData: LetterGroup[] = [
   },
    {
     letter: 'R',
-    count: 4,
+    count: 5,
     diseases: [
         {
         name: 'Rejuvenescimento',
@@ -761,23 +761,63 @@ const diseasesData: LetterGroup[] = [
         Emoções pesadas tensam os músculos do rosto sem que percebamos, criando linhas que só desaparecem com intervenção externa. A prática de suavizar sentimentos, cultivar amor profundo por pessoas, animais e natureza, e aprender a não transformar cada problema numa tragédia, fortalece a vitalidade do rosto e prolonga a aparência jovem.
 
         A forma como vemos o mundo é decisiva: o mesmo acontecimento pode gerar desespero em uns e indiferença ou aprendizado em outros, conforme as imagens internas que criamos. Aprender a olhar com inocência e curiosidade — como uma criança ou como Jesus contemplando a beleza mesmo na decomposição — permite projetar no rosto leveza, alegria e harmonia.
-        
+
         Ser adulto não implica endurecer o coração. A capacidade de encarar a vida com novos olhos, de ver beleza nas pequenas coisas e de responder ao mundo com sensibilidade equilibrada é um dom que mantém a expressão jovem, serena e conectada com a energia da vida.
-        `},   
+        `},  
+        {
+        name: 'Reumatismo no Sangue',
+        description: `O reumatismo no sangue simboliza tristeza profunda, frustração e ressentimentos acumulados. Surge de amarguras por falta de amor, por sentimentos de injustiça ou pela incapacidade de reagir alegremente às situações da vida. A cura começa ao reconhecer que o amor e a alegria são escolhas que se expandem para o ambiente ao nosso redor.
+
+        Quando um filho apresenta este sintoma, pode refletir emoções não expressas pelos pais, como insegurança ou sentimento de inferioridade. Muitas vezes, a pessoa reprime desejos e necessidades afetivas, assumindo o papel de vítima.
+
+        O caminho para equilíbrio inclui:
+
+        •	Expressar sentimentos e necessidades com clareza;
+        •	Assumir responsabilidade pela própria felicidade, sem culpa ou autoacusação;
+        •	Compreender a origem de medos ou padrões reprimidos, incluindo traumas do passado;
+        •	Desejar alegria e bem-estar em todos os lugares onde se encontra.
+
+        Ao agir assim, o coração transforma-se de um poço de ressentimentos num reservatório de amor e vitalidade. A vida responde com saúde, relacionamentos sinceros e presença genuína daqueles que valorizam a sua energia positiva.
+        `}, 
     ]
   },
    {
     letter: 'S',
-    count: 6,
+    count: 3,
     diseases: [
         {
-        name: 'Eczema na cabeça',
-        description: 'Novamente  a sofrer de hipertensão.'
-      },  
+        name: 'Sacro',
+        description: `O sacro simboliza a nossa relação com mudanças, hierarquia e poder pessoal. Problemas nesta região podem indicar dificuldade em aceitar transformações, perda de controlo sobre situações ou apego ao passado. Pessoas que resistem às novidades, teimosamente agarradas às velhas ideias, criam desestruturação emocional.
+
+        O mundo está em constante renovação, material e espiritual. A aceitação de novas ideias não significa abandonar princípios, mas aperfeiçoar a própria visão de vida. Soltar-se sem medo de perder controlo é permitir que os outros sigam o seu caminho, aprendendo e crescendo. Ao relaxar e viver a sua vida com intensidade consciente, aumenta o poder sobre si mesmo e fortalece a autonomia interior.
+        `},  
       {
-        name: 'Eczema na cabeça',
-        description: 'Novamente  a sofrer de hipertensão.'
-      },      
+        name: 'Sangue - Problemas Vários',
+        description: `O sangue é o fluxo da vida e simboliza alegria e vitalidade. Problemas como hemorragias podem refletir a perda de prazer ou satisfação. Quem vive contrariado, insatisfeito ou se anula para contornar imposições alheias, experimenta o desvanecer da alegria, que se manifesta física e simbolicamente no corpo.
+
+        Para restaurar o fluxo vital:
+
+        •	Expresse as suas emoções e afirme a própria autenticidade;
+        •	Realize pequenas ações que lhe tragam prazer diário;
+        •	Sorria genuinamente para si mesmo e para os outros;
+        •	Construa relações com pessoas que apreciem o seu jeito de ser.
+
+        Persistir em tentar mudar os outros ou depender do reconhecimento alheio conduz a frustração. Aceite com amor e doçura o que não pode controlar, aprendendo a focar na sua felicidade. Cada problema é oportunidade de aprendizado e autotransformação — tudo o que nos acontece é, de algum modo, atraído pelas nossas próprias crenças e padrões emocionais.
+        `},  
+       {
+        name: 'Sinusite / Rinite',
+        description: `A sinusite é um sinal de irritação mental e emocional, geralmente causada por alguém próximo que invade o seu espaço ou desafia a sua autonomia. Está ligada à rebeldia ou resistência mental, muitas vezes direcionada a figuras de autoridade, como pais, patrões ou outros superiores.
+
+        O nariz, símbolo de sensibilidade e intuição, reflete a capacidade de aceitar ou recusar situações e pessoas. Para curar a sinusite de forma definitiva, é necessário trabalhar a mente:
+
+        •	Reconhecer e valorizar o que recebeu de experiências passadas;
+        •	Aceitar com humildade as diferenças de opinião;
+        •	Tornar a mente dócil e receptiva, acolhendo conselhos ou orientações sem resistência;
+        •	Colocar em prática o conhecimento em benefício próprio e dos outros;
+        •	Admitir erros e limitações, cultivando aprendizado contínuo.
+
+        A sinusite é, portanto, mais do que uma inflamação física: é o reflexo da mente e do ego. Liberando resistência, preconceitos e orgulho, a respiração flui com facilidade e a paz interior é restaurada.
+        `},           
     ]
   },
    {
