@@ -263,7 +263,7 @@ const diseasesData: LetterGroup[] = [
   },
   {
     letter: 'E',
-    count: 7,
+    count: 11,
     diseases: [
        {
         name: 'Enjoos',
@@ -272,11 +272,11 @@ const diseasesData: LetterGroup[] = [
       {
         name: 'Enjoo no carro',
         description: `Enjoos no carro indicam desconforto com o destino ou com quem te acompanha. Experiências passadas e emoções não resolvidas podem intensificar essa reação. Observar sentimentos antes da viagem e respeitar limites pessoais ajuda a equilibrar corpo e mente.
-        `}
+        `},
        {
         name: 'Enjoo no mar',
         description: `Enjoos no mar refletem resistência a mudanças e instabilidade emocional. Contextos que geram medo, insegurança ou infelicidade podem manifestar-se fisicamente. Enfrentar receios e afirmar necessidades com autenticidade promove equilíbrio emocional e bem-estar corporal.
-        `}
+        `},
        {
         name: 'Enjoos na gravidez',
         description: `Durante a gravidez, corpo e emoções passam por transformações intensas. Náuseas podem indicar ansiedade, medo do futuro ou conflitos familiares não resolvidos. Buscar apoio emocional, aceitar inseguranças com compaixão e fortalecer vínculos positivos contribui para um estado mais tranquilo e equilibrado.
@@ -330,13 +330,33 @@ const diseasesData: LetterGroup[] = [
     count: 4,
     diseases: [
       {
-        name: 'Eczema na cabeça',
-        description: 'Novamente  a sofrer de hipertensão.'
-      },  
+        name: 'Fadiga',
+        description: `A fadiga muitas vezes indica falta de amor ou entusiasmo pelo que fazes. Trabalhar com prazer e propósito diminui o peso do cansaço físico. O corpo precisa de motivação e vontade do coração, não apenas de alimento.
+
+        Se te sentes esgotado, observa se a fonte está na forma como fazes o trabalho ou na falta de reconhecimento. Aceita os teus sentimentos e valoriza o que fazes. Trabalhar com amor, sem foco apenas na recompensa, torna tudo mais leve. Se necessário, procura ambientes onde teu talento seja valorizado.
+        `},  
       {
-        name: 'Eczema na cabeça',
-        description: 'Novamente  a sofrer de hipertensão.'
-      }, 
+        name: 'Febre',
+        description: `A febre reflete atrito emocional intenso, muitas vezes raiva contida. Nas crianças, pode indicar tensões familiares inconscientes.
+
+        Respira fundo, relaxa e confia na vida. Aceita opiniões diferentes sem perder tua essência. O equilíbrio surge ao manter calma diante da oposição, assumir responsabilidade pelos teus atos e não pelos dos outros.
+        `}, 
+       {
+        name: 'Fígado',
+        description: `O fígado processa, transforma e equilibra energias no corpo. Mágoas, raiva ou recusa de ajuda criam desgaste neste órgão.
+
+        A cura começa ao desenvolver humildade, flexibilidade e abertura ao amor. Soltar velhas dores e aceitar a leveza da vida reequilibra corpo e mente.
+        `},
+       {
+        name: 'Fraturas',
+        description: `Fraturas refletem rigidez interna, resistência a ceder ou conflitos com autoridade.
+
+        •	Braço direito: conflito com figuras femininas.
+        •	Braço esquerdo: conflito com figuras masculinas.
+        •	Sem ligação específica: conflito interno ou crenças limitantes.
+
+        Liberar ressentimentos, confiar em si e encarar obstáculos como degraus permite transformar fraturas em aprendizado e cura.
+        `},     
     ]
   },
   {
