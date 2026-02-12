@@ -442,13 +442,15 @@ const diseasesData: LetterGroup[] = [
     count: 1,
     diseases: [
         {
-        name: 'Eczema na cabeça',
-        description: 'Novamente  a sofrer de hipertensão.'
-      },  
-      {
-        name: 'Eczema na cabeça',
-        description: 'Novamente  a sofrer de hipertensão.'
-      }, 
+        name: 'Joelhos — versão quântica',
+        description: `Os joelhos funcionam como pivôs de equilíbrio entre passado e futuro, mediando a energia que flui das coxas (experiências passadas) para as pernas (ações futuras).
+
+        Dores, inflamações ou lesões podem refletir padrões mentais e emocionais rígidos: resistência a ceder, dificuldade em aceitar perspectivas diferentes ou abdicar da própria integridade cria campos de tensão que se manifestam fisicamente nos joelhos.
+
+        Do ponto de vista quântico, pensamentos repetitivos e emoções reprimidas geram padrões energéticos que influenciam diretamente a fisiologia. Quanto mais forte a crença na incapacidade de mudança ou no desrespeito próprio, maior a probabilidade de o corpo expressar esse bloqueio através de dor ou limitação de mobilidade.
+
+        A cura envolve reconfigurar esses campos internos: reconhecer emoções, ajustar expectativas, aceitar flexibilidade mental e agir de forma alinhada com os próprios valores altera a ressonância energética, reduzindo a manifestação física e restaurando mobilidade.
+        `},         
     ]
   },
   {
