@@ -364,13 +364,29 @@ const diseasesData: LetterGroup[] = [
     count: 4,
     diseases: [
        {
-        name: 'Eczema na cabeça',
-        description: 'Novamente  a sofrer de hipertensão.'
-      },  
+        name: 'Garganta',
+        description: `A garganta é o canal de expressão. Inflamações indicam sentimentos reprimidos, dificuldade em falar ou ser ouvido.
+
+        Aprender a expressar ideias, vontades e desconfortos sem medo liberta a energia bloqueada. Criar ambiente de autenticidade permite comunicação clara e saudável.
+        `},  
       {
-        name: 'Eczema na cabeça',
-        description: 'Novamente  a sofrer de hipertensão.'
-      }, 
+        name: 'Gastrite',
+        description: `A gastrite indica ansiedade, preocupações e sensação de falta de controle. O estômago reage mais às emoções do que à comida.
+
+        Pare de remoer dores antigas. Aceite erros como aprendizado. Confie no próprio caminho, solte tentativas de controlar pessoas ou situações, e permita pequenas mudanças de direção para restaurar equilíbrio.
+        `}, 
+       {
+        name: 'Glúteos',
+        description: `Os glúteos refletem o quanto assumimos nosso poder e limites. Fraqueza nessa região indica permitir que outros ultrapassem limites ou carregar fardos alheios.
+
+        Aprender a dizer “não”, assumir responsabilidades próprias e estabelecer metas pessoais fortalece tanto os glúteos quanto a postura perante a vida.
+        `},
+       {
+        name: 'Gordura / Obesidade',
+        description:`O excesso de peso muitas vezes simboliza proteção emocional ou busca de segurança. Pode refletir sensibilidade extrema, repressão de emoções e mágoas antigas.
+
+        Limpar pensamentos negativos, agir com autonomia, praticar exercícios e enviar mensagens positivas ao subconsciente ajuda a transformar gordura em energia vital. Não se prenda ao passado; concentre-se no presente e nas decisões que fortalecem tua vida.
+        `},      
     ]
   },
   {
