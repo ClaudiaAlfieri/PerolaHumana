@@ -557,13 +557,13 @@ const diseasesData: LetterGroup[] = [
     count: 1,
     diseases: [
        {
-        name: 'Eczema na cabeça',
-        description: 'Novamente  a sofrer de hipertensão.'
-      },  
-      {
-        name: 'Eczema na cabeça',
-        description: 'Novamente  a sofrer de hipertensão.'
-      },      
+        name: 'Nariz',
+        description: `Problemas no nariz estão ligados à percepção do “eu” e à interação com o meio. Traços de egocentrismo, necessidade de reconhecimento ou resistência a opiniões externas podem gerar tensão nessa região.
+
+        Distúrbios nasais — como rinite, pólipos ou hemorragias — indicam padrões energéticos de bloqueio, onde a circulação de atenção e foco para o mundo externo está comprometida. Do ponto de vista quântico, essas áreas refletem uma restrição na tua capacidade de absorver e processar experiências sociais e emocionais.
+
+        Hemorragias nasais podem sinalizar sobrecarga emocional ou pedidos inconscientes de atenção. Observar a comunicação e praticar empatia ativa reduz o padrão de tensão e restaura fluxo energético no corpo.
+        `},             
     ]
   },
    {
