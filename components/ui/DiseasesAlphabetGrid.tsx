@@ -178,16 +178,87 @@ const diseasesData: LetterGroup[] = [
   },
   {
     letter: 'D',
-    count: 9,
+    count: 11,
     diseases: [
        {
-        name: '',
-        description: 'Novamente  a sofrer de hipertensão.'
-      },  
+        name: 'Daltonismo',
+        description: `O daltonismo simboliza dificuldade em perceber ou aceitar a diversidade — de pessoas, experiências ou realidades. Pode indicar rigidez mental, resistência a conselhos e irritação com situações pequenas.
+
+        Do ponto de vista quântico, a mente influencia padrões energéticos que se refletem fisicamente. Cultivar harmonia, gentileza e compreensão reduz essas tensões internas e externas. Trabalhar hábitos mentais positivos permite perceber “todas as cores” da vida, promovendo equilíbrio emocional e físico.          
+        `},  
       {
-        name: 'Eczema na cabeça',
-        description: 'Novamente  a sofrer de hipertensão.'
-      }, 
+        name: 'Dedo Indicador',
+        description: ` Ferimentos no dedo indicador podem refletir acusações internas ou externas. O corpo responde a padrões de energia emocional relacionados a mágoas ou ressentimentos.
+
+        •	Dedo da mão direita: a tensão pode estar relacionada a uma mulher.
+        •	Dedo da mão esquerda: a tensão pode estar relacionada a um homem.
+
+        Na ótica quântica, a consciência influencia esses padrões energéticos; identificar e liberar ressentimentos ajuda a restaurar equilíbrio físico e emocional.
+        `}, 
+      {
+        name: 'Dedo Médio',
+        description: `Ferimentos no dedo médio estão ligados a tensões relacionadas à sexualidade e à autopercepção. Insatisfação, raiva ou sentimentos de rejeição, tanto em relação a parceiros quanto a si mesmo, podem se manifestar fisicamente neste dedo.
+
+        Reconhecer essas emoções e trabalhar a aceitação e a comunicação interna permite reorganizar a energia do corpo, promovendo equilíbrio e harmonia emocional.
+        `},
+      {
+        name: 'Dedo Anelar',
+        description: `O dedo anelar simboliza a união e parcerias afetivas. Lesões ou dores indicam inseguranças ou frustrações em relacionamentos, ou expectativas instáveis sobre futuras conexões afetivas.
+
+        A física quântica mostra que pensamentos e emoções moldam padrões energéticos; ajustar a perspectiva e trabalhar confiança e abertura emocional ajuda a reduzir manifestações físicas e mentais de tensão.
+        `},
+      {
+        name: 'Dedo Mindinho',
+        description: `O dedo mindinho representa a família e o ambiente familiar. Ferimentos neste dedo podem indicar:
+
+        •	Mágoas ou pressões em contextos familiares;
+        •	Conflitos ou aborrecimentos com pessoas próximas;
+        •	Medo de constituir família ou desejo de distanciamento.
+
+        Reconhecer esses sentimentos e liberar a tensão interna reorganiza a energia, prevenindo reflexos físicos de estresse emocional.
+        `},
+      {
+        name: 'Dedo Polegar',
+        description: `O polegar está ligado a preocupações intelectuais e profissionais. Lesões ou dores indicam desorganização mental ou emocional que afeta vida pessoal e relacionamentos.
+
+        Praticar relaxamento, avaliar o próprio comportamento e identificar desequilíbrios permite alinhar objetivos profissionais e vida pessoal. Ansiedade ou revolta podem se refletir fisicamente, até nos dedos de familiares, mostrando a influência da energia individual no ambiente. Caminhar com calma e humildade promove reorganização energética e bem-estar.
+        `},
+      {
+        name: 'Dedos dos Pés',
+        description: `Os dedos dos pés refletem preocupações sobre o futuro. Medos ou inquietações podem se manifestar como dores ou acidentes nesses dedos.
+
+        Interromper pensamentos negativos e cultivar tranquilidade reorganiza padrões energéticos do corpo. Expressar palavras e pensamentos positivos promove bem-estar, leveza interior e equilíbrio físico-emocional.
+        `},
+      {
+        name: 'Dentes',
+        description: `Problemas nos dentes refletem indecisões e conflitos internos. Crianças educadas sob pressão ou com opiniões constantemente anuladas desenvolvem padrões energéticos de dúvida e insegurança, que podem se manifestar fisicamente nos dentes — desalinhamento, fragilidade ou cáries.
+
+        Do ponto de vista quântico, pensamentos e emoções moldam o corpo. Seguir a intuição, reconhecer respostas da própria consciência e tomar decisões conscientes reorganiza padrões energéticos, reduzindo interferências externas e fortalecendo a autoconfiança.
+
+        Problemas de Canal
+
+        Alterações no canal dentário indicam tensões profundas relacionadas a mudanças inesperadas ou traumas emocionais. Inflamações refletem atritos internos e resistência à adaptação de crenças ou planos pessoais.
+
+        Ser paciente e flexível nos pensamentos, aceitar mudanças sem absolutizar antigas verdades e reorganizar padrões mentais e emocionais ajuda a restaurar equilíbrio físico e emocional.
+        `},
+       {
+        name: 'Derrame Cerebral',
+        description: `O derrame cerebral está ligado à rigidez mental e temperamento inflexível. Emoções intensas, críticas constantes e teimosia sobre convicções aumentam tensão cerebral.
+
+        Na ótica quântica, a flexibilidade mental influencia diretamente o fluxo energético no cérebro. Liberar a necessidade de ser “dono da verdade”, ouvir e comunicar-se com calma permite reorganizar esses padrões, reduzindo sobrecarga emocional e física.
+        `},
+       {
+        name: 'Diabetes',
+        description: `A diabetes pode refletir acúmulo de golpes emocionais e dificuldades em lidar com perdas ou frustrações. Mágoas não resolvidas alteram padrões energéticos relacionados à percepção do “doce” da vida, gerando insegurança e medo do futuro.
+
+        Reconhecer o papel criador da própria mente, perdoar sinceramente e liberar o passado reorganiza o fluxo energético, permitindo encontrar equilíbrio emocional e prazer na vida novamente. Pensamentos e atitudes positivas atraem experiências de bem-estar, promovendo saúde física e emocional.
+        `},
+       {
+        name: 'Dor (em geral)',
+        description: `A dor simboliza falta de amparo e sobrecarga emocional. É sinal de que há limites sendo ultrapassados, conflitos não resolvidos ou responsabilidades assumidas de forma excessiva.
+
+        Do ponto de vista quântico, a dor é uma manifestação do desalinhamento interno. Reconhecer sentimentos de culpa, delegar responsabilidades e respeitar o próprio tempo permite reorganizar padrões energéticos e reduzir tensões físicas. Aceitar-se, ter paciência e permitir evolução gradual restaura equilíbrio e bem-estar.
+        `},
     ]
   },
   {
