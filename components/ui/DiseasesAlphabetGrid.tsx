@@ -266,13 +266,63 @@ const diseasesData: LetterGroup[] = [
     count: 7,
     diseases: [
        {
-        name: 'Eczema na cabeça',
-        description: 'Novamente  a sofrer de hipertensão.'
-      },  
+        name: 'Enjoos',
+        description: `Os enjoos refletem desequilíbrios emocionais, ansiedade e sensação de perda de controle. Mudanças ou situações desconfortáveis podem gerar respostas físicas que se manifestam como náuseas. Reconhecer a origem emocional ajuda a restaurar o equilíbrio interno.
+      `},  
       {
-        name: 'Eczema na cabeça',
-        description: 'Novamente  a sofrer de hipertensão.'
-      }, 
+        name: 'Enjoo no carro',
+        description: `Enjoos no carro indicam desconforto com o destino ou com quem te acompanha. Experiências passadas e emoções não resolvidas podem intensificar essa reação. Observar sentimentos antes da viagem e respeitar limites pessoais ajuda a equilibrar corpo e mente.
+        `}
+       {
+        name: 'Enjoo no mar',
+        description: `Enjoos no mar refletem resistência a mudanças e instabilidade emocional. Contextos que geram medo, insegurança ou infelicidade podem manifestar-se fisicamente. Enfrentar receios e afirmar necessidades com autenticidade promove equilíbrio emocional e bem-estar corporal.
+        `}
+       {
+        name: 'Enjoos na gravidez',
+        description: `Durante a gravidez, corpo e emoções passam por transformações intensas. Náuseas podem indicar ansiedade, medo do futuro ou conflitos familiares não resolvidos. Buscar apoio emocional, aceitar inseguranças com compaixão e fortalecer vínculos positivos contribui para um estado mais tranquilo e equilibrado.
+        `},
+       {
+        name: 'Entorses',
+        description: `Entorses refletem rigidez interna, teimosia ou resistência a mudanças. São sinais do corpo pedindo pausa e reorganização dos pensamentos. Conectar-se com os próprios sentimentos e escolhas previne acidentes e promove equilíbrio físico e emocional.
+        `},
+       {
+        name: 'Epilepsia',
+        description: `A epilepsia envolve fatores neurológicos e emocionais. Além do acompanhamento médico, práticas de redução de stress, apoio psicológico e manutenção de hábitos equilibrados ajudam a regular os padrões energéticos que afetam o corpo. A espiritualidade, quando adequada, pode fortalecer a resiliência interior, mas deve ser usada com discernimento.
+        `},
+       {
+        name: 'Espinhas e Furúnculos',
+        description: `Problemas de pele refletem stress, frustrações, insegurança ou emoções reprimidas. A relação com o ambiente, autoimagem e hábitos emocionais influencia diretamente o corpo. Desenvolver autocuidado, compaixão, autoconhecimento e hábitos positivos reorganiza a energia emocional e melhora o bem-estar físico.
+        `},
+       {
+        name: 'Estafa',
+        description: `Estafa física ou mental indica sobrecarga emocional e dificuldade em impor limites. O desejo de corresponder às expectativas externas gera tensão interna. Priorizar autocuidado, aprender a delegar e reconhecer o próprio valor restabelece equilíbrio, melhora a energia vital e reduz impactos físicos do stress.
+        `},
+       {
+        name: 'Estética',
+        description: `A tua aparência reflete padrões mentais, emocionais e energéticos. Dores, flacidez, celulite ou desconfortos estéticos são sinais do corpo sobre desequilíbrios internos.
+
+        O cérebro atua como mediador entre consciente, inconsciente e subconsciente:
+
+        •	Consciente: governa decisões e livre-arbítrio.
+        •	Inconsciente: executa ordens do subconsciente, mantém funções automáticas do corpo e armazena hábitos repetidos.
+        •	Subconsciente: registra pensamentos, emoções e influências ambientais, transmitindo sinais ao inconsciente.
+
+        Os sintomas físicos surgem quando há desalinhamento entre estas camadas. Observar e compreender esses sinais reorganiza padrões energéticos e promove equilíbrio físico e emocional.
+        `},
+      {
+        name: 'Estrabismo',
+        description: `O estrabismo em crianças pode refletir conflitos emocionais ou desarmonia parental. Divergências extremas entre os pais projetam tensão no subconsciente da criança, interferindo no desenvolvimento ocular e na percepção de mundo.
+
+        A criança estrábica tende a desenvolver sensibilidade, inteligência elevada ou resistência emocional. Harmonizar o ambiente familiar permite que a criança canalize seu potencial de forma saudável.
+
+        Do ponto de vista quântico, pensamentos e emoções dos pais influenciam padrões energéticos do filho. A criança pode aprender a mediar situações, observar o mundo com análise e serenidade, e direcionar sua vida sem absorver negatividade externa.
+        `},
+      {
+        name: 'Estômago',
+        description: `Problemas no estômago refletem dificuldade em “digerir” emoções, críticas ou mudanças. Ansiedade, excesso de autoexigência ou mágoas acumuladas alteram padrões energéticos, gerando azia, dor ou má digestão.
+
+        Praticar aceitação, cultivar pensamentos leves, dialogar de forma gentil consigo mesmo e reservar momentos de prazer e descanso reorganiza energia interna, promovendo equilíbrio físico e emocional.
+        `},      
     ]
   },
   {
