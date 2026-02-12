@@ -458,15 +458,27 @@ const diseasesData: LetterGroup[] = [
     count: 2,
     diseases: [
       {
-        name: 'Eczema na cabeça',
-        description: 'Novamente  a sofrer de hipertensão.'
-      },  
+        name: 'Labirintite — versão quântica',
+        description: `A labirintite pode surgir quando a mente está sobrecarregada por pensamentos conflitantes, medo, nervosismo ou choques emocionais não processados. A sensação de vertigem ou desequilíbrio indica que o corpo está reagindo a um campo energético interno instável, resultado de padrões mentais que dificultam a orientação e a ação no presente.
+
+        Persistir em hábitos antigos ou tentar ignorar medos e emoções cria interferências na percepção física e no equilíbrio neurológico. A vertigem funciona como sinal quântico: o corpo reflete a desarmonia entre intenção (pensamento) e ação (corpo).
+
+        A intervenção passa por realinhar a atenção e a energia: processar emoções, priorizar a própria autenticidade, abandonar padrões que já não servem e tomar decisões conscientes. Isso altera a distribuição de energia interna, estabiliza o sistema vestibular e reduz os sintomas físicos, promovendo equilíbrio real no corpo e na mente.
+        `},  
       {
-        name: 'Eczema na cabeça',
-        description: 'Novamente  a sofrer de hipertensão.'
-      },      
-    ]
-  },
+        name: 'Leucemia',
+        description: `O sangue é um reflexo subtil da energia vital e das relações humanas. Segundo a medicina oriental, os glóbulos vermelhos representam o princípio yang — energia positiva e masculina — enquanto os glóbulos brancos correspondem ao princípio yin — energia negativa e feminina.
+
+        Quando ocorre leucemia — caracterizada pelo aumento excessivo de glóbulos brancos e desequilíbrio entre yin e yang — ou hemofilia — marcada por dificuldades de coagulação — estas doenças podem simbolizar desarmonia nas relações familiares ou emocionais. Muitas vezes, conflitos ocultos ou autoritarismo entre marido e mulher, mesmo que não manifestos, geram tensões que se refletem nos descendentes.
+
+        As crianças ou filhos que apresentam problemas sanguíneos, ainda que adultos, podem estar a manifestar inconscientemente tensões herdadas ou reproduzidas das experiências familiares. Pela lei do inconsciente, tendem a procurar parceiros semelhantes aos pais, criando uma “continuidade” de padrões emocionais, mas, com consciência, é possível romper este ciclo: mudando hábitos, crenças e atitudes, abre-se espaço para uma nova linha de pensamento, independente das antigas dinâmicas familiares.
+
+        O caminho para harmonia envolve reconhecer a natureza humana e cultivar respeito mútuo, liberdade e equilíbrio emocional. Autoritarismo e orgulho causam resistência, conflitos e desorganização, afetando saúde, felicidade e relações. Reconciliação, compreensão e empatia são ferramentas essenciais.
+
+        É importante refletir sobre a própria flexibilidade de opinião e conduta. Soltar ressentimentos, agradecer e desejar felicidade aos outros — mesmo àqueles que nos magoaram — permite que a energia flua e que o corpo recupere equilíbrio. Frequentemente, quem nos fere é precisamente quem mais tentamos controlar; libertando a necessidade de dominar, dissolvem-se as tensões e o universo responde com equilíbrio e compensação.
+        `},
+      ]   
+    },
    {
     letter: 'M',
     count: 6,
@@ -479,7 +491,24 @@ const diseasesData: LetterGroup[] = [
         name: 'Eczema na cabeça',
         description: 'Novamente  a sofrer de hipertensão.'
       },       
+       {
+        name: 'Eczema na cabeça',
+        description: 'Novamente  a sofrer de hipertensão.'
+      },
+       {
+        name: 'Eczema na cabeça',
+        description: 'Novamente  a sofrer de hipertensão.'
+      },
+       {
+        name: 'Eczema na cabeça',
+        description: 'Novamente  a sofrer de hipertensão.'
+      },
+       {
+        name: 'Eczema na cabeça',
+        description: 'Novamente  a sofrer de hipertensão.'
+      },
     ]
+    
   },
    {
     letter: 'N',
