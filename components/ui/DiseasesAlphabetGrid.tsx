@@ -783,7 +783,7 @@ const diseasesData: LetterGroup[] = [
   },
    {
     letter: 'S',
-    count: 3,
+    count: 4,
     diseases: [
         {
         name: 'Sacro',
@@ -817,7 +817,17 @@ const diseasesData: LetterGroup[] = [
         •	Admitir erros e limitações, cultivando aprendizado contínuo.
 
         A sinusite é, portanto, mais do que uma inflamação física: é o reflexo da mente e do ego. Liberando resistência, preconceitos e orgulho, a respiração flui com facilidade e a paz interior é restaurada.
-        `},           
+        `},     
+        {
+        name: 'SIDA  / AIDS',
+        description: `A SIDA, embora considerada incurável pela medicina convencional, pode ser entendida como uma doença de autopunição. Reflete uma pessoa que perdeu o amor-próprio e o respeito por si mesma, incapaz de reconhecer o seu valor, descontente com tudo e todos, insatisfeita profissional ou afetivamente, vivendo uma existência sem atenção a si própria. Esta condição simboliza a sensação de que a vida perdeu o sentido.
+
+        Muitas vezes, a pessoa recorre a comportamentos autodestrutivos — dormir pouco, usar drogas ou envolver-se em futilidades — tentando, inconscientemente, encontrar amor ou propósito através da rebeldia. A Natureza é harmoniosa e amorosa; para restaurar a saúde, é essencial reconectar-se consigo mesma e com o Universo, acolhendo a paz e afastando influências negativas.
+
+        A cura está ligada a atitudes concretas: amar-se, agir com segurança, cultivar pensamentos positivos, ajudar outras pessoas e perdoar-se. A sexualidade deve ser uma fonte de alegria e troca positiva, nunca de punição. O poder curativo da energia vital flui naturalmente pelo corpo; para utilizá-lo, é necessário otimismo, dinamismo e convicção.
+
+        Sugestões práticas incluem: buscar apoio de profissionais de desenvolvimento pessoal, neurolinguistas ou terapeutas, ler histórias de superação e conectar-se com pessoas positivas. A SIDA surge como alerta: não para destruir, mas para ensinar a corrigir comportamentos e escolhas de vida. Planeie o futuro, crie um ambiente saudável à sua volta e descubra as maravilhas da vida.
+        `},       
     ]
   },
    {
@@ -912,16 +922,40 @@ const diseasesData: LetterGroup[] = [
   },
    {
     letter: 'V',
-    count: 6,
+    count: 8,
     diseases: [
       {
-        name: 'Eczema na cabeça',
-        description: 'Novamente  a sofrer de hipertensão.'
-      },  
+        name: 'Vaginite',
+        description: `Relaciona-se com o amor e a intimidade. Reflete raiva, ressentimento ou insatisfação com o parceiro, ciúmes ou carência afetiva. Muitas vezes a inflamação é uma somatização de conflitos internos e não da higiene ou sexo. Para equilibrar: respire fundo, reflita sobre os seus sentimentos, ame-se acima de tudo, cultive gratidão e harmonia, e liberte mágoas. Fidelidade e carinho são frutos de mentes e corações alinhados, e não obrigações impostas.
+        `},  
       {
-        name: 'Eczema na cabeça',
-        description: 'Novamente  a sofrer de hipertensão.'
-      },          
+        name: 'Varizes',
+        description: `Simbolizam bloqueios no fluxo vital devido à sobrecarga, frustração ou insatisfação prolongada. Podem surgir quando a pessoa se sente obrigada a permanecer em situações ou lugares que não deseja, provocando raiva e ressentimento. Para equilibrar: liberte-se da culpa, aceite mudanças, confie na vida, escute o seu coração e planeie o futuro com alegria. Varizes são sinais de que é hora de reorganizar pensamentos e ações.
+        `}, 
+       {
+        name: 'Vértebras Cervicais',
+        description: `Representam suporte, clareza e flexibilidade mental. Problemas refletem sobrecarga, confusão, medo do ridículo, indecisão ou excesso de responsabilidades. Para equilibrar: seja flexível consigo mesmo, aceite limites e liberte-se do peso de “carregar” problemas alheios.
+        `},
+       {
+        name: 'Vértebras Torácicas',
+        description: `Relacionam-se com contrariedades e conflitos internos. Problemas aqui indicam culpa, medo de fracassar, resistência ao amor, sentimentos de inferioridade ou dificuldade em assumir responsabilidades. Para equilibrar: reflita sobre os seus desejos, aceite a imperfeição e liberte ressentimentos.
+        `},
+       {
+        name: 'Vértebras Lombares',
+        description: `Ligadas à indecisão, conflitos emocionais e questões financeiras. Problemas refletem resistência a mudanças, raiva consigo mesmo ou bloqueios sexuais e sentimentais. Para equilibrar: aceite a sua individualidade, liberte raiva e cultive confiança nas suas escolhas.
+        `},    
+       {
+        name: 'Verrugas',
+        description: `Simbolizam ódio acumulado e desconfiança em relação ao ambiente ou às pessoas. O seu significado depende da localização, indicando áreas de conflito, mágoa ou repressão emocional. Para equilibrar: substitua pensamentos negativos por amor, perdão e gratidão; liberte mágoas antigas e permita que a energia flua livremente.
+        `},
+       {
+        name: 'Vírus, Bactérias e Vermes',
+        description: `São influenciados pelo desequilíbrio energético. Radiações emitidas pelo corpo (segundo Gurvich) podem afetar organismos vivos. Para prevenir problemas: mantenha harmonia interior, pensamentos positivos e energia vital equilibrada; o que atrai vibrações negativas são emoções e crenças autodestrutivas.
+        `},
+       {
+        name: 'Vesícula Biliar',
+        description: `Regula a digestão e reflete equilíbrio emocional. Problemas surgem com raiva, ressentimentos ou sobrecarga perante autoridade, trabalho ou relações pessoais. Comer em excesso ou alimentos muito gordurosos pode agravar a situação, mas a raiz é emocional. Para equilibrar: liberte tensões, distribua responsabilidades, pratique gratidão, cuide de si com prazer e alegria, e aceite a cooperação dos outros.
+        `},     
     ]
   },
 ];
