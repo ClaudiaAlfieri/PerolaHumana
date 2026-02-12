@@ -394,13 +394,47 @@ const diseasesData: LetterGroup[] = [
     count: 6,
     diseases: [
       {
-        name: 'Eczema na cabeça',
-        description: 'Novamente  a sofrer de hipertensão.'
-      },  
+        name: 'Hemofilia',
+        description: `O sangue é um reflexo subtil da energia vital e das relações humanas. Segundo a medicina oriental, os glóbulos vermelhos representam o princípio yang — energia positiva e masculina — enquanto os glóbulos brancos correspondem ao princípio yin — energia negativa e feminina.
+
+        Quando ocorre leucemia — caracterizada pelo aumento excessivo de glóbulos brancos e desequilíbrio entre yin e yang — ou hemofilia — marcada por dificuldades de coagulação — estas doenças podem simbolizar desarmonia nas relações familiares ou emocionais. Muitas vezes, conflitos ocultos ou autoritarismo entre marido e mulher, mesmo que não manifestos, geram tensões que se refletem nos descendentes.
+
+        As crianças ou filhos que apresentam problemas sanguíneos, ainda que adultos, podem estar a manifestar inconscientemente tensões herdadas ou reproduzidas das experiências familiares. Pela lei do inconsciente, tendem a procurar parceiros semelhantes aos pais, criando uma “continuidade” de padrões emocionais, mas, com consciência, é possível romper este ciclo: mudando hábitos, crenças e atitudes, abre-se espaço para uma nova linha de pensamento, independente das antigas dinâmicas familiares.
+
+        O caminho para harmonia envolve reconhecer a natureza humana e cultivar respeito mútuo, liberdade e equilíbrio emocional. Autoritarismo e orgulho causam resistência, conflitos e desorganização, afetando saúde, felicidade e relações. Reconciliação, compreensão e empatia são ferramentas essenciais.
+
+        É importante refletir sobre a própria flexibilidade de opinião e conduta. Soltar ressentimentos, agradecer e desejar felicidade aos outros — mesmo àqueles que nos magoaram — permite que a energia flua e que o corpo recupere equilíbrio. Frequentemente, quem nos fere é precisamente quem mais tentamos controlar; libertando a necessidade de dominar, dissolvem-se as tensões e o universo responde com equilíbrio e compensação.
+        `},  
       {
-        name: 'Eczema na cabeça',
-        description: 'Novamente  a sofrer de hipertensão.'
-      }, 
+        name: 'Hepatite em crianças',
+        description: `A hepatite em crianças não surge apenas do corpo físico; muitas vezes reflete padrões emocionais presentes nos pais ou avós. Até os sete anos, a criança está mais sintonizada com a energia emocional da mãe; dos sete aos catorze, a influência do pai torna-se mais relevante.
+
+        No contexto quântico, isso pode ser interpretado como um campo de ressonância: a criança recebe, absorve e interage com a energia e emoções dominantes ao seu redor, influenciando seu sistema imunológico e fisiológico. Ao modificar conscientemente a tua postura emocional e reduzir tensões, alteras a ressonância energética que a criança recebe, contribuindo para que o seu organismo encontre um equilíbrio mais natural.
+        `}, 
+      {
+        name: 'Hérnia de disco',
+        description: `A hérnia de disco surge em situações de sobrecarga emocional, sensação de bloqueio e indecisão profunda. Fisicamente, a coluna transmite sustentação; energeticamente, ela reflete a capacidade de suportar e processar estímulos internos e externos.
+
+        Do ponto de vista quântico, os padrões mentais e emocionais funcionam como campos de probabilidade: pensamentos repetitivos de medo e desamparo aumentam a probabilidade de tensão física se manifestar como dor ou hérnia. Identificar essas tensões, buscar apoio e ajustar a tua postura mental pode alterar o “campo de possibilidades”, permitindo que a recuperação física acompanhe a reorganização emocional.
+        `}, 
+      {
+        name: 'Hipermetropia',
+        description: `A hipermetropia indica dificuldade em focar o presente, com tendência a viver mais no passado ou no futuro. O eixo curto do olho limita a percepção próxima, o que simbolicamente reflete uma incapacidade de lidar com detalhes imediatos.
+
+        Na perspectiva quântica, os olhos respondem à atenção e ao foco: direcionar a consciência para o presente, tomar decisões conscientes e desapegar de memórias ou expectativas externas altera a percepção visual e, em termos energéticos, reduz a tensão que mantém a hipermetropia ativa. O “campo de atenção” direciona não só a visão física, mas também os processos adaptativos do organismo.
+        `}, 
+      {
+        name: 'Hipertensão - Pressão alta',
+        description: `A hipertensão está associada à acumulação de tensões, padrões repetitivos de preocupação e necessidade de controle. Emoções não processadas criam um estado constante de ativação do sistema nervoso e do coração.
+
+        A física quântica sugere que o corpo reage a campos de energia mental e emocional: pensamentos rígidos e focados no futuro geram padrões de energia que se traduzem em pressão arterial elevada. Reduzir a antecipação de cenários futuros, praticar consciência corporal e soltar emoções retidas muda a “configuração energética” interna, promovendo relaxamento cardiovascular e equilíbrio físico.
+        `}, 
+        {
+        name: 'Hipoglicemia',
+        description: `A hipoglicemia indica sensibilidade e tendência a ceder perante pressões externas, resultando em desgaste energético. Ao “ceder para agradar”, diminui-se a energia vital, refletida no baixo nível de glicose.
+
+        Em termos quânticos, a mente funciona como um emissor de campos de intenção: quando a pessoa não se preserva, o corpo responde diminuindo recursos energéticos para sinalizar o desequilíbrio. Reconhecer limites, manter integridade e criar espaço para necessidades próprias altera a ressonância interna, estabilizando os níveis de energia e glicose.
+        `},    
     ]
   },
   {
