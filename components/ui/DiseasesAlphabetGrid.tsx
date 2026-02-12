@@ -751,16 +751,74 @@ const diseasesData: LetterGroup[] = [
   },
    {
     letter: 'T',
-    count: 5,
+    count: 7,
     diseases: [
     {
-        name: 'Eczema na cabeça',
-        description: 'Novamente  a sofrer de hipertensão.'
-      },  
+        name: 'Tumefação e Inchaço na Região Acima dos Olhos',
+        description: `O inchaço na zona superior do olhar pode ser observado, num plano simbólico, como um convite à introspecção sobre tensões internas relacionadas com autoridade, responsabilidade ou expectativas externas. A parte superior da cabeça, onde repousa o olhar que se eleva, pode ser vista como território metafórico das figuras que, de algum modo, ocupam lugares de influência na nossa vida — não apenas pessoas, mas também ideias, crenças e padrões que consideramos “acima” de nós.
+
+        Quando existe resistência constante ou conflito silencioso perante essas presenças, o campo emocional tende a acumular peso, tal como nuvens densas antes de uma chuva libertadora. O corpo, nessa leitura poética, torna-se um mensageiro subtil, revelando onde a energia encontra rigidez em vez de fluxo. Não se trata de culpa nem de causalidade directa, mas de correspondência simbólica entre o que se sente e o que se manifesta.
+
+        Questionar a própria posição perante os outros pode ser um exercício de alinhamento interior. Nem submissão, nem imposição — apenas equilíbrio. A flexibilidade emocional funciona como a elasticidade de uma lente: quanto mais maleável, maior a capacidade de ajustar o foco às diferentes realidades. Quando a teimosia se dissolve em compreensão, o olhar adquire leveza, quase como o de uma criança que observa o mundo sem filtros pesados.
+
+        Um semblante inchado ou sombrio pode também sugerir cansaço emocional acumulado, tensões de relacionamento ou excesso de pensamentos não expressos. O rosto, nesse sentido, torna-se um espelho atmosférico do clima interior. Tal como o céu muda após a tempestade, a expressão transforma-se quando a emoção encontra espaço para se reorganizar.
+        `},  
       {
-        name: 'Eczema na cabeça',
-        description: 'Novamente  a sofrer de hipertensão.'
-      },       
+        name: 'Tumefação na Extremidade do Olho',
+        description: `Na linguagem simbólica da fisiognomia — uma tradição antiga que procura ler significados nas feições humanas — a extremidade do olho representa os vínculos afectivos e as dinâmicas de intimidade. Mais do que interpretações literais, trata-se de metáforas visuais sobre como as relações influenciam o modo como vemos e somos vistos.
+
+        Quando surge algum sinal nessa zona, pode ser entendido como um convite à harmonização dos laços emocionais, ao diálogo e à clareza afectiva. Não como destino inscrito no rosto, mas como poesia corporal: o organismo a recordar que ver o outro com nitidez começa, muitas vezes, por ajustar o foco dentro de si.
+        `},     
+       {
+        name: 'Terçol',
+        description: `O terçol indica raiva contida ou insatisfação com determinada situação. Muitas vezes surge quando se realiza algo que contraria os nossos desejos ou valores, mesmo que parecesse já resolvido. Evite guardar ressentimentos; as pessoas pensam e sentem de formas diferentes, e compreender estas diferenças é essencial. Utilize o seu livre-arbítrio: ele é responsável por todas as experiências da sua vida. Alegre-se por poder escolher o que o faz feliz e transformar a sua realidade interna.
+        `}, 
+       {
+        name: 'Tireóide',
+        description: `Problemas na tireóide refletem um estado psicológico de baixa autoestima, sensação de humilhação e perda de otimismo. A pessoa acredita não poder atingir a felicidade, nem realizar os seus desejos. A chave para a cura está na imaginação e na criação consciente: visualize-se a realizar o que mais ama e permita que essas sensações preencham o seu coração.
+
+        Lembre-se: ninguém pode retirar-lhe os seus pensamentos; somos livres desde o nascimento. Muitas vezes, tolhemos o nosso potencial por falta de prática em viver conscientemente. Para equilibrar a tireóide:
+
+        •	Cultive uma fisionomia alegre e positiva;
+        •	Pratique exercícios respiratórios, que fortalecem as glândulas;
+        •	Reconheça e transforme emoções negativas em aprendizado;
+        •	Permita que as coisas fluam naturalmente, fazendo o que o coração mandar;
+        •	Respeite-se e assuma-se como filho da Inteligência Superior, cultivando pensamentos nobres e saudáveis.
+        `},   
+       {
+        name: 'Tornozelos',
+        description: `Problemas nos tornozelos refletem dificuldade em avançar na vida com convicção. Entorses ou ligamentos rompidos surgem quando há bloqueio emocional ou resistência em agir. Tornozelos inchados indicam que pensamentos e decisões estão retidos por medo ou ira.
+
+        Para restaurar a harmonia:
+
+        •	Adote atitudes naturais e flexíveis;
+        •	Expresse sentimentos reprimidos com clareza;
+        •	Encontre equilíbrio nas relações e nos caminhos que escolhe seguir.
+        `}, 
+       {
+        name: 'Tosse',
+        description: `A tosse simboliza raiva ou frustração que “não sai da garganta”. Surge quando se vive uma situação injusta ou quando alguém provoca irritação constante, mas não se pode expressar abertamente. Pigarros e tosses incessantes refletem tensão emocional reprimida.
+
+        Práticas de libertação emocional incluem:
+
+        •	Relaxar e respirar profundamente;
+        •	Analisar calmamente a situação;
+        •	Expressar pensamentos e emoções sem medo;
+        •	Chorar ou falar quando necessário, libertando o corpo e a mente de tensões acumuladas.
+        `}, 
+       {
+        name: 'Tuberculose',
+        description: `A tuberculose revela uma mente sobrecarregada por preocupações e angústias, que se acumulam no peito e enfraquecem o corpo. Representa excesso de responsabilidade, tentativa de controlar tudo sozinho e crença de que o homem nasceu para sofrer.
+
+        Para restaurar equilíbrio:
+
+        •	Acredite na bondade e justiça de quem o criou;
+        •	Espiritualize os pensamentos, procurando dissolver crenças limitantes;
+        •	Use o livre-arbítrio para corrigir a sua conduta, e não a dos outros;
+        •	Desenvolva humildade e flexibilidade emocional, que são a solução para a maioria dos conflitos;
+        •	As mães influenciam profundamente os filhos até aos sete anos, e os pais dos sete aos catorze: cuide dos seus pensamentos para não transferir angústias ou medos;
+        •	Trabalhe com consciência para promover saúde própria e familiar.
+        `},     
     ]
   },
    {
