@@ -897,13 +897,17 @@ const diseasesData: LetterGroup[] = [
     count: 3,
     diseases: [
       {
-        name: 'Eczema na cabeça',
-        description: 'Novamente  a sofrer de hipertensão.'
-      },  
+        name: 'Úlcera',
+        description: `Surge de medos e inseguranças enraizados no inconsciente, muitas vezes originados na infância. Representa a resistência a confiar na vida e na própria capacidade. Para curar: pratique afirmações positivas diárias, cultive gratidão pelas coisas simples, harmonize-se antes de comer e liberte ressentimentos. Aceitar erros e abrir-se para novas experiências permite que a energia vital flua, promovendo cura e equilíbrio.
+        `},  
       {
-        name: 'Eczema na cabeça',
-        description: 'Novamente  a sofrer de hipertensão.'
-      },       
+        name: 'Unhas',
+        description: `As unhas simbolizam proteção e segurança. Roer unhas ou ter unhas encravadas reflete ressentimentos profundos, ansiedade e medo de não ser compreendido ou protegido. Para equilibrar: reconheça e liberte sentimentos de raiva ou mágoa, aceite seu espaço pessoal, confie na sua capacidade e pratique momentos de silêncio e introspeção para fortalecer a paz interior e a segurança emocional.
+        `},   
+      {
+        name: 'Útero',
+        description: `Representa criatividade, expressão da feminilidade e relações conjugais. Dores, nódulos, cistos ou atrasos menstruais indicam repressão, mágoas e ressentimentos, especialmente no relacionamento com o parceiro. Para equilibrar: liberte-se da raiva e mágoas acumuladas, perdoe, permita-se criar e expressar-se livremente. Honre os seus desejos e a sua feminilidade, usando a criatividade como canal de cura e conexão com a energia vital.
+        `},         
     ]
   },
    {
