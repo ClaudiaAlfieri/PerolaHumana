@@ -4,7 +4,7 @@ export function Footer() {
   const linkWithUnderline =
     "relative hover:text-foreground transition-colors duration-300 " +
     "after:absolute after:left-0 after:bottom-[-3px] after:h-[2px] after:w-0 after:bg-gradient-to-r " +
-    "after:from-emerald-500 after:to-teal-400 after:rounded-full after:transition-all after:duration-300 hover:after:w-full"
+    "after:from-[#C8935F] after:to-[#E0A878] after:rounded-full after:transition-all after:duration-300 hover:after:w-full"
 
   return (
     <footer className="border-t border-border bg-secondary/20 px-4 py-8">
@@ -12,17 +12,21 @@ export function Footer() {
         <div className="grid md:grid-cols-4 gap-8 mb-8">
           <div className="space-y-4">
             <div className="flex items-center gap-2">
-              <div className="w-8 h-8 rounded-full bg-primary flex items-center justify-center">
-                <span className="text-primary-foreground font-bold text-lg">V</span>
+              <div className="w-12 h-12 flex items-center gap-3">
+                <img 
+              src="/logo_nav.png" 
+              alt="Pérola Humana" 
+              className="h-14 sm:h-16 w-auto object-contain"
+                />
               </div>
-              <span className="font-semibold text-xl text-foreground">Pérola Humana</span>
+              <span className="font-semibold text-2xl text-foreground"  style={{ color: '#C8935F' }}>Pérola Humana</span>
             </div>
             <p className="text-sm text-muted-foreground leading-relaxed">
               A sua jornada rumo à saúde e bem-estar ideais.
             </p>
           </div>
 
-          <div>
+          <div className="ml-10">
             <h4 className="text-2xl font-semibold mb-2 bg-gradient-to-r from-[#C8935F] to-[#E0A878] bg-clip-text text-transparent mb-4">Navegue</h4>
             <ul className="space-y-2 text-sm text-muted-foreground">
               <li>
