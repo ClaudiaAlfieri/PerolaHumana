@@ -7,7 +7,6 @@ import { Moon, Sun, Menu, X } from "lucide-react"
 
 export function Header() {
   const [hidden, setHidden] = useState(false)
-  const [darkMode, setDarkMode] = useState(false)
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
   const { scrollY } = useScroll()
 
@@ -20,36 +19,6 @@ export function Header() {
   //   }
   // })
 
-  useEffect(() => {
-    const savedMode = localStorage.getItem("darkMode")
-    const isDark = savedMode === "true"
-    setDarkMode(isDark)
-    if (isDark) {
-      document.documentElement.classList.add("dark")
-    }
-  }, [])
-
-  useEffect(() => {
-    const handleResize = () => {
-      if (window.innerWidth >= 768) {
-        setMobileMenuOpen(false)
-      }
-    }
-    window.addEventListener("resize", handleResize)
-    return () => window.removeEventListener("resize", handleResize)
-  }, [])
-
-  const toggleDarkMode = () => {
-    const newMode = !darkMode
-    setDarkMode(newMode)
-    localStorage.setItem("darkMode", String(newMode))
-    if (newMode) {
-      document.documentElement.classList.add("dark")
-    } else {
-      document.documentElement.classList.remove("dark")
-    }
-  }
-
   const handleNavClick = () => {
     setMobileMenuOpen(false)
   }
@@ -58,7 +27,7 @@ export function Header() {
   const navLink =
     "relative text-sm font-medium text-muted-foreground hover:text-foreground transition-colors duration-300 " +
     "after:absolute after:left-0 after:bottom-[-3px] after:h-[2px] after:w-0 after:bg-gradient-to-r " +
-    "after:from-emerald-500 after:to-teal-400 after:rounded-full after:transition-all after:duration-300 hover:after:w-full"
+    "after:from-[#C8935F] after:to-[#E0A878] after:rounded-full after:transition-all after:duration-300 hover:after:w-full"
 
   const mobileNavLink =
     "block py-3 text-lg font-medium text-muted-foreground hover:text-foreground transition-colors duration-300"
@@ -124,26 +93,7 @@ export function Header() {
             {/* <Button variant="ghost" className="hidden sm:inline-flex border text-sm">
               Sign In
             </Button> */}
-            
-
-            <Button
-              variant="ghost"
-              size="icon"
-              onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-              className="md:hidden transition-transform duration-300 hover:scale-110"
-            >
-              {mobileMenuOpen ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
-            </Button>
-                        <Button
-              variant="ghost"
-              size="icon"
-              onClick={toggleDarkMode}
-              className="transition-transform duration-300 hover:scale-110"
-            >
-              <motion.div initial={false} animate={{ rotate: darkMode ? 180 : 0 }} transition={{ duration: 0.3 }}>
-                {darkMode ? <Sun className="h-5 w-5" /> : <Moon className="h-5 w-5" />}
-              </motion.div>
-            </Button>
+                      
           </div>
         </div>
       </div>
