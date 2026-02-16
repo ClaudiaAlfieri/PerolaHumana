@@ -33,8 +33,24 @@ const timelineData = [
 
 export default function Timeline() {
   return (
-    <section id="timeline" className="py-20 sm:py-24 lg:py-32 px-4 sm:px-6 bg-gradient-to-b from-background via-background/95 to-background">
-      <div className="container mx-auto max-w-7xl">
+    // Background without img
+    //  <section id="timeline" className="py-20 sm:py-24 lg:py-32 px-4 sm:px-6 bg-gradient-to-b from-background via-background/95 to-background"></section>
+
+    // Background with img
+    <section 
+      id="timeline" 
+      className="py-20 sm:py-24 lg:py-32 px-4 sm:px-6 relative"
+      style={{
+        backgroundImage: 'url(/backgroundSelfKnow.jpg)',
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundAttachment: 'fixed'
+      }}
+    >
+      {/* Overlay para melhorar legibilidade */}
+      <div className="absolute inset-0 bg-white/70"></div>
+      
+      <div className="container mx-auto max-w-7xl relative z-10">
         {timelineData.map((section, sectionIdx) => (
           <div key={sectionIdx}>
             {/* Título Principal */}
