@@ -41,8 +41,24 @@ export default function MissionSection() {
   const [expandedSection, setExpandedSection] = useState<number | null>(null)
 
   return (
-    <section id="mission" className="py-16 sm:py-20 lg:py-24 px-4 sm:px-6 bg-gradient-to-b from-background via-secondary/5 to-background">
-      <div className="container mx-auto max-w-6xl">
+    <section 
+      id="mission" 
+      className="py-16 sm:py-20 lg:py-24 px-4 sm:px-6 relative"
+      style={{
+        backgroundImage: 'url(/backgroundWhatWedo.jpeg)',
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundAttachment: 'fixed'
+      }}
+    >
+      {/* Background without img */}
+      {/* <section id="mission" className="py-16 sm:py-20 lg:py-24 px-4 sm:px-6 bg-gradient-to-b from-background via-secondary/5 to-background"></section> */}
+      
+      {/* Background with img */}
+      {/* Overlay para melhorar legibilidade */}
+      <div className="absolute inset-0 bg-white/60"></div>
+      
+      <div className="container mx-auto max-w-6xl relative z-10">
         {/* Header Section */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
