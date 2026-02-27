@@ -6,43 +6,43 @@ import { useState, useEffect } from "react"
 const quotes = [
   {
     text: "As mãos que ajudam são mais sagradas do que os lábios que rezam.",
-    author: "Madre Teresa de Calcutá"
+    // author: "Madre Teresa de Calcutá"
   },
   {
     text: "Por vezes sentimos que aquilo que fazemos é apenas uma gota no oceano, mas se não fosse essa gota o oceano seria menor.",
-    author: "Madre Teresa de Calcutá"
+  //   author: "Madre Teresa de Calcutá"
   },
   {
     text: "O mundo seria melhor se todos entendessem isto: Se puder ajudar os outros ajude, se não puder, ao menos não lhes faça mal.",
-    author: ""
+    // author: "Dalai Lama"
   },
   {
     text: "O universo só te dá aquilo que pensas, sentes e dizes ser digno de receber.",
-    author: "Madre Teresa de Calcutá"
+    // author: "Madre Teresa de Calcutá"
   },
   {
     text: "Não ames pela beleza pois um dia ela acaba.",
-    author: "Madre Teresa de Calcutá"
+    // author: "Madre Teresa de Calcutá"
   },
   {
     text: "Não ames por admiração pois um dia dececionas-te.",
-    author: "Madre Teresa de Calcutá"
+    // author: "Madre Teresa de Calcutá"
   },
    {
     text: "Ama apenas, pois o tempo nunca pode acabar com um amor sem explicação.",
-    author: "Madre Teresa de Calcutá"
+    // author: "Madre Teresa de Calcutá"
   },
   {
     text: "Quer fazer algo para promover a paz? Começa pela tua família.",
-    author: "Madre Teresa de Calcutá"
+    // author: "Madre Teresa de Calcutá"
   },
   {
     text: "A pobreza não foi criada por Deus, mas por mim e por ti quando não repartirmos o que temos.",
-    author: "Madre Teresa de Calcutá"
+    // author: "Madre Teresa de Calcutá"
   },
   {
     text: "O mundo seria melhor se todos entendessem isto: Se puder ajudar os outros ajude, se não puder, ao menos não lhes faça mal.",
-    author: ""
+    // author: "Dalai Lama"
   },
 ]
 
