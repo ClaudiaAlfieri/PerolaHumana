@@ -63,3 +63,12 @@
 .goog-te-spinner-pos {
   display: none !important;
 }
+
+html, body {
+  overflow-x: hidden;
+  max-width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
