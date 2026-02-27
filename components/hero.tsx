@@ -14,7 +14,7 @@ const quotes = [
   },
   {
     text: "O mundo seria melhor se todos entendessem isto: Se puder ajudar os outros ajude, se não puder, ao menos não lhes faça mal.",
-    author: "Dalai Lama"
+    author: ""
   },
   {
     text: "O universo só te dá aquilo que pensas, sentes e dizes ser digno de receber.",
@@ -42,7 +42,7 @@ const quotes = [
   },
   {
     text: "O mundo seria melhor se todos entendessem isto: Se puder ajudar os outros ajude, se não puder, ao menos não lhes faça mal.",
-    author: "Dalai Lama"
+    author: ""
   },
 ]
 
