@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Script from 'next/script'
 
 import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
@@ -33,6 +34,45 @@ export default function RootLayout({
           {children}
         </ThemeProvider>
         <Analytics />
+
+        {/* Google Translate Widget */}
+       <div id="google_translate_element" style={{ display: 'none' }} />
+        <Script id="google-translate-init" strategy="afterInteractive">{`
+          function googleTranslateElementInit() {
+            new google.translate.TranslateElement(
+              {
+                pageLanguage: 'pt',
+                includedLanguages: 'fr',
+                layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+              },
+              'google_translate_element'
+            );
+          }
+        `}</Script>
+        <Script
+          src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"
+          strategy="afterInteractive"
+        />
+
+        <Script id="google-translate-fix" strategy="afterInteractive">{`
+          function hideBanner() {
+            var banner = document.querySelector('.goog-te-banner-frame');
+            if (banner) {
+              banner.style.display = 'none';
+              banner.style.visibility = 'hidden';
+              banner.style.height = '0';
+            }
+            document.body.style.setProperty('top', '0px', 'important');
+            document.body.style.setProperty('margin-top', '0px', 'important');
+            document.documentElement.style.setProperty('top', '0px', 'important');
+          }
+
+          hideBanner();
+          setInterval(hideBanner, 300);
+
+          var observer = new MutationObserver(hideBanner);
+          observer.observe(document.body, { attributes: true, attributeFilter: ['style'] });
+        `}</Script>
       </body>
     </html>
   )
