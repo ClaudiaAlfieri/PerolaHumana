@@ -38,7 +38,7 @@ export default function Contact() {
       icon: Mail,
       label: "Email",
       value: "geral@perolahumana.org",
-      link: "mailto:geral@perolahumana.org",
+      link: "mailto:geral@perolahumana.org",      
       color: "text-blue-500",
     },
     {
