@@ -1,42 +1,75 @@
 "use client"
 
 import { motion, useScroll, AnimatePresence } from "framer-motion"
-import { useState, useEffect } from "react"
-import { Menu, X } from "lucide-react"
+import { useState, useEffect, useRef } from "react"
+import { Menu, X, ChevronDown } from "lucide-react"
+
+const languages = [
+  { code: 'pt', label: 'Português', googCode: null },
+  { code: 'fr', label: 'Français',  googCode: 'fr' },
+  { code: 'en', label: 'English',   googCode: 'en' },
+  { code: 'es', label: 'Español',   googCode: 'es' },
+  { code: 'ar', label: 'العربية',   googCode: 'ar' },
+]
 
 export function Header() {
   const [hidden, setHidden] = useState(false)
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
-  const [lang, setLang] = useState<'pt' | 'fr'>('pt')
+  const [langDropdownOpen, setLangDropdownOpen] = useState(false)
+  const [currentLang, setCurrentLang] = useState(languages[0])
   const [isTranslated, setIsTranslated] = useState(false)
   const [windowWidth, setWindowWidth] = useState<number | null>(null)
+  const dropdownRef = useRef<HTMLDivElement>(null)
   const { scrollY } = useScroll()
 
   useEffect(() => {
-    const cookie = document.cookie.includes('googtrans=/pt/fr')
-    setIsTranslated(cookie)
-    setLang(cookie ? 'fr' : 'pt')
+    // Detect current language from cookie
+    const cookie = document.cookie
+    const match = cookie.match(/googtrans=\/pt\/([a-z]+)/)
+    if (match) {
+      const found = languages.find(l => l.googCode === match[1])
+      if (found) { setCurrentLang(found); setIsTranslated(true) }
+    }
 
     setWindowWidth(window.innerWidth)
     const handleResize = () => setWindowWidth(window.innerWidth)
     window.addEventListener('resize', handleResize)
-    return () => window.removeEventListener('resize', handleResize)
+
+    // Close dropdown on outside click
+    const handleClick = (e: MouseEvent) => {
+      if (dropdownRef.current && !dropdownRef.current.contains(e.target as Node)) {
+        setLangDropdownOpen(false)
+      }
+    }
+    document.addEventListener('mousedown', handleClick)
+
+    return () => {
+      window.removeEventListener('resize', handleResize)
+      document.removeEventListener('mousedown', handleClick)
+    }
   }, [])
 
   const showDesktopNav = windowWidth !== null && windowWidth >= 1024
   const showHamburger = windowWidth !== null && windowWidth < 1024
   const isMobile = windowWidth !== null && windowWidth < 640
 
-  const switchLanguage = (targetLang: 'pt' | 'fr') => {
-    setLang(targetLang)
-    if (targetLang === 'pt') {
-      document.cookie = 'googtrans=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;'
-      document.cookie = 'googtrans=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/; domain=' + window.location.hostname
+  const switchLanguage = (lang: typeof languages[0]) => {
+    setCurrentLang(lang)
+    setLangDropdownOpen(false)
+    setMobileMenuOpen(false)
+
+    // Clear existing cookies
+    document.cookie = 'googtrans=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;'
+    document.cookie = 'googtrans=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/; domain=' + window.location.hostname
+
+    if (lang.googCode === null) {
+      // Back to Portuguese
       window.location.reload()
       return
     }
-    document.cookie = 'googtrans=/pt/fr; path=/'
-    document.cookie = 'googtrans=/pt/fr; path=/; domain=' + window.location.hostname
+
+    document.cookie = `googtrans=/pt/${lang.googCode}; path=/`
+    document.cookie = `googtrans=/pt/${lang.googCode}; path=/; domain=${window.location.hostname}`
     window.location.reload()
   }
 
@@ -50,6 +83,78 @@ export function Header() {
   const mobileNavLink =
     "block py-3 text-lg font-medium text-muted-foreground hover:text-foreground transition-colors duration-300 border-b border-border last:border-0"
 
+  const LangSwitcher = ({ mobile = false }: { mobile?: boolean }) => (
+    <div ref={!mobile ? dropdownRef : undefined} style={{ position: 'relative' }}>
+      <button
+        onClick={() => setLangDropdownOpen(!langDropdownOpen)}
+        style={{
+          display: 'flex',
+          alignItems: 'center',
+          gap: '6px',
+          padding: mobile ? '8px 12px' : '6px 12px',
+          fontSize: '14px',
+          fontWeight: 500,
+          borderRadius: '6px',
+          border: '1px solid #C8935F',
+          backgroundColor: 'transparent',
+          color: '#C8935F',
+          cursor: 'pointer',
+          width: mobile ? '100%' : 'auto',
+          justifyContent: mobile ? 'space-between' : 'flex-start',
+        }}
+      >
+        <span>{currentLang.label}</span>
+        <ChevronDown size={14} style={{ transition: 'transform 0.2s', transform: langDropdownOpen ? 'rotate(180deg)' : 'rotate(0deg)' }} />
+      </button>
+
+      <AnimatePresence>
+        {langDropdownOpen && (
+          <motion.div
+            initial={{ opacity: 0, y: -8 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: -8 }}
+            transition={{ duration: 0.15 }}
+            style={{
+              position: mobile ? 'relative' : 'absolute',
+              top: mobile ? '4px' : 'calc(100% + 4px)',
+              right: mobile ? 'auto' : 0,
+              width: mobile ? '100%' : '160px',
+              backgroundColor: 'rgba(250, 247, 242, 0.98)',
+              border: '1px solid #C8935F',
+              borderRadius: '8px',
+              boxShadow: '0 4px 16px rgba(0,0,0,0.1)',
+              overflow: 'hidden',
+              zIndex: 100,
+              marginTop: mobile ? '4px' : 0,
+            }}
+          >
+            {languages.map((lang) => (
+              <button
+                key={lang.code}
+                onClick={() => switchLanguage(lang)}
+                style={{
+                  display: 'block',
+                  width: '100%',
+                  padding: '10px 14px',
+                  textAlign: 'left',
+                  fontSize: '14px',
+                  fontWeight: lang.code === currentLang.code ? 600 : 400,
+                  backgroundColor: lang.code === currentLang.code ? '#C8935F15' : 'transparent',
+                  color: lang.code === currentLang.code ? '#C8935F' : '#555',
+                  border: 'none',
+                  cursor: 'pointer',
+                  borderBottom: '1px solid #f0ece6',
+                }}
+              >
+                {lang.label}
+              </button>
+            ))}
+          </motion.div>
+        )}
+      </AnimatePresence>
+    </div>
+  )
+
   return (
     <motion.header
       variants={{ visible: { y: 0 }, hidden: { y: "-100%" } }}
@@ -62,78 +167,62 @@ export function Header() {
         transition: 'margin-top 0.3s ease',
       }}
     >
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-20">
+      <div style={{
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'space-between',
+        height: '80px',
+        padding: isMobile ? '0 18px' : '0 120px',
+        width: '100%',
+        boxSizing: 'border-box',
+      }}>
 
-          {/* Logo */}
-          <div className="flex items-center gap-2 flex-shrink-0">
-            <img src="/logo_nav.png" alt="Pérola Humana" className="h-16 w-auto object-contain" />
-           <span style={{ 
-            fontWeight: 600, 
-            fontSize: isMobile ? '0.85rem' : '1.1rem', 
-            color: '#C8935F', 
-            whiteSpace: 'nowrap' 
+        {/* Logo */}
+        <div style={{ display: 'flex', alignItems: 'center', gap: '10px', flexShrink: 0 }}>
+          <img src="/logo_nav.png" alt="Pérola Humana" style={{ height: showDesktopNav ? '56px' : '44px', width: 'auto', objectFit: 'contain', flexShrink: 0 }} />
+          <span style={{
+            fontWeight: 600,
+            fontSize: isMobile ? '0.85rem' : showDesktopNav ? '1.4rem' : '1.1rem',
+            color: '#C8935F',
+            whiteSpace: 'nowrap'
           }}>
             Pérola Humana
           </span>
-          </div>
-
-          {/* Desktop Navigation — só acima de 1024px */}
-          {showDesktopNav && (
-            <nav className="flex items-center gap-4 xl:gap-6 flex-1 justify-center px-4">
-              <a href="#hero" className={navLink}>Início</a>
-              <a href="#about" className={navLink}>Sobre Nós</a>
-              <a href="#mission" className={navLink}>O que fazemos</a>
-              <a href="#diseases" className={navLink}>Doenças</a>
-              <a href="#health-videos" className={navLink}>Saúde</a>
-              <a href="#timeline" className={navLink}>Autoconhecimento</a>
-              <a href="#book" className={navLink}>Livro</a>
-              <a href="#events" className={navLink}>Eventos</a>
-              <a href="#contact" className={navLink}>Contacto</a>
-            </nav>
-          )}
-
-          {/* Right side */}
-          <div className="flex items-center gap-3 flex-shrink-0">
-            {/* Botão PT / FR — sempre visível */}
-            <div className="flex items-center rounded-md overflow-hidden border" style={{ borderColor: '#C8935F' }}>
-              <button
-                onClick={() => switchLanguage('pt')}
-                className="px-3 py-1.5 text-sm font-medium transition-colors duration-200"
-                style={{
-                  backgroundColor: lang === 'pt' ? '#C8935F' : 'transparent',
-                  color: lang === 'pt' ? '#fff' : '#C8935F',
-                }}
-              >
-                PT
-              </button>
-              <div style={{ width: '1px', backgroundColor: '#C8935F', alignSelf: 'stretch' }} />
-              <button
-                onClick={() => switchLanguage('fr')}
-                className="px-3 py-1.5 text-sm font-medium transition-colors duration-200"
-                style={{
-                  backgroundColor: lang === 'fr' ? '#C8935F' : 'transparent',
-                  color: lang === 'fr' ? '#fff' : '#C8935F',
-                }}
-              >
-                FR
-              </button>
-            </div>
-
-            {/* Hamburger — abaixo de 1024px */}
-            {showHamburger && (
-              <button
-                className="p-2 rounded-md text-muted-foreground hover:text-foreground transition-colors"
-                onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-                aria-label="Menu"
-              >
-                {mobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
-              </button>
-            )}
-          </div>
-
-          <div id="google_translate_element" style={{ display: 'none' }} />
         </div>
+
+        {/* Desktop Navigation */}
+        {showDesktopNav && (
+          <nav style={{ display: 'flex', alignItems: 'center', gap: '20px', flex: 1, justifyContent: 'center', padding: '0 16px' }}>
+            <a href="#hero" className={navLink}>Início</a>
+            <a href="#about" className={navLink}>Sobre Nós</a>
+            <a href="#mission" className={navLink}>O que fazemos</a>
+            <a href="#diseases" className={navLink}>Doenças</a>
+            <a href="#health-videos" className={navLink}>Saúde</a>
+            <a href="#timeline" className={navLink}>Autoconhecimento</a>
+            <a href="#book" className={navLink}>Livro</a>
+            <a href="#events" className={navLink}>Eventos</a>
+            <a href="#contact" className={navLink}>Contacto</a>
+          </nav>
+        )}
+
+        {/* Right side */}
+        <div style={{ display: 'flex', alignItems: 'center', gap: '8px', flexShrink: 0 }}>
+          {/* Lang switcher — desktop/tablet */}
+          {!showHamburger && <LangSwitcher />}
+
+          {/* Hamburger */}
+          {showHamburger && (
+            <button
+              onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+              aria-label="Menu"
+              style={{ padding: '8px', background: 'none', border: 'none', cursor: 'pointer', display: 'flex', alignItems: 'center', color: '#666' }}
+            >
+              {mobileMenuOpen ? <X size={28} /> : <Menu size={28} />}
+            </button>
+          )}
+        </div>
+
+        <div id="google_translate_element" style={{ display: 'none' }} />
       </div>
 
       {/* Mobile/Tablet Menu */}
@@ -144,10 +233,9 @@ export function Header() {
             animate={{ opacity: 1, height: "auto" }}
             exit={{ opacity: 0, height: 0 }}
             transition={{ duration: 0.3, ease: "easeInOut" }}
-            className="border-t border-border overflow-hidden"
-            style={{ backgroundColor: 'rgba(250, 247, 242, 0.98)' }}
+            style={{ borderTop: '1px solid #e5e7eb', overflow: 'hidden', backgroundColor: 'rgba(250, 247, 242, 0.98)' }}
           >
-            <nav className="container mx-auto px-4 py-2">
+            <nav style={{ padding: '8px 16px' }}>
               <a href="#hero" onClick={handleNavClick} className={mobileNavLink}>Início</a>
               <a href="#about" onClick={handleNavClick} className={mobileNavLink}>Sobre Nós</a>
               <a href="#mission" onClick={handleNavClick} className={mobileNavLink}>O que fazemos</a>
@@ -157,6 +245,11 @@ export function Header() {
               <a href="#book" onClick={handleNavClick} className={mobileNavLink}>Livro</a>
               <a href="#events" onClick={handleNavClick} className={mobileNavLink}>Eventos</a>
               <a href="#contact" onClick={handleNavClick} className={mobileNavLink}>Contacto</a>
+
+              {/* Lang switcher no menu mobile */}
+              <div style={{ padding: '12px 0' }}>
+                <LangSwitcher mobile />
+              </div>
             </nav>
           </motion.div>
         )}
