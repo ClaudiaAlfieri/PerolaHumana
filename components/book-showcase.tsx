@@ -7,18 +7,19 @@ import { useState, useEffect, useRef } from "react"
 
 const books = [
   {
-    title: "The Path to Wellness",
-    subtitle: "A Manifesto for Holistic Health and Vitality",
+    title1: "O mistério do invisível",
+    title2: "A responsabilidade é toda tua",
+    subtitle: "Um convite ao despertar — para quem tem coragem de encarar a própria vida.",
     author: "Helena da Fonseca",
-    published: "2025",
+    published: "2026",
     pages: "328",
     rating: 4.9,
-    reviews: "8,547",
-    categories: ["Health", "Wellness", "Bestseller"],
+    reviews: "8.547",
+    categories: ["Saúde", "Bem-estar", "Autoconhecimento"],
     description1:
-      "In the fast-paced world of modern living, wellness isn't just a destination—it's a transformative journey. This is the story of resilience, vitality, and the relentless pursuit of holistic health in an age of constant change.",
+      "Um convite ao despertar: entre ciência, espiritualidade e comportamento humano, este livro questiona quem somos, o que escolhemos e quem conduz a nossa vida. Não promete conforto — promete clareza.",
     description2:
-      "Drawing from years of experience in integrative medicine and helping thousands achieve optimal wellness, Dr. Pérola Humana delivers a powerful manifesto rooted in evidence-based practices while honoring ancient wisdom and natural healing traditions.",
+      "Vivemos anestesiados, perdidos em rotinas automáticas. Este livro rasga esse véu e confronta a verdade esquecida: tudo o que vivemos é responsabilidade nossa. Um chamamento para acordar.",
   },
 ]
 
@@ -101,7 +102,7 @@ export default function BookShowcase() {
                 onDragEnd={handleDragEnd}
                 className="grid lg:grid-cols-2 items-center my-0 lg:gap-8"
               >
-                {/* Book Cover - Left Side */}
+                {/* Capa do Livro - Lado Esquerdo */}
                 <motion.div
                   initial={{ opacity: 0, x: -60 }}
                   animate={{ opacity: 1, x: 0 }}
@@ -114,68 +115,47 @@ export default function BookShowcase() {
                     className="relative group"
                     style={{ perspective: "1000px" }}
                   >
-                    {/* Glow effect */}
+                    {/* Efeito de brilho */}
                     <div className="absolute inset-0 bg-gradient-to-br from-emerald-500/20 via-teal-500/20 to-cyan-500/20 rounded-2xl blur-3xl group-hover:blur-2xl transition-all duration-500" />
 
-                    {/* Book mockup with realistic 3D effect */}
-                    <div className="relative w-72 h-[28rem] bg-gradient-to-br from-slate-800 via-slate-700 to-slate-900 dark:from-slate-900 dark:via-slate-800 dark:to-slate-950 rounded-2xl shadow-2xl overflow-hidden border-4 border-slate-600/50 dark:border-slate-700/50">
-                      {/* Book cover design with ornate pattern */}
-                      <div className="absolute inset-0 bg-gradient-to-br from-emerald-950 via-teal-950 to-cyan-950 dark:from-emerald-950/80 dark:via-teal-950/80 dark:to-cyan-950/80 p-8 flex flex-col justify-between">
-                        {/* Decorative border */}
-                        <div className="absolute inset-4 border-4 border-amber-400/60 rounded-xl" />
-                        <div className="absolute inset-6 border-2 border-amber-400/40 rounded-lg" />
-
-                        {/* Title and content */}
-                        <div className="relative z-10 text-center space-y-4 mt-12">
-                          <h3 className="text-4xl font-bold text-amber-400 leading-tight text-balance">
-                            {currentBook.title}
-                          </h3>
-                          <p className="text-amber-300/80 italic text-base">
-                            {currentBook.subtitle.split(" ").join(" ")}
-                          </p>
-                        </div>
-
-                        <div className="relative z-10 text-center space-y-2">
-                          <p className="text-amber-400/90 text-sm italic">by</p>
-                          <p className="text-amber-300 font-semibold text-xl italic">{currentBook.author}</p>
-                        </div>
-                      </div>
-
-                      {/* Page effect on the right edge */}
-                      <div className="absolute right-0 top-2 bottom-2 bg-white/90 shadow-inner w-2 leading-7 tracking-normal" />
+                    {/* Imagem da capa */}
+                    <div className="relative w-72 h-[28rem] rounded-2xl shadow-2xl overflow-hidden border-4 border-slate-600/50">
+                      <img
+                        src="/Capa_livro.jpeg"
+                        alt="Capa do livro"
+                        className="w-full h-full object-cover"
+                      />
                     </div>
 
-                    {/* Shadow */}
+                    {/* Sombra */}
                     <div className="absolute -bottom-6 left-8 right-8 h-10 bg-black/40 blur-2xl rounded-full" />
                   </motion.div>
                 </motion.div>
 
-                {/* Book Details - Right Side */}
+                {/* Detalhes do Livro - Lado Direito */}
                 <motion.div
                   initial={{ opacity: 0, x: 60 }}
                   animate={{ opacity: 1, x: 0 }}
                   transition={{ duration: 0.7 }}
                   className="space-y-6"
                 >
-                  {/* Category badges */}
-                  
-
-                  {/* Title */}
+                  {/* Título */}
                   <div>
                     <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-2 bg-gradient-to-r from-[#C8935F] to-[#E0A878] bg-clip-text text-transparent">
-                      {currentBook.title}
+                      {currentBook.title1} <br /> {currentBook.title2}
                     </h2>
-                     <div className="w-24 h-1 bg-gradient-to-r from-[#C8935F] to-[#E0A878] rounded-full" />
+                    <div className="w-24 h-1 bg-gradient-to-r from-[#C8935F] to-[#E0A878] rounded-full" />
                     <p className="text-xl sm:text-2xl mb-4 text-muted-foreground mt-5">{currentBook.subtitle}</p>
                     <div className="flex flex-wrap gap-4 text-sm text-slate-400">
-                      <span>by {currentBook.author}</span>
+                      <span>por {currentBook.author}</span>
                       <span>•</span>
-                      <span>Published {currentBook.published}</span>
+                      <span>Publicado em {currentBook.published}</span>
                       <span>•</span>
-                      <span>{currentBook.pages} pages</span>
+                      <span>{currentBook.pages} páginas</span>
                     </div>
                   </div>
-                  {/* Category badges */}
+
+                  {/* Categorias */}
                   <div className="flex flex-wrap gap-2 italic">
                     {currentBook.categories.map((category) => (
                       <span
@@ -186,69 +166,52 @@ export default function BookShowcase() {
                       </span>
                     ))}
                   </div>
-                  {/* Description */}
+
+                  {/* Descrição */}
                   <div className="space-y-4 leading-relaxed text-muted-foreground">
                     <p className="text-foreground">{currentBook.description1}</p>
                     <p className="text-foreground">{currentBook.description2}</p>
                   </div>
 
-                  {/* Action buttons */}
+                  {/* Botões de ação */}
                   <div className="flex flex-wrap gap-4">
                     <Button size="lg" variant="outline" className="shadow-md bg-transparent">
                       <ShoppingCart className="w-5 h-5 mr-2 text-sidebar-primary" />
-                      Pre-Order Now
+                      Pré-comprar
                     </Button>
-                    <Button size="lg" variant="outline" className="shadow-md bg-transparent">
+                    {/* <Button size="lg" variant="outline" className="shadow-md bg-transparent">
                       <Heart className="w-5 h-5 mr-2 text-destructive" />
-                      Wishlist
+                      Lista de desejos
                     </Button>
                     <Button size="lg" variant="outline" className="shadow-md bg-transparent">
                       <Share2 className="w-5 h-5" />
-                    </Button>
+                    </Button> */}
                   </div>
 
-                  {/* Rating and availability */}
+                  {/* Avaliação e disponibilidade */}
                   <div className="flex flex-wrap items-center gap-8 pt-4 border-t border-border">
-                    <div className="text-center">
+                    {/* <div className="text-center">
                       <div className="text-4xl font-bold mb-2 text-primary">{currentBook.rating}</div>
                       <div className="flex gap-1 mb-2 justify-center">
                         {[1, 2, 3, 4, 5].map((star) => (
                           <Star key={star} className="w-4 h-4 fill-amber-400 text-amber-400" />
                         ))}
                       </div>
-                      <div className="text-sm text-muted-foreground">{currentBook.reviews} reviews</div>
-                    </div>
+                      <div className="text-sm text-muted-foreground">{currentBook.reviews} avaliações</div>
+                    </div> */}
 
                     <div className="flex items-center gap-3 text-primary">
                       <CheckCircle className="w-6 h-6" />
                       <div>
-                        <div className="font-semibold">Available</div>
-                        <div className="text-sm text-muted-foreground">Pre-order now</div>
+                        <div className="font-semibold">Disponível</div>
+                        <div className="text-sm text-muted-foreground">Pré-encomenda já disponível</div>
                       </div>
                     </div>
                   </div>
                 </motion.div>
               </motion.div>
             </AnimatePresence>
-          </div>
-
-          <div className="flex justify-center gap-3 mt-16">
-            {books.map((_, index) => (
-              <button
-                key={index}
-                onClick={() => {
-                  setDirection(index > currentIndex ? 1 : -1)
-                  setCurrentIndex(index)
-                }}
-                className={`h-3 rounded-full transition-all duration-300 ${
-                  index === currentIndex
-                    ? "w-12 bg-gradient-to-r from-primary to-secondary"
-                    : "w-3 bg-muted-foreground/30 hover:bg-muted-foreground/50"
-                }`}
-                aria-label={`Go to book ${index + 1}`}
-              />
-            ))}
-          </div>
+          </div>          
         </div>
       </div>
     </section>
