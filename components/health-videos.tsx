@@ -13,13 +13,13 @@ export default function HealthVideos() {
   const videos = [
     {
       id: 1,
-      src: "/video1.mp4",
+      src: "https://res.cloudinary.com/rmgfzwj4/video/upload/v1788205918/Video1.mp4",
       poster: "/video1-poster.png", 
       title: "Vídeo 1: Inovações Tecnológicas"
     },
     {
       id: 2,
-      src: "/video2.mp4",
+      src: "https://res.cloudinary.com/rmgfzwj4/video/upload/v1788206584/Video2.mp4",
       poster: "/video2-poster.png", 
       title: "Vídeo 2: Revolução na Saúde"
     }
